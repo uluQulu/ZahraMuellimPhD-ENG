@@ -1,0 +1,137 @@
+package com.example.zahramuellimphdeng.ui.screens
+
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.zahramuellimphdeng.R
+import com.example.zahramuellimphdeng.data.Verb
+import com.example.zahramuellimphdeng.ui.MainViewModel
+import com.example.zahramuellimphdeng.utils.rememberSoundPlayers
+
+@Composable
+fun MeaningQuizScreen(viewModel: MainViewModel) {
+    val allVerbs = viewModel.allVerbs
+    var currentVerb by remember { mutableStateOf(allVerbs.random()) }
+    var options by remember { mutableStateOf(generateMeaningOptions(currentVerb, allVerbs)) }
+    var selectedOption by remember { mutableStateOf<String?>(null) }
+    var feedback by remember { mutableStateOf<String?>(null) }
+    var score by remember { mutableIntStateOf(0) }
+
+    val soundPlayer = rememberSoundPlayers()
+
+    fun checkAnswer() {
+        if (selectedOption == currentVerb.translation) {
+            soundPlayer.correctPlayer.play()
+            feedback = "Correct!"
+            score++
+        } else {
+            soundPlayer.wrongPlayer.play()
+            feedback = "Incorrect. The answer is ${currentVerb.translation}."
+        }
+    }
+
+    fun nextQuestion() {
+        val newVerb = allVerbs.random()
+        currentVerb = newVerb
+        options = generateMeaningOptions(newVerb, allVerbs)
+        selectedOption = null
+        feedback = null
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // App Logo
+        Image(
+            painter = painterResource(id = R.drawable.logo_placeholder),
+            contentDescription = "App Logo",
+            modifier = Modifier
+                .height(60.dp)
+                .padding(bottom = 16.dp)
+        )
+
+        Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+        Text("Score: $score", fontSize = 18.sp)
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Text("What is the meaning of:", fontSize = 16.sp, color = Color.Gray)
+        Text(currentVerb.infinitive.form, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.height(24.dp))
+
+        options.forEach { option ->
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .selectable(
+                        selected = (selectedOption == option),
+                        onClick = {
+                            soundPlayer.clickPlayer.play()
+                            selectedOption = option
+                        }
+                    )
+                    .padding(vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                RadioButton(
+                    selected = (selectedOption == option),
+                    onClick = {
+                        soundPlayer.clickPlayer.play()
+                        selectedOption = option
+                    }
+                )
+                Text(
+                    text = option,
+                    style = MaterialTheme.typography.bodyLarge,
+                    modifier = Modifier.padding(start = 16.dp)
+                )
+            }
+        }
+
+        Spacer(modifier = Modifier.height(24.dp))
+        feedback?.let {
+            val color = if (it.startsWith("Correct")) Color(0xFF4CAF50) else Color.Red
+            Text(it, color = color, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
+        }
+
+        Spacer(modifier = Modifier.weight(1f))
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Button(
+                onClick = {
+                    soundPlayer.clickPlayer.play()
+                    checkAnswer()
+                },
+                enabled = selectedOption != null && feedback == null
+            ) {
+                Text("Check")
+            }
+            Button(onClick = {
+                soundPlayer.clickPlayer.play()
+                nextQuestion()
+            }) {
+                Text("Next")
+            }
+        }
+    }
+}
+
+private fun generateMeaningOptions(correctVerb: Verb, allVerbs: List<Verb>): List<String> {
+    val incorrectVerbs = allVerbs.filter { it != correctVerb }.shuffled().take(3)
+    val options = incorrectVerbs.map { it.translation }.toMutableList()
+    options.add(correctVerb.translation)
+    return options.shuffled()
+}

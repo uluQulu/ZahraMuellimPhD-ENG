@@ -1,0 +1,139 @@
+package com.example.zahramuellimphdeng.ui.screens
+
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.zahramuellimphdeng.R
+import com.example.zahramuellimphdeng.ui.MainViewModel
+import com.example.zahramuellimphdeng.utils.rememberSoundPlayers
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun FillTheBlankScreen(viewModel: MainViewModel) {
+    val allVerbs = viewModel.allVerbs
+    var currentVerb by remember { mutableStateOf(allVerbs.random()) }
+    var pastInput by remember { mutableStateOf("") }
+    var participleInput by remember { mutableStateOf("") }
+    var feedback by remember { mutableStateOf<String?>(null) }
+    var showCorrectAnswers by remember { mutableStateOf(false) }
+    var score by remember { mutableIntStateOf(0) }
+
+    // Get the sound players
+    val soundPlayer = rememberSoundPlayers()
+
+    val focusManager = LocalFocusManager.current
+
+    fun checkAnswers() {
+        focusManager.clearFocus()
+        val isPastCorrect = pastInput.trim().equals(currentVerb.past.form, ignoreCase = true)
+        val isParticipleCorrect = participleInput.trim().equals(currentVerb.participle_ii.form, ignoreCase = true)
+
+        if (isPastCorrect && isParticipleCorrect) {
+            soundPlayer.correctPlayer.play() // Play correct sound
+            feedback = "Correct!"
+            score++
+            showCorrectAnswers = false
+        } else {
+            soundPlayer.wrongPlayer.play() // Play wrong sound
+            feedback = "Incorrect. Try again or see the answer."
+            showCorrectAnswers = true
+        }
+    }
+
+    fun nextQuestion() {
+        currentVerb = allVerbs.random()
+        pastInput = ""
+        participleInput = ""
+        feedback = null
+        showCorrectAnswers = false
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // App Logo
+        Image(
+            painter = painterResource(id = R.drawable.logo_placeholder),
+            contentDescription = "App Logo",
+            modifier = Modifier
+                .height(60.dp)
+                .padding(bottom = 16.dp)
+        )
+
+        Text("Fill in the Correct Forms", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+        Text("Score: $score", fontSize = 18.sp)
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Text("Infinitive:", fontSize = 16.sp, color = Color.Gray)
+        Text(currentVerb.infinitive.form, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        OutlinedTextField(
+            value = pastInput,
+            onValueChange = { pastInput = it },
+            label = { Text("Past Form") },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next)
+        )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        OutlinedTextField(
+            value = participleInput,
+            onValueChange = { participleInput = it },
+            label = { Text("Participle II Form") },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+            keyboardActions = KeyboardActions(onDone = { checkAnswers() })
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        feedback?.let {
+            val color = if (it == "Correct!") Color(0xFF4CAF50) else Color.Red
+            Text(it, color = color, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
+        }
+
+        if (showCorrectAnswers) {
+            Spacer(modifier = Modifier.height(8.dp))
+            Text("Correct answers: ${currentVerb.past.form}, ${currentVerb.participle_ii.form}")
+        }
+
+        Spacer(modifier = Modifier.weight(1f))
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Button(onClick = {
+                soundPlayer.clickPlayer.play() // Play click sound
+                checkAnswers()
+            }) {
+                Text("Check")
+            }
+            Button(onClick = {
+                soundPlayer.clickPlayer.play() // Play click sound
+                nextQuestion()
+            }) {
+                Text("Next Verb")
+            }
+        }
+    }
+}

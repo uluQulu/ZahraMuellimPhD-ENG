@@ -1,0 +1,1819 @@
+{
+  "irregular_verbs": [
+    {
+      "infinitive": {
+        "form": "arise",
+        "phonetic": "[ə'raɪz]"
+      },
+      "past": {
+        "form": "arose",
+        "phonetic": "[ə'rəʊz]"
+      },
+      "participle_ii": {
+        "form": "arisen",
+        "phonetic": "[ə'rɪz(ə)n]"
+      },
+      "translation": "qalxmaq"
+    },
+    {
+      "infinitive": {
+        "form": "awake",
+        "phonetic": "[ə'weɪk]"
+      },
+      "past": {
+        "form": "awoke",
+        "phonetic": "[ə'wəʊk]"
+      },
+      "participle_ii": {
+        "form": "awoken",
+        "phonetic": "[ə'wəʊkən]"
+      },
+      "translation": "oyanmaq, oyatmaq"
+    },
+    {
+      "infinitive": {
+        "form": "be",
+        "phonetic": "[bi:]"
+      },
+      "past": {
+        "form": "was/were",
+        "phonetic": "[wɒz]/[we:]"
+      },
+      "participle_ii": {
+        "form": "been",
+        "phonetic": "[bi:n]"
+      },
+      "translation": "olmaq"
+    },
+    {
+      "infinitive": {
+        "form": "bear",
+        "phonetic": "[beə]"
+      },
+      "past": {
+        "form": "bore",
+        "phonetic": "[bɔ:]"
+      },
+      "participle_ii": {
+        "form": "born",
+        "phonetic": "[bɔ:n]"
+      },
+      "translation": "dözmək, doğulmaq"
+    },
+    {
+      "infinitive": {
+        "form": "beat",
+        "phonetic": "[bi:t]"
+      },
+      "past": {
+        "form": "beat",
+        "phonetic": "[bi:t]"
+      },
+      "participle_ii": {
+        "form": "beaten",
+        "phonetic": "['bi:tn]"
+      },
+      "translation": "vurmaq, döymək"
+    },
+    {
+      "infinitive": {
+        "form": "become",
+        "phonetic": "[bi:'kʌm]"
+      },
+      "past": {
+        "form": "became",
+        "phonetic": "[bi:'keɪm]"
+      },
+      "participle_ii": {
+        "form": "become",
+        "phonetic": "[bi:'kʌm]"
+      },
+      "translation": "olmaq"
+    },
+    {
+      "infinitive": {
+        "form": "begin",
+        "phonetic": "[bɪ'gɪn]"
+      },
+      "past": {
+        "form": "began",
+        "phonetic": "[bɪ'gæn]"
+      },
+      "participle_ii": {
+        "form": "begun",
+        "phonetic": "[bɪ'gʌn]"
+      },
+      "translation": "başlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "bend",
+        "phonetic": "[bend]"
+      },
+      "past": {
+        "form": "bent",
+        "phonetic": "[bent]"
+      },
+      "participle_ii": {
+        "form": "bent",
+        "phonetic": "[bent]"
+      },
+      "translation": "əymək, əyilmək"
+    },
+    {
+      "infinitive": {
+        "form": "bet",
+        "phonetic": "[bet]"
+      },
+      "past": {
+        "form": "bet",
+        "phonetic": "[bet]"
+      },
+      "participle_ii": {
+        "form": "bet",
+        "phonetic": "[bet]"
+      },
+      "translation": "mərc etmək"
+    },
+    {
+      "infinitive": {
+        "form": "bind",
+        "phonetic": "[baɪnd]"
+      },
+      "past": {
+        "form": "bound",
+        "phonetic": "[baʊnd]"
+      },
+      "participle_ii": {
+        "form": "bound",
+        "phonetic": "[baʊnd]"
+      },
+      "translation": "bağlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "bite",
+        "phonetic": "[baɪt]"
+      },
+      "past": {
+        "form": "bit",
+        "phonetic": "[bɪt]"
+      },
+      "participle_ii": {
+        "form": "bitten",
+        "phonetic": "['bɪtn]"
+      },
+      "translation": "dişləmək"
+    },
+    {
+      "infinitive": {
+        "form": "bleed",
+        "phonetic": "[bli:d]"
+      },
+      "past": {
+        "form": "bled",
+        "phonetic": "[bled]"
+      },
+      "participle_ii": {
+        "form": "bled",
+        "phonetic": "[bled]"
+      },
+      "translation": "qanamaq"
+    },
+    {
+      "infinitive": {
+        "form": "blow",
+        "phonetic": "[bləʊ]"
+      },
+      "past": {
+        "form": "blew",
+        "phonetic": "[blu:]"
+      },
+      "participle_ii": {
+        "form": "blown",
+        "phonetic": "[bləʊn]"
+      },
+      "translation": "əsmək, üfürmək"
+    },
+    {
+      "infinitive": {
+        "form": "break",
+        "phonetic": "[breɪk]"
+      },
+      "past": {
+        "form": "broke",
+        "phonetic": "[brəʊk]"
+      },
+      "participle_ii": {
+        "form": "broken",
+        "phonetic": "['brəʊk(ə)n]"
+      },
+      "translation": "sındırmaq"
+    },
+    {
+      "infinitive": {
+        "form": "breed",
+        "phonetic": "[bri:d]"
+      },
+      "past": {
+        "form": "bred",
+        "phonetic": "[bred]"
+      },
+      "participle_ii": {
+        "form": "bred",
+        "phonetic": "[bred]"
+      },
+      "translation": "tərbiyə etmək"
+    },
+    {
+      "infinitive": {
+        "form": "bring",
+        "phonetic": "[brɪŋ]"
+      },
+      "past": {
+        "form": "brought",
+        "phonetic": "[brɔ:t]"
+      },
+      "participle_ii": {
+        "form": "brought",
+        "phonetic": "[brɔ:t]"
+      },
+      "translation": "gətirmək"
+    },
+    {
+      "infinitive": {
+        "form": "broadcast",
+        "phonetic": "['brɔ:dkɑ:st]"
+      },
+      "past": {
+        "form": "broadcast",
+        "phonetic": "['brɔ:dkɑ:st]"
+      },
+      "participle_ii": {
+        "form": "broadcast",
+        "phonetic": "['brɔ:dkɑ:st]"
+      },
+      "translation": "yayımlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "build",
+        "phonetic": "[bɪld]"
+      },
+      "past": {
+        "form": "built",
+        "phonetic": "[bɪlt]"
+      },
+      "participle_ii": {
+        "form": "built",
+        "phonetic": "[bɪlt]"
+      },
+      "translation": "tikmək"
+    },
+    {
+      "infinitive": {
+        "form": "burn",
+        "phonetic": "[bə:n]"
+      },
+      "past": {
+        "form": "burnt",
+        "phonetic": "[bə:nt]"
+      },
+      "participle_ii": {
+        "form": "burnt",
+        "phonetic": "[bə:nt]"
+      },
+      "translation": "yandırmaq, yanmaq"
+    },
+    {
+      "infinitive": {
+        "form": "burst",
+        "phonetic": "[bə:st]"
+      },
+      "past": {
+        "form": "burst",
+        "phonetic": "[bə:st]"
+      },
+      "participle_ii": {
+        "form": "burst",
+        "phonetic": "[bə:st]"
+      },
+      "translation": "partlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "buy",
+        "phonetic": "[baɪ]"
+      },
+      "past": {
+        "form": "bought",
+        "phonetic": "[bɔ:t]"
+      },
+      "participle_ii": {
+        "form": "bought",
+        "phonetic": "[bɔ:t]"
+      },
+      "translation": "almaq (pulla)"
+    },
+    {
+      "infinitive": {
+        "form": "catch",
+        "phonetic": "[kætʃ]"
+      },
+      "past": {
+        "form": "caught",
+        "phonetic": "[kɔ:t]"
+      },
+      "participle_ii": {
+        "form": "caught",
+        "phonetic": "[kɔ:t]"
+      },
+      "translation": "tutmaq, çatmaq"
+    },
+    {
+      "infinitive": {
+        "form": "choose",
+        "phonetic": "[tʃu:z]"
+      },
+      "past": {
+        "form": "chose",
+        "phonetic": "[tʃəʊz]"
+      },
+      "participle_ii": {
+        "form": "chosen",
+        "phonetic": "[tʃəʊz(ə)n]"
+      },
+      "translation": "seçmək"
+    },
+    {
+      "infinitive": {
+        "form": "come",
+        "phonetic": "[kʌm]"
+      },
+      "past": {
+        "form": "came",
+        "phonetic": "[keɪm]"
+      },
+      "participle_ii": {
+        "form": "come",
+        "phonetic": "[kʌm]"
+      },
+      "translation": "gəlmək"
+    },
+    {
+      "infinitive": {
+        "form": "cost",
+        "phonetic": "[kɒst]"
+      },
+      "past": {
+        "form": "cost",
+        "phonetic": "[kɒst]"
+      },
+      "participle_ii": {
+        "form": "cost",
+        "phonetic": "[kɒst]"
+      },
+      "translation": "qiyməti olmaq"
+    },
+    {
+      "infinitive": {
+        "form": "cut",
+        "phonetic": "[kʌt]"
+      },
+      "past": {
+        "form": "cut",
+        "phonetic": "[kʌt]"
+      },
+      "participle_ii": {
+        "form": "cut",
+        "phonetic": "[kʌt]"
+      },
+      "translation": "kəsmək"
+    },
+    {
+      "infinitive": {
+        "form": "do",
+        "phonetic": "[du:]"
+      },
+      "past": {
+        "form": "did",
+        "phonetic": "[dɪd]"
+      },
+      "participle_ii": {
+        "form": "done",
+        "phonetic": "[dʌn]"
+      },
+      "translation": "etmək"
+    },
+    {
+      "infinitive": {
+        "form": "draw",
+        "phonetic": "[drɔ:]"
+      },
+      "past": {
+        "form": "drew",
+        "phonetic": "[dru:]"
+      },
+      "participle_ii": {
+        "form": "drawn",
+        "phonetic": "[drɔ:n]"
+      },
+      "translation": "çəkmək (şəkil)"
+    },
+    {
+      "infinitive": {
+        "form": "dream",
+        "phonetic": "[dri:m]"
+      },
+      "past": {
+        "form": "dreamt",
+        "phonetic": "[dremt]"
+      },
+      "participle_ii": {
+        "form": "dreamt",
+        "phonetic": "[dremt]"
+      },
+      "translation": "arzulamaq"
+    },
+    {
+      "infinitive": {
+        "form": "drink",
+        "phonetic": "[drɪŋk]"
+      },
+      "past": {
+        "form": "drank",
+        "phonetic": "[dræŋk]"
+      },
+      "participle_ii": {
+        "form": "drunk",
+        "phonetic": "[drʌŋk]"
+      },
+      "translation": "içmək"
+    },
+    {
+      "infinitive": {
+        "form": "drive",
+        "phonetic": "[draɪv]"
+      },
+      "past": {
+        "form": "drove",
+        "phonetic": "[drəʊv]"
+      },
+      "participle_ii": {
+        "form": "driven",
+        "phonetic": "['drɪvn]"
+      },
+      "translation": "sürmək"
+    },
+    {
+      "infinitive": {
+        "form": "eat",
+        "phonetic": "[i:t]"
+      },
+      "past": {
+        "form": "ate",
+        "phonetic": "[et]"
+      },
+      "participle_ii": {
+        "form": "eaten",
+        "phonetic": "['i:tn]"
+      },
+      "translation": "yemək"
+    },
+    {
+      "infinitive": {
+        "form": "fall",
+        "phonetic": "[fɔ:l]"
+      },
+      "past": {
+        "form": "fell",
+        "phonetic": "[fel]"
+      },
+      "participle_ii": {
+        "form": "fallen",
+        "phonetic": "['fɔ:lən]"
+      },
+      "translation": "yıxılmaq, düşmək"
+    },
+    {
+      "infinitive": {
+        "form": "feed",
+        "phonetic": "[fi:d]"
+      },
+      "past": {
+        "form": "fed",
+        "phonetic": "[fed]"
+      },
+      "participle_ii": {
+        "form": "fed",
+        "phonetic": "[fed]"
+      },
+      "translation": "yedirtmək"
+    },
+    {
+      "infinitive": {
+        "form": "feel",
+        "phonetic": "[fi:l]"
+      },
+      "past": {
+        "form": "felt",
+        "phonetic": "[felt]"
+      },
+      "participle_ii": {
+        "form": "felt",
+        "phonetic": "[felt]"
+      },
+      "translation": "hiss etmək"
+    },
+    {
+      "infinitive": {
+        "form": "fight",
+        "phonetic": "[faɪt]"
+      },
+      "past": {
+        "form": "fought",
+        "phonetic": "[fɔ:t]"
+      },
+      "participle_ii": {
+        "form": "fought",
+        "phonetic": "[fɔ:t]"
+      },
+      "translation": "döyüşmək"
+    },
+    {
+      "infinitive": {
+        "form": "find",
+        "phonetic": "[faɪnd]"
+      },
+      "past": {
+        "form": "found",
+        "phonetic": "[faʊnd]"
+      },
+      "participle_ii": {
+        "form": "found",
+        "phonetic": "[faʊnd]"
+      },
+      "translation": "tapmaq"
+    },
+    {
+      "infinitive": {
+        "form": "fit",
+        "phonetic": "[fɪt]"
+      },
+      "past": {
+        "form": "fit",
+        "phonetic": "[fɪt]"
+      },
+      "participle_ii": {
+        "form": "fit",
+        "phonetic": "[fɪt]"
+      },
+      "translation": "yaraşmaq"
+    },
+    {
+      "infinitive": {
+        "form": "fly",
+        "phonetic": "[flaɪ]"
+      },
+      "past": {
+        "form": "flew",
+        "phonetic": "[flu:]"
+      },
+      "participle_ii": {
+        "form": "flown",
+        "phonetic": "[fləʊn]"
+      },
+      "translation": "uçmaq"
+    },
+    {
+      "infinitive": {
+        "form": "forget",
+        "phonetic": "[fə'get]"
+      },
+      "past": {
+        "form": "forgot",
+        "phonetic": "[fə'gɒt]"
+      },
+      "participle_ii": {
+        "form": "forgotten",
+        "phonetic": "[fə'gɒt(ə)n]"
+      },
+      "translation": "unutmaq"
+    },
+    {
+      "infinitive": {
+        "form": "forgive",
+        "phonetic": "[fə'gɪv]"
+      },
+      "past": {
+        "form": "forgave",
+        "phonetic": "[fə'geɪv]"
+      },
+      "participle_ii": {
+        "form": "forgiven",
+        "phonetic": "[fə'gɪvn]"
+      },
+      "translation": "bağışlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "freeze",
+        "phonetic": "[fri:z]"
+      },
+      "past": {
+        "form": "froze",
+        "phonetic": "[frəʊz]"
+      },
+      "participle_ii": {
+        "form": "frozen",
+        "phonetic": "['frəʊzn]"
+      },
+      "translation": "donmaq, dondurmaq"
+    },
+    {
+      "infinitive": {
+        "form": "get",
+        "phonetic": "[get]"
+      },
+      "past": {
+        "form": "got",
+        "phonetic": "[gɒt]"
+      },
+      "participle_ii": {
+        "form": "got",
+        "phonetic": "[gɒt]"
+      },
+      "translation": "almaq, əldə etmək"
+    },
+    {
+      "infinitive": {
+        "form": "give",
+        "phonetic": "[gɪv]"
+      },
+      "past": {
+        "form": "gave",
+        "phonetic": "[geɪv]"
+      },
+      "participle_ii": {
+        "form": "given",
+        "phonetic": "[gɪvn]"
+      },
+      "translation": "vermək"
+    },
+    {
+      "infinitive": {
+        "form": "go",
+        "phonetic": "[gəʊ]"
+      },
+      "past": {
+        "form": "went",
+        "phonetic": "[went]"
+      },
+      "participle_ii": {
+        "form": "gone",
+        "phonetic": "[gɒn]"
+      },
+      "translation": "getmək"
+    },
+    {
+      "infinitive": {
+        "form": "grow",
+        "phonetic": "[grəʊ]"
+      },
+      "past": {
+        "form": "grew",
+        "phonetic": "[gru:]"
+      },
+      "participle_ii": {
+        "form": "grown",
+        "phonetic": "[grəʊn]"
+      },
+      "translation": "böyümək, becərmək"
+    },
+    {
+      "infinitive": {
+        "form": "hang",
+        "phonetic": "[hæŋ]"
+      },
+      "past": {
+        "form": "hung",
+        "phonetic": "[hʌŋ]"
+      },
+      "participle_ii": {
+        "form": "hung",
+        "phonetic": "[hʌŋ]"
+      },
+      "translation": "asmaq"
+    },
+    {
+      "infinitive": {
+        "form": "have",
+        "phonetic": "[hæv]"
+      },
+      "past": {
+        "form": "had",
+        "phonetic": "[hæd]"
+      },
+      "participle_ii": {
+        "form": "had",
+        "phonetic": "[hæd]"
+      },
+      "translation": "malik olmaq"
+    },
+    {
+      "infinitive": {
+        "form": "hear",
+        "phonetic": "[hɪə]"
+      },
+      "past": {
+        "form": "heard",
+        "phonetic": "[hə:d]"
+      },
+      "participle_ii": {
+        "form": "heard",
+        "phonetic": "[hə:d]"
+      },
+      "translation": "eşitmək"
+    },
+    {
+      "infinitive": {
+        "form": "hide",
+        "phonetic": "[haɪd]"
+      },
+      "past": {
+        "form": "hid",
+        "phonetic": "[hɪd]"
+      },
+      "participle_ii": {
+        "form": "hidden",
+        "phonetic": "['hɪdn]"
+      },
+      "translation": "gizlətmək"
+    },
+    {
+      "infinitive": {
+        "form": "hit",
+        "phonetic": "[hɪt]"
+      },
+      "past": {
+        "form": "hit",
+        "phonetic": "[hɪt]"
+      },
+      "participle_ii": {
+        "form": "hit",
+        "phonetic": "[hɪt]"
+      },
+      "translation": "zərbə vurmaq"
+    },
+    {
+      "infinitive": {
+        "form": "hold",
+        "phonetic": "[həʊld]"
+      },
+      "past": {
+        "form": "held",
+        "phonetic": "[held]"
+      },
+      "participle_ii": {
+        "form": "held",
+        "phonetic": "[held]"
+      },
+      "translation": "tutmaq, saxlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "hurt",
+        "phonetic": "[hə:t]"
+      },
+      "past": {
+        "form": "hurt",
+        "phonetic": "[hə:t]"
+      },
+      "participle_ii": {
+        "form": "hurt",
+        "phonetic": "[hə:t]"
+      },
+      "translation": "incitmək"
+    },
+    {
+      "infinitive": {
+        "form": "keep",
+        "phonetic": "[ki:p]"
+      },
+      "past": {
+        "form": "kept",
+        "phonetic": "[kept]"
+      },
+      "participle_ii": {
+        "form": "kept",
+        "phonetic": "[kept]"
+      },
+      "translation": "saxlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "kneel",
+        "phonetic": "[ni:l]"
+      },
+      "past": {
+        "form": "knelt",
+        "phonetic": "[nelt]"
+      },
+      "participle_ii": {
+        "form": "knelt",
+        "phonetic": "[nelt]"
+      },
+      "translation": "diz çökmək"
+    },
+    {
+      "infinitive": {
+        "form": "know",
+        "phonetic": "[nəʊ]"
+      },
+      "past": {
+        "form": "knew",
+        "phonetic": "[nju:]"
+      },
+      "participle_ii": {
+        "form": "known",
+        "phonetic": "[nəʊn]"
+      },
+      "translation": "bilmək, tanımaq"
+    },
+    {
+      "infinitive": {
+        "form": "lay",
+        "phonetic": "[leɪ]"
+      },
+      "past": {
+        "form": "laid",
+        "phonetic": "[leɪd]"
+      },
+      "participle_ii": {
+        "form": "laid",
+        "phonetic": "[leɪd]"
+      },
+      "translation": "qoymaq, uzatmaq"
+    },
+    {
+      "infinitive": {
+        "form": "lead",
+        "phonetic": "[li:d]"
+      },
+      "past": {
+        "form": "led",
+        "phonetic": "[led]"
+      },
+      "participle_ii": {
+        "form": "led",
+        "phonetic": "[led]"
+      },
+      "translation": "aparmaq, rəhbərlik etmək"
+    },
+    {
+      "infinitive": {
+        "form": "lean",
+        "phonetic": "[li:n]"
+      },
+      "past": {
+        "form": "leant",
+        "phonetic": "[lent]"
+      },
+      "participle_ii": {
+        "form": "leant",
+        "phonetic": "[lent]"
+      },
+      "translation": "yalvarmaq, söykənmək"
+    },
+    {
+      "infinitive": {
+        "form": "learn",
+        "phonetic": "[lə:n]"
+      },
+      "past": {
+        "form": "learnt",
+        "phonetic": "[lə:nt]"
+      },
+      "participle_ii": {
+        "form": "learnt",
+        "phonetic": "[lə:nt]"
+      },
+      "translation": "öyrənmək"
+    },
+    {
+      "infinitive": {
+        "form": "leave",
+        "phonetic": "[li:v]"
+      },
+      "past": {
+        "form": "left",
+        "phonetic": "[left]"
+      },
+      "participle_ii": {
+        "form": "left",
+        "phonetic": "[left]"
+      },
+      "translation": "tərk etmək"
+    },
+    {
+      "infinitive": {
+        "form": "lend",
+        "phonetic": "[lend]"
+      },
+      "past": {
+        "form": "lent",
+        "phonetic": "[lent]"
+      },
+      "participle_ii": {
+        "form": "lent",
+        "phonetic": "[lent]"
+      },
+      "translation": "borc vermək"
+    },
+    {
+      "infinitive": {
+        "form": "let",
+        "phonetic": "[let]"
+      },
+      "past": {
+        "form": "let",
+        "phonetic": "[let]"
+      },
+      "participle_ii": {
+        "form": "let",
+        "phonetic": "[let]"
+      },
+      "translation": "icazə vermək"
+    },
+    {
+      "infinitive": {
+        "form": "lie",
+        "phonetic": "[laɪ]"
+      },
+      "past": {
+        "form": "lay",
+        "phonetic": "[leɪ]"
+      },
+      "participle_ii": {
+        "form": "lain",
+        "phonetic": "[leɪn]"
+      },
+      "translation": "uzanmaq"
+    },
+    {
+      "infinitive": {
+        "form": "light",
+        "phonetic": "[laɪt]"
+      },
+      "past": {
+        "form": "lit",
+        "phonetic": "[lɪt]"
+      },
+      "participle_ii": {
+        "form": "lit",
+        "phonetic": "[lɪt]"
+      },
+      "translation": "işıqlandırmaq"
+    },
+    {
+      "infinitive": {
+        "form": "lose",
+        "phonetic": "[lu:z]"
+      },
+      "past": {
+        "form": "lost",
+        "phonetic": "[lɒst]"
+      },
+      "participle_ii": {
+        "form": "lost",
+        "phonetic": "[lɒst]"
+      },
+      "translation": "itirmək, uduzmaq"
+    },
+    {
+      "infinitive": {
+        "form": "make",
+        "phonetic": "[meɪk]"
+      },
+      "past": {
+        "form": "made",
+        "phonetic": "[meɪd]"
+      },
+      "participle_ii": {
+        "form": "made",
+        "phonetic": "[meɪd]"
+      },
+      "translation": "etmək, düzəltmək"
+    },
+    {
+      "infinitive": {
+        "form": "mean",
+        "phonetic": "[mi:n]"
+      },
+      "past": {
+        "form": "meant",
+        "phonetic": "[ment]"
+      },
+      "participle_ii": {
+        "form": "meant",
+        "phonetic": "[ment]"
+      },
+      "translation": "nəzərdə tutmaq"
+    },
+    {
+      "infinitive": {
+        "form": "meet",
+        "phonetic": "[mi:t]"
+      },
+      "past": {
+        "form": "met",
+        "phonetic": "[met]"
+      },
+      "participle_ii": {
+        "form": "met",
+        "phonetic": "[met]"
+      },
+      "translation": "görüşmək"
+    },
+    {
+      "infinitive": {
+        "form": "pay",
+        "phonetic": "[peɪ]"
+      },
+      "past": {
+        "form": "paid",
+        "phonetic": "[peɪd]"
+      },
+      "participle_ii": {
+        "form": "paid",
+        "phonetic": "[peɪd]"
+      },
+      "translation": "ödəmək"
+    },
+    {
+      "infinitive": {
+        "form": "prove",
+        "phonetic": "[pru:v]"
+      },
+      "past": {
+        "form": "proved",
+        "phonetic": "[pru:vd]"
+      },
+      "participle_ii": {
+        "form": "proven",
+        "phonetic": "[pru:vn]"
+      },
+      "translation": "sübut etmək"
+    },
+    {
+      "infinitive": {
+        "form": "put",
+        "phonetic": "[pʊt]"
+      },
+      "past": {
+        "form": "put",
+        "phonetic": "[pʊt]"
+      },
+      "participle_ii": {
+        "form": "put",
+        "phonetic": "[pʊt]"
+      },
+      "translation": "qoymaq"
+    },
+    {
+      "infinitive": {
+        "form": "quit",
+        "phonetic": "[kwɪt]"
+      },
+      "past": {
+        "form": "quit",
+        "phonetic": "[kwɪt]"
+      },
+      "participle_ii": {
+        "form": "quit",
+        "phonetic": "[kwɪt]"
+      },
+      "translation": "istefa vermək"
+    },
+    {
+      "infinitive": {
+        "form": "read",
+        "phonetic": "[ri:d]"
+      },
+      "past": {
+        "form": "read",
+        "phonetic": "[red]"
+      },
+      "participle_ii": {
+        "form": "read",
+        "phonetic": "[red]"
+      },
+      "translation": "oxumaq (kitab)"
+    },
+    {
+      "infinitive": {
+        "form": "ride",
+        "phonetic": "[raɪd]"
+      },
+      "past": {
+        "form": "rode",
+        "phonetic": "[rəʊd]"
+      },
+      "participle_ii": {
+        "form": "ridden",
+        "phonetic": "['rɪdn]"
+      },
+      "translation": "sürmək (at)"
+    },
+    {
+      "infinitive": {
+        "form": "ring",
+        "phonetic": "[rɪŋ]"
+      },
+      "past": {
+        "form": "rang",
+        "phonetic": "[ræŋ]"
+      },
+      "participle_ii": {
+        "form": "rung",
+        "phonetic": "[rʌŋ]"
+      },
+      "translation": "zəng vurmaq"
+    },
+    {
+      "infinitive": {
+        "form": "rise",
+        "phonetic": "[raɪz]"
+      },
+      "past": {
+        "form": "rose",
+        "phonetic": "[rəʊz]"
+      },
+      "participle_ii": {
+        "form": "risen",
+        "phonetic": "['rɪzn]"
+      },
+      "translation": "qalxmaq"
+    },
+    {
+      "infinitive": {
+        "form": "run",
+        "phonetic": "[rʌn]"
+      },
+      "past": {
+        "form": "ran",
+        "phonetic": "[ræn]"
+      },
+      "participle_ii": {
+        "form": "run",
+        "phonetic": "[rʌŋ]"
+      },
+      "translation": "qaçmaq"
+    },
+    {
+      "infinitive": {
+        "form": "say",
+        "phonetic": "[seɪ]"
+      },
+      "past": {
+        "form": "said",
+        "phonetic": "[sed]"
+      },
+      "participle_ii": {
+        "form": "said",
+        "phonetic": "[sed]"
+      },
+      "translation": "demək"
+    },
+    {
+      "infinitive": {
+        "form": "see",
+        "phonetic": "[si:]"
+      },
+      "past": {
+        "form": "saw",
+        "phonetic": "[sɔ:]"
+      },
+      "participle_ii": {
+        "form": "seen",
+        "phonetic": "[si:n]"
+      },
+      "translation": "görmək"
+    },
+    {
+      "infinitive": {
+        "form": "seek",
+        "phonetic": "[si:k]"
+      },
+      "past": {
+        "form": "sought",
+        "phonetic": "[sɔ:t]"
+      },
+      "participle_ii": {
+        "form": "sought",
+        "phonetic": "[sɔ:t]"
+      },
+      "translation": "cəhd etmək"
+    },
+    {
+      "infinitive": {
+        "form": "sell",
+        "phonetic": "[sel]"
+      },
+      "past": {
+        "form": "sold",
+        "phonetic": "[səʊld]"
+      },
+      "participle_ii": {
+        "form": "sold",
+        "phonetic": "[səʊld]"
+      },
+      "translation": "satmaq"
+    },
+    {
+      "infinitive": {
+        "form": "send",
+        "phonetic": "[send]"
+      },
+      "past": {
+        "form": "sent",
+        "phonetic": "[sent]"
+      },
+      "participle_ii": {
+        "form": "sent",
+        "phonetic": "[sent]"
+      },
+      "translation": "göndərmək"
+    },
+    {
+      "infinitive": {
+        "form": "set",
+        "phonetic": "[set]"
+      },
+      "past": {
+        "form": "set",
+        "phonetic": "[set]"
+      },
+      "participle_ii": {
+        "form": "set",
+        "phonetic": "[set]"
+      },
+      "translation": "batmaq (günəş)"
+    },
+    {
+      "infinitive": {
+        "form": "sew",
+        "phonetic": "[səʊ]"
+      },
+      "past": {
+        "form": "sewed",
+        "phonetic": "[səʊd]"
+      },
+      "participle_ii": {
+        "form": "sewn",
+        "phonetic": "[səʊn]"
+      },
+      "translation": "tikmək (geyim)"
+    },
+    {
+      "infinitive": {
+        "form": "shake",
+        "phonetic": "[ʃeɪk]"
+      },
+      "past": {
+        "form": "shook",
+        "phonetic": "[ʃʊk]"
+      },
+      "participle_ii": {
+        "form": "shaken",
+        "phonetic": "['ʃeɪk(ə)n]"
+      },
+      "translation": "silkələmək"
+    },
+    {
+      "infinitive": {
+        "form": "show",
+        "phonetic": "[ʃəʊ]"
+      },
+      "past": {
+        "form": "showed",
+        "phonetic": "[ʃəʊd]"
+      },
+      "participle_ii": {
+        "form": "shown",
+        "phonetic": "[ʃəʊn]"
+      },
+      "translation": "göstərmək"
+    },
+    {
+      "infinitive": {
+        "form": "shrink",
+        "phonetic": "[ʃrɪŋk]"
+      },
+      "past": {
+        "form": "shrank",
+        "phonetic": "[ʃræŋk]"
+      },
+      "participle_ii": {
+        "form": "shrunk",
+        "phonetic": "[ʃrʌŋk]"
+      },
+      "translation": "büzüşmək"
+    },
+    {
+      "infinitive": {
+        "form": "shut",
+        "phonetic": "[ʃʌt]"
+      },
+      "past": {
+        "form": "shut",
+        "phonetic": "[ʃʌt]"
+      },
+      "participle_ii": {
+        "form": "shut",
+        "phonetic": "[ʃʌt]"
+      },
+      "translation": "örtmək, bağlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "sing",
+        "phonetic": "[sɪŋ]"
+      },
+      "past": {
+        "form": "sang",
+        "phonetic": "[sæŋ]"
+      },
+      "participle_ii": {
+        "form": "sung",
+        "phonetic": "[sʌŋ]"
+      },
+      "translation": "oxumaq (mahnı)"
+    },
+    {
+      "infinitive": {
+        "form": "sink",
+        "phonetic": "[sɪŋk]"
+      },
+      "past": {
+        "form": "sank",
+        "phonetic": "[sæŋk]"
+      },
+      "participle_ii": {
+        "form": "sunk",
+        "phonetic": "[sʌŋk]"
+      },
+      "translation": "batmaq"
+    },
+    {
+      "infinitive": {
+        "form": "sit",
+        "phonetic": "[sɪt]"
+      },
+      "past": {
+        "form": "sat",
+        "phonetic": "[sæt]"
+      },
+      "participle_ii": {
+        "form": "sat",
+        "phonetic": "[sæt]"
+      },
+      "translation": "oturmaq"
+    },
+    {
+      "infinitive": {
+        "form": "sleep",
+        "phonetic": "[sli:p]"
+      },
+      "past": {
+        "form": "slept",
+        "phonetic": "[slept]"
+      },
+      "participle_ii": {
+        "form": "slept",
+        "phonetic": "[slept]"
+      },
+      "translation": "yatmaq"
+    },
+    {
+      "infinitive": {
+        "form": "slide",
+        "phonetic": "[slaɪd]"
+      },
+      "past": {
+        "form": "slid",
+        "phonetic": "[slɪd]"
+      },
+      "participle_ii": {
+        "form": "slid",
+        "phonetic": "[slɪd]"
+      },
+      "translation": "sürüşdürmək"
+    },
+    {
+      "infinitive": {
+        "form": "speak",
+        "phonetic": "[spi:k]"
+      },
+      "past": {
+        "form": "spoke",
+        "phonetic": "[spəʊk]"
+      },
+      "participle_ii": {
+        "form": "spoken",
+        "phonetic": "['spəʊk(ə)n]"
+      },
+      "translation": "danışmaq"
+    },
+    {
+      "infinitive": {
+        "form": "spell",
+        "phonetic": "[spel]"
+      },
+      "past": {
+        "form": "spelt",
+        "phonetic": "[spelt]"
+      },
+      "participle_ii": {
+        "form": "spelt",
+        "phonetic": "[spelt]"
+      },
+      "translation": "hərfbəhərf demək"
+    },
+    {
+      "infinitive": {
+        "form": "spend",
+        "phonetic": "[spend]"
+      },
+      "past": {
+        "form": "spent",
+        "phonetic": "[spent]"
+      },
+      "participle_ii": {
+        "form": "spent",
+        "phonetic": "[spent]"
+      },
+      "translation": "keçirmək"
+    },
+    {
+      "infinitive": {
+        "form": "spill",
+        "phonetic": "[spɪl]"
+      },
+      "past": {
+        "form": "spilt",
+        "phonetic": "[spɪlt]"
+      },
+      "participle_ii": {
+        "form": "spilt",
+        "phonetic": "[spɪlt]"
+      },
+      "translation": "dağıtmaq, tökmək"
+    },
+    {
+      "infinitive": {
+        "form": "spoil",
+        "phonetic": "[spɔɪl]"
+      },
+      "past": {
+        "form": "spoilt",
+        "phonetic": "[spɔɪlt]"
+      },
+      "participle_ii": {
+        "form": "spoilt",
+        "phonetic": "[spɔɪlt]"
+      },
+      "translation": "korlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "spread",
+        "phonetic": "[spred]"
+      },
+      "past": {
+        "form": "spread",
+        "phonetic": "[spred]"
+      },
+      "participle_ii": {
+        "form": "spread",
+        "phonetic": "[spred]"
+      },
+      "translation": "yaymaq, yayılmaq"
+    },
+    {
+      "infinitive": {
+        "form": "spring",
+        "phonetic": "[sprɪŋ]"
+      },
+      "past": {
+        "form": "sprang",
+        "phonetic": "[spræŋ]"
+      },
+      "participle_ii": {
+        "form": "sprung",
+        "phonetic": "[sprʌŋ]"
+      },
+      "translation": "tullanmaq"
+    },
+    {
+      "infinitive": {
+        "form": "stand",
+        "phonetic": "[stænd]"
+      },
+      "past": {
+        "form": "stood",
+        "phonetic": "[stʊd]"
+      },
+      "participle_ii": {
+        "form": "stood",
+        "phonetic": "[stʊd]"
+      },
+      "translation": "dayanmaq"
+    },
+    {
+      "infinitive": {
+        "form": "steal",
+        "phonetic": "[sti:l]"
+      },
+      "past": {
+        "form": "stole",
+        "phonetic": "[stəʊl]"
+      },
+      "participle_ii": {
+        "form": "stolen",
+        "phonetic": "['stəʊlən]"
+      },
+      "translation": "oğurlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "stick",
+        "phonetic": "[stɪk]"
+      },
+      "past": {
+        "form": "stuck",
+        "phonetic": "[stʌk]"
+      },
+      "participle_ii": {
+        "form": "stuck",
+        "phonetic": "[stʌk]"
+      },
+      "translation": "yapışdırmaq"
+    },
+    {
+      "infinitive": {
+        "form": "sting",
+        "phonetic": "[stɪŋ]"
+      },
+      "past": {
+        "form": "stung",
+        "phonetic": "[stʌŋ]"
+      },
+      "participle_ii": {
+        "form": "stung",
+        "phonetic": "[stʌŋ]"
+      },
+      "translation": "sancmaq"
+    },
+    {
+      "infinitive": {
+        "form": "sweep",
+        "phonetic": "[swi:p]"
+      },
+      "past": {
+        "form": "swept",
+        "phonetic": "[swept]"
+      },
+      "participle_ii": {
+        "form": "swept",
+        "phonetic": "[swept]"
+      },
+      "translation": "süpürmək"
+    },
+    {
+      "infinitive": {
+        "form": "swell",
+        "phonetic": "[swel]"
+      },
+      "past": {
+        "form": "swelled",
+        "phonetic": "[sweld]"
+      },
+      "participle_ii": {
+        "form": "swollen",
+        "phonetic": "['swəʊl(ə)n]"
+      },
+      "translation": "qabarmaq, şişmək"
+    },
+    {
+      "infinitive": {
+        "form": "swim",
+        "phonetic": "[swɪm]"
+      },
+      "past": {
+        "form": "swam",
+        "phonetic": "[swæm]"
+      },
+      "participle_ii": {
+        "form": "swum",
+        "phonetic": "[swʌm]"
+      },
+      "translation": "üzmək"
+    },
+    {
+      "infinitive": {
+        "form": "swing",
+        "phonetic": "[swɪŋ]"
+      },
+      "past": {
+        "form": "swung",
+        "phonetic": "[swʌŋ]"
+      },
+      "participle_ii": {
+        "form": "swung",
+        "phonetic": "[swʌŋ]"
+      },
+      "translation": "yellənmək"
+    },
+    {
+      "infinitive": {
+        "form": "take",
+        "phonetic": "[teɪk]"
+      },
+      "past": {
+        "form": "took",
+        "phonetic": "[tʊk]"
+      },
+      "participle_ii": {
+        "form": "taken",
+        "phonetic": "['teɪk(ə)n]"
+      },
+      "translation": "aparmaq, götürmək"
+    },
+    {
+      "infinitive": {
+        "form": "teach",
+        "phonetic": "[ti:tʃ]"
+      },
+      "past": {
+        "form": "taught",
+        "phonetic": "[tɔ:t]"
+      },
+      "participle_ii": {
+        "form": "taught",
+        "phonetic": "[tɔ:t]"
+      },
+      "translation": "öyrətmək"
+    },
+    {
+      "infinitive": {
+        "form": "tear",
+        "phonetic": "[teə]"
+      },
+      "past": {
+        "form": "tore",
+        "phonetic": "[tɔ:]"
+      },
+      "participle_ii": {
+        "form": "torn",
+        "phonetic": "[tɔ:n]"
+      },
+      "translation": "cırmaq"
+    },
+    {
+      "infinitive": {
+        "form": "tell",
+        "phonetic": "[tel]"
+      },
+      "past": {
+        "form": "told",
+        "phonetic": "[təʊld]"
+      },
+      "participle_ii": {
+        "form": "told",
+        "phonetic": "[təʊld]"
+      },
+      "translation": "demək"
+    },
+    {
+      "infinitive": {
+        "form": "think",
+        "phonetic": "[θɪŋk]"
+      },
+      "past": {
+        "form": "thought",
+        "phonetic": "[θɔ:t]"
+      },
+      "participle_ii": {
+        "form": "thought",
+        "phonetic": "[θɔ:t]"
+      },
+      "translation": "fikirləşmək"
+    },
+    {
+      "infinitive": {
+        "form": "throw",
+        "phonetic": "[θrəʊ]"
+      },
+      "past": {
+        "form": "threw",
+        "phonetic": "[θru:]"
+      },
+      "participle_ii": {
+        "form": "thrown",
+        "phonetic": "[θrəʊn]"
+      },
+      "translation": "tullamaq, atmaq"
+    },
+    {
+      "infinitive": {
+        "form": "understand",
+        "phonetic": "[ʌndə'stænd]"
+      },
+      "past": {
+        "form": "understood",
+        "phonetic": "[ʌndə'stʊd]"
+      },
+      "participle_ii": {
+        "form": "understood",
+        "phonetic": "[ʌndə'stʊd]"
+      },
+      "translation": "anlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "wake",
+        "phonetic": "[weɪk]"
+      },
+      "past": {
+        "form": "woke",
+        "phonetic": "[wəʊk]"
+      },
+      "participle_ii": {
+        "form": "woken",
+        "phonetic": "['wəʊk(ə)n]"
+      },
+      "translation": "oyanmaq, oyatmaq"
+    },
+    {
+      "infinitive": {
+        "form": "wear",
+        "phonetic": "[weə]"
+      },
+      "past": {
+        "form": "wore",
+        "phonetic": "[wɔ:]"
+      },
+      "participle_ii": {
+        "form": "worn",
+        "phonetic": "[wɔ:n]"
+      },
+      "translation": "geyinmək"
+    },
+    {
+      "infinitive": {
+        "form": "weep",
+        "phonetic": "[wi:p]"
+      },
+      "past": {
+        "form": "wept",
+        "phonetic": "[wept]"
+      },
+      "participle_ii": {
+        "form": "wept",
+        "phonetic": "[wept]"
+      },
+      "translation": "ağlamaq"
+    },
+    {
+      "infinitive": {
+        "form": "win",
+        "phonetic": "[wɪn]"
+      },
+      "past": {
+        "form": "won",
+        "phonetic": "[wʌn]"
+      },
+      "participle_ii": {
+        "form": "won",
+        "phonetic": "[wʌn]"
+      },
+      "translation": "udmaq, qalib gəlmək"
+    },
+    {
+      "infinitive": {
+        "form": "write",
+        "phonetic": "[raɪt]"
+      },
+      "past": {
+        "form": "wrote",
+        "phonetic": "[rəʊt]"
+      },
+      "participle_ii": {
+        "form": "written",
+        "phonetic": "['rɪtn]"
+      },
+      "translation": "yazmaq"
+    }
+  ]
+}
