@@ -4,16 +4,17 @@ import android.content.Context
 import android.media.MediaPlayer
 import com.example.zahramuellimphdeng.R
 
-// A singleton object to manage and play our custom sounds efficiently
 object SoundPlayer {
 
+    // Players for sounds that are not rapid (played one at a time)
     private var correctSoundPlayer: MediaPlayer? = null
     private var wrongSoundPlayer: MediaPlayer? = null
     private var clickSoundPlayer: MediaPlayer? = null
 
-    // Initialize should be called once when the app starts
+    // We will NOT hold a permanent instance for the typing sound
+
     fun initialize(context: Context) {
-        // Create players only if they haven't been created yet
+        // Create the non-rapid players once
         if (correctSoundPlayer == null) {
             correctSoundPlayer = MediaPlayer.create(context, R.raw.correct)
         }
@@ -27,7 +28,6 @@ object SoundPlayer {
 
     fun playCorrectSound() {
         correctSoundPlayer?.let { player ->
-            // Set volume to maximum (left_channel, right_channel)
             player.setVolume(1.0f, 1.0f)
             if (!player.isPlaying) {
                 player.start()
@@ -36,20 +36,42 @@ object SoundPlayer {
     }
 
     fun playWrongSound() {
-        if (wrongSoundPlayer?.isPlaying == false) {
-            wrongSoundPlayer?.start()
+        wrongSoundPlayer?.let { player ->
+            player.setVolume(0.7f, 0.7f)
+            if (!player.isPlaying) {
+                player.start()
+            }
         }
     }
 
     fun playClickSound() {
-        if (clickSoundPlayer?.isPlaying == false) {
-            // Seek to the beginning if the sound is short and might be clicked rapidly
-            clickSoundPlayer?.seekTo(0)
-            clickSoundPlayer?.start()
+        clickSoundPlayer?.let { player ->
+            player.setVolume(0.8f, 0.8f)
+            if (player.isPlaying) {
+                player.seekTo(0)
+            }
+            player.start()
         }
     }
 
-    // Release resources when the app is destroyed to prevent memory leaks
+    // *** THIS IS THE NEW, CORRECT LOGIC FOR THE TYPING SOUND ***
+    fun playTypingSound(context: Context) {
+        // Create a new, fresh player every single time the function is called.
+        // This is the key to making it responsive.
+        val typingSoundPlayer = MediaPlayer.create(context, R.raw.typing)
+
+        typingSoundPlayer?.let { player ->
+            player.setVolume(0.6f, 0.6f)
+            // This is crucial: we add a listener that will automatically
+            // release the resources as soon as the sound clip has finished playing.
+            player.setOnCompletionListener { mp ->
+                mp.release()
+            }
+            player.start()
+        }
+    }
+
+    // Release the long-lived players when the app is destroyed
     fun release() {
         correctSoundPlayer?.release()
         correctSoundPlayer = null

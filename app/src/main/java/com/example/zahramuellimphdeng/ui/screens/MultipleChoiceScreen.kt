@@ -1,6 +1,5 @@
 package com.example.zahramuellimphdeng.ui.screens
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.material3.*
@@ -8,13 +7,12 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.zahramuellimphdeng.R
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
+import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 
 @Composable
@@ -51,13 +49,8 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(
-            painter = painterResource(id = R.drawable.logo_placeholder),
-            contentDescription = "App Logo",
-            modifier = Modifier
-                .height(60.dp)
-                .padding(bottom = 16.dp)
-        )
+        AppHeader() // <-- UPDATED HEADER
+
         Text("Choose the Correct Past Form", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))

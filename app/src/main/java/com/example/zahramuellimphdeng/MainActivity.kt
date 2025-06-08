@@ -33,10 +33,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Initialize the sound player when the app starts
         SoundPlayer.initialize(applicationContext)
-
         setContent {
             ZahraMuellimPhDENGTheme {
                 val navController = rememberNavController()
@@ -57,7 +54,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        // Release the sound player resources when the app is closed
         SoundPlayer.release()
     }
 }
