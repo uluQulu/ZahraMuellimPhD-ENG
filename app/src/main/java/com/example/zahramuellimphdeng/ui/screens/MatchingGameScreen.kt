@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.R
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.utils.rememberSoundPlayers
+import com.example.zahramuellimphdeng.utils.SoundPlayer
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -26,16 +26,14 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
     var feedback by remember { mutableStateOf<String?>(null) }
     var score by remember { mutableIntStateOf(0) }
 
-    val soundPlayer = rememberSoundPlayers()
-
     fun checkAnswer() {
         val correctOrder = listOf(correctVerb.infinitive.form, correctVerb.past.form, correctVerb.participle_ii.form)
         if (selectedWords == correctOrder) {
-            soundPlayer.correctPlayer.play()
+            SoundPlayer.playCorrectSound()
             feedback = "Correct!"
             score++
         } else {
-            soundPlayer.wrongPlayer.play()
+            SoundPlayer.playWrongSound()
             feedback = "Incorrect. The order is: ${correctOrder.joinToString(" -> ")}"
         }
     }
@@ -54,7 +52,6 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // App Logo
         Image(
             painter = painterResource(id = R.drawable.logo_placeholder),
             contentDescription = "App Logo",
@@ -62,7 +59,6 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
                 .height(60.dp)
                 .padding(bottom = 16.dp)
         )
-
         Text("Match the Forms in Order", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("(Infinitive -> Past -> Participle)", fontSize = 16.sp)
         Text("Score: $score", fontSize = 18.sp)
@@ -86,15 +82,13 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
                 Button(
                     modifier = Modifier.padding(horizontal = 4.dp),
                     onClick = {
-                        soundPlayer.clickPlayer.play()
+                        SoundPlayer.playClickSound()
                         if (selectedWords.size < 3 && !selectedWords.contains(option)) {
                             selectedWords = selectedWords + option
                         }
                     },
                     enabled = !selectedWords.contains(option)
-                ) {
-                    Text(option)
-                }
+                ) { Text(option) }
             }
         }
 
@@ -110,18 +104,18 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             Button(onClick = {
-                soundPlayer.clickPlayer.play()
+                SoundPlayer.playClickSound()
                 selectedWords = emptyList()
             }) { Text("Clear") }
             Button(
                 onClick = {
-                    soundPlayer.clickPlayer.play()
+                    SoundPlayer.playClickSound()
                     checkAnswer()
                 },
                 enabled = selectedWords.size == 3 && feedback == null
             ) { Text("Check") }
             Button(onClick = {
-                soundPlayer.clickPlayer.play()
+                SoundPlayer.playClickSound()
                 nextQuestion()
             }) { Text("Next") }
         }

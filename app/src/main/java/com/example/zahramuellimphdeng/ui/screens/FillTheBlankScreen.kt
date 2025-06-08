@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.R
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.utils.rememberSoundPlayers
+import com.example.zahramuellimphdeng.utils.SoundPlayer
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -30,9 +30,6 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
     var showCorrectAnswers by remember { mutableStateOf(false) }
     var score by remember { mutableIntStateOf(0) }
 
-    // Get the sound players
-    val soundPlayer = rememberSoundPlayers()
-
     val focusManager = LocalFocusManager.current
 
     fun checkAnswers() {
@@ -41,12 +38,12 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
         val isParticipleCorrect = participleInput.trim().equals(currentVerb.participle_ii.form, ignoreCase = true)
 
         if (isPastCorrect && isParticipleCorrect) {
-            soundPlayer.correctPlayer.play() // Play correct sound
+            SoundPlayer.playCorrectSound()
             feedback = "Correct!"
             score++
             showCorrectAnswers = false
         } else {
-            soundPlayer.wrongPlayer.play() // Play wrong sound
+            SoundPlayer.playWrongSound()
             feedback = "Incorrect. Try again or see the answer."
             showCorrectAnswers = true
         }
@@ -66,7 +63,6 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // App Logo
         Image(
             painter = painterResource(id = R.drawable.logo_placeholder),
             contentDescription = "App Logo",
@@ -77,12 +73,10 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
 
         Text("Fill in the Correct Forms", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
-
         Spacer(modifier = Modifier.height(24.dp))
 
         Text("Infinitive:", fontSize = 16.sp, color = Color.Gray)
         Text(currentVerb.infinitive.form, fontSize = 28.sp, fontWeight = FontWeight.Bold)
-
         Spacer(modifier = Modifier.height(24.dp))
 
         OutlinedTextField(
@@ -92,9 +86,7 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             singleLine = true,
             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next)
         )
-
         Spacer(modifier = Modifier.height(16.dp))
-
         OutlinedTextField(
             value = participleInput,
             onValueChange = { participleInput = it },
@@ -105,35 +97,28 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
         )
 
         Spacer(modifier = Modifier.height(24.dp))
-
         feedback?.let {
             val color = if (it == "Correct!") Color(0xFF4CAF50) else Color.Red
             Text(it, color = color, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
         }
-
         if (showCorrectAnswers) {
             Spacer(modifier = Modifier.height(8.dp))
             Text("Correct answers: ${currentVerb.past.form}, ${currentVerb.participle_ii.form}")
         }
 
         Spacer(modifier = Modifier.weight(1f))
-
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             Button(onClick = {
-                soundPlayer.clickPlayer.play() // Play click sound
+                SoundPlayer.playClickSound()
                 checkAnswers()
-            }) {
-                Text("Check")
-            }
+            }) { Text("Check") }
             Button(onClick = {
-                soundPlayer.clickPlayer.play() // Play click sound
+                SoundPlayer.playClickSound()
                 nextQuestion()
-            }) {
-                Text("Next Verb")
-            }
+            }) { Text("Next Verb") }
         }
     }
 }

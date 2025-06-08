@@ -83,6 +83,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation("com.google.code.gson:gson:2.10.1")
-    implementation("com.jarig.soloud:soloud-android:1.1.0")
+//    implementation("com.jarig.soloud:soloud-android:1.1.0")
 
 }

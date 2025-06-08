@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.R
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.utils.rememberSoundPlayers
+import com.example.zahramuellimphdeng.utils.SoundPlayer
 
 @Composable
 fun MeaningQuizScreen(viewModel: MainViewModel) {
@@ -26,15 +26,13 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
     var feedback by remember { mutableStateOf<String?>(null) }
     var score by remember { mutableIntStateOf(0) }
 
-    val soundPlayer = rememberSoundPlayers()
-
     fun checkAnswer() {
         if (selectedOption == currentVerb.translation) {
-            soundPlayer.correctPlayer.play()
+            SoundPlayer.playCorrectSound()
             feedback = "Correct!"
             score++
         } else {
-            soundPlayer.wrongPlayer.play()
+            SoundPlayer.playWrongSound()
             feedback = "Incorrect. The answer is ${currentVerb.translation}."
         }
     }
@@ -53,7 +51,6 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // App Logo
         Image(
             painter = painterResource(id = R.drawable.logo_placeholder),
             contentDescription = "App Logo",
@@ -61,7 +58,6 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
                 .height(60.dp)
                 .padding(bottom = 16.dp)
         )
-
         Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
@@ -77,7 +73,7 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
                     .selectable(
                         selected = (selectedOption == option),
                         onClick = {
-                            soundPlayer.clickPlayer.play()
+                            SoundPlayer.playClickSound()
                             selectedOption = option
                         }
                     )
@@ -87,7 +83,7 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
                 RadioButton(
                     selected = (selectedOption == option),
                     onClick = {
-                        soundPlayer.clickPlayer.play()
+                        SoundPlayer.playClickSound()
                         selectedOption = option
                     }
                 )
@@ -112,19 +108,15 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
         ) {
             Button(
                 onClick = {
-                    soundPlayer.clickPlayer.play()
+                    SoundPlayer.playClickSound()
                     checkAnswer()
                 },
                 enabled = selectedOption != null && feedback == null
-            ) {
-                Text("Check")
-            }
+            ) { Text("Check") }
             Button(onClick = {
-                soundPlayer.clickPlayer.play()
+                SoundPlayer.playClickSound()
                 nextQuestion()
-            }) {
-                Text("Next")
-            }
+            }) { Text("Next") }
         }
     }
 }

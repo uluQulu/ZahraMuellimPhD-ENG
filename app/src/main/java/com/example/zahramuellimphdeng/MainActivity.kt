@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // **FIX #1: Initialize the SoundPlayer when the app starts**
+        // Initialize the sound player when the app starts
         SoundPlayer.initialize(applicationContext)
 
         setContent {
@@ -55,9 +55,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    // **FIX #2: Release the SoundPlayer resources when the app is closed**
     override fun onDestroy() {
         super.onDestroy()
+        // Release the sound player resources when the app is closed
         SoundPlayer.release()
     }
 }
