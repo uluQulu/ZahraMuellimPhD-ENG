@@ -8,7 +8,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -18,6 +17,9 @@ import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
+import com.example.zahramuellimphdeng.utils.TTSPlayer
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -31,8 +33,7 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
     var score by remember { mutableIntStateOf(0) }
 
     val focusManager = LocalFocusManager.current
-    // ** THE FIX IS HERE: Get the context so we can pass it **
-    val context = LocalContext.current
+    val coroutineScope = rememberCoroutineScope()
 
     fun checkAnswers() {
         focusManager.clearFocus()
@@ -44,6 +45,16 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             feedback = "Correct!"
             score++
             showCorrectAnswers = false
+
+            coroutineScope.launch {
+                delay(400)
+                TTSPlayer.speak(currentVerb.infinitive.form)
+                delay(600)
+                TTSPlayer.speak(currentVerb.past.form)
+                delay(600)
+                TTSPlayer.speak(currentVerb.participle_ii.form)
+            }
+
         } else {
             SoundPlayer.playWrongSound()
             feedback = "Incorrect. Try again or see the answer."
@@ -79,8 +90,8 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             value = pastInput,
             onValueChange = { newText ->
                 pastInput = newText
-                // ** THE FIX IS HERE: Pass the context to the function **
-                SoundPlayer.playTypingSound(context)
+                // *** FIX: Call the function with no arguments ***
+                SoundPlayer.playTypingSound()
             },
             label = { Text("Past Form") },
             singleLine = true,
@@ -92,8 +103,8 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             value = participleInput,
             onValueChange = { newText ->
                 participleInput = newText
-                // ** THE FIX IS HERE: Pass the context to the function **
-                SoundPlayer.playTypingSound(context)
+                // *** FIX: Call the function with no arguments ***
+                SoundPlayer.playTypingSound()
             },
             label = { Text("Participle II Form") },
             singleLine = true,

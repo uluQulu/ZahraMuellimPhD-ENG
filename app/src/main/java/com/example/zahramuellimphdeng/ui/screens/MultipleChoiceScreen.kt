@@ -1,5 +1,6 @@
 package com.example.zahramuellimphdeng.ui.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.material3.*
@@ -14,6 +15,7 @@ import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
+import com.example.zahramuellimphdeng.utils.TTSPlayer
 
 @Composable
 fun MultipleChoiceScreen(viewModel: MainViewModel) {
@@ -49,40 +51,44 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        AppHeader() // <-- UPDATED HEADER
+        AppHeader()
 
         Text("Choose the Correct Past Form", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
 
         Text("What is the past form of:", fontSize = 16.sp, color = Color.Gray)
-        Text(currentVerb.infinitive.form, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+        Text(
+            text = currentVerb.infinitive.form,
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.clickable { TTSPlayer.speak(currentVerb.infinitive.form) }
+        )
         Spacer(modifier = Modifier.height(24.dp))
 
         options.forEach { option ->
+            val onSelect = {
+                TTSPlayer.speak(option) // <-- SPEAK THE OPTION TEXT
+                SoundPlayer.playClickSound()
+                selectedOption = option
+            }
             Row(
                 Modifier
                     .fillMaxWidth()
                     .selectable(
                         selected = (selectedOption == option),
-                        onClick = {
-                            SoundPlayer.playClickSound()
-                            selectedOption = option
-                        }
+                        onClick = onSelect
                     )
                     .padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 RadioButton(
                     selected = (selectedOption == option),
-                    onClick = {
-                        SoundPlayer.playClickSound()
-                        selectedOption = option
-                    }
+                    onClick = onSelect
                 )
                 Text(
                     text = option,
-                    style = MaterialTheme.typography.bodyLarge,
+                    style = MaterialTheme.typography.bodyLarge, // Uses theme's default large font size
                     modifier = Modifier.padding(start = 16.dp)
                 )
             }

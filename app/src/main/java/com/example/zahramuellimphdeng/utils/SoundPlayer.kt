@@ -1,85 +1,56 @@
 package com.example.zahramuellimphdeng.utils
 
 import android.content.Context
-import android.media.MediaPlayer
+import android.media.AudioAttributes
+import android.media.SoundPool
 import com.example.zahramuellimphdeng.R
 
 object SoundPlayer {
 
-    // Players for sounds that are not rapid (played one at a time)
-    private var correctSoundPlayer: MediaPlayer? = null
-    private var wrongSoundPlayer: MediaPlayer? = null
-    private var clickSoundPlayer: MediaPlayer? = null
+    private var soundPool: SoundPool? = null
 
-    // We will NOT hold a permanent instance for the typing sound
+    private var correctSoundId: Int = 0
+    private var wrongSoundId: Int = 0
+    private var clickSoundId: Int = 0
+    private var typingSoundId: Int = 0
 
     fun initialize(context: Context) {
-        // Create the non-rapid players once
-        if (correctSoundPlayer == null) {
-            correctSoundPlayer = MediaPlayer.create(context, R.raw.correct)
-        }
-        if (wrongSoundPlayer == null) {
-            wrongSoundPlayer = MediaPlayer.create(context, R.raw.wrong)
-        }
-        if (clickSoundPlayer == null) {
-            clickSoundPlayer = MediaPlayer.create(context, R.raw.click)
-        }
+        if (soundPool != null) return
+
+        val audioAttributes = AudioAttributes.Builder()
+            .setUsage(AudioAttributes.USAGE_GAME)
+            .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+            .build()
+
+        soundPool = SoundPool.Builder()
+            .setMaxStreams(5)
+            .setAudioAttributes(audioAttributes)
+            .build()
+
+        correctSoundId = soundPool?.load(context, R.raw.correct, 1) ?: 0
+        wrongSoundId = soundPool?.load(context, R.raw.wrong, 1) ?: 0
+        clickSoundId = soundPool?.load(context, R.raw.click, 1) ?: 0
+        typingSoundId = soundPool?.load(context, R.raw.typing, 1) ?: 0
     }
 
     fun playCorrectSound() {
-        correctSoundPlayer?.let { player ->
-            player.setVolume(1.0f, 1.0f)
-            if (!player.isPlaying) {
-                player.start()
-            }
-        }
+        if (correctSoundId != 0) soundPool?.play(correctSoundId, 1.0f, 1.0f, 1, 0, 1.0f)
     }
 
     fun playWrongSound() {
-        wrongSoundPlayer?.let { player ->
-            player.setVolume(0.7f, 0.7f)
-            if (!player.isPlaying) {
-                player.start()
-            }
-        }
+        if (wrongSoundId != 0) soundPool?.play(wrongSoundId, 0.7f, 0.7f, 1, 0, 1.0f)
     }
 
     fun playClickSound() {
-        clickSoundPlayer?.let { player ->
-            player.setVolume(0.8f, 0.8f)
-            if (player.isPlaying) {
-                player.seekTo(0)
-            }
-            player.start()
-        }
+        if (clickSoundId != 0) soundPool?.play(clickSoundId, 0.8f, 0.8f, 1, 0, 1.0f)
     }
 
-    // *** THIS IS THE NEW, CORRECT LOGIC FOR THE TYPING SOUND ***
-    fun playTypingSound(context: Context) {
-        // Create a new, fresh player every single time the function is called.
-        // This is the key to making it responsive.
-        val typingSoundPlayer = MediaPlayer.create(context, R.raw.typing)
-
-        typingSoundPlayer?.let { player ->
-            player.setVolume(0.6f, 0.6f)
-            // This is crucial: we add a listener that will automatically
-            // release the resources as soon as the sound clip has finished playing.
-            player.setOnCompletionListener { mp ->
-                mp.release()
-            }
-            player.start()
-        }
+    fun playTypingSound() {
+        if (typingSoundId != 0) soundPool?.play(typingSoundId, 0.6f, 0.6f, 0, 0, 1.0f)
     }
 
-    // Release the long-lived players when the app is destroyed
     fun release() {
-        correctSoundPlayer?.release()
-        correctSoundPlayer = null
-
-        wrongSoundPlayer?.release()
-        wrongSoundPlayer = null
-
-        clickSoundPlayer?.release()
-        clickSoundPlayer = null
+        soundPool?.release()
+        soundPool = null
     }
 }

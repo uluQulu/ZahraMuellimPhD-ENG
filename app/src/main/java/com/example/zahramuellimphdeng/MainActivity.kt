@@ -27,13 +27,18 @@ import com.example.zahramuellimphdeng.ui.NavItem
 import com.example.zahramuellimphdeng.ui.screens.*
 import com.example.zahramuellimphdeng.ui.theme.ZahraMuellimPhDENGTheme
 import com.example.zahramuellimphdeng.utils.SoundPlayer
+import com.example.zahramuellimphdeng.utils.TTSPlayer
 
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Initialize both players when the app starts
         SoundPlayer.initialize(applicationContext)
+        TTSPlayer.initialize(applicationContext)
+
         setContent {
             ZahraMuellimPhDENGTheme {
                 val navController = rememberNavController()
@@ -54,7 +59,9 @@ class MainActivity : ComponentActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
+        // Release both players when the app is closed to prevent memory leaks
         SoundPlayer.release()
+        TTSPlayer.release()
     }
 }
 
