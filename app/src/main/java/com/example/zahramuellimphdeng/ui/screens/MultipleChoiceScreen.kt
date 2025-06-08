@@ -52,7 +52,6 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         AppHeader()
-
         Text("Choose the Correct Past Form", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
@@ -68,7 +67,7 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
 
         options.forEach { option ->
             val onSelect = {
-                TTSPlayer.speak(option) // <-- SPEAK THE OPTION TEXT
+                TTSPlayer.speak(option)
                 SoundPlayer.playClickSound()
                 selectedOption = option
             }
@@ -77,18 +76,20 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
                     .fillMaxWidth()
                     .selectable(
                         selected = (selectedOption == option),
-                        onClick = onSelect
+                        onClick = onSelect,
+                        enabled = feedback == null
                     )
                     .padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 RadioButton(
                     selected = (selectedOption == option),
-                    onClick = onSelect
+                    onClick = onSelect,
+                    enabled = feedback == null
                 )
                 Text(
                     text = option,
-                    style = MaterialTheme.typography.bodyLarge, // Uses theme's default large font size
+                    style = MaterialTheme.typography.bodyLarge,
                     modifier = Modifier.padding(start = 16.dp)
                 )
             }

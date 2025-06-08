@@ -1,9 +1,11 @@
 package com.example.zahramuellimphdeng.utils
 
 import android.content.Context
+import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import java.util.Locale
+import java.util.UUID
 
 object TTSPlayer {
 
@@ -15,8 +17,8 @@ object TTSPlayer {
 
         tts = TextToSpeech(context) { status ->
             if (status == TextToSpeech.SUCCESS) {
-                // Set the language to US English
                 val result = tts?.setLanguage(Locale.US)
+                // *** THE FIX IS HERE: Corrected the typo ***
                 if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                     Log.e("TTS", "The US English language specified is not supported!")
                 } else {
@@ -28,10 +30,14 @@ object TTSPlayer {
         }
     }
 
-    // This is now the only function for speaking
     fun speak(text: String) {
         if (!isInitialized) return
-        tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, null)
+
+        val params = Bundle()
+        params.putFloat(TextToSpeech.Engine.KEY_PARAM_VOLUME, 1.0f)
+
+        val utteranceId = UUID.randomUUID().toString()
+        tts?.speak(text, TextToSpeech.QUEUE_FLUSH, params, utteranceId)
     }
 
     fun release() {

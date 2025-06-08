@@ -47,11 +47,11 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             showCorrectAnswers = false
 
             coroutineScope.launch {
-                delay(400)
+                delay(555)
                 TTSPlayer.speak(currentVerb.infinitive.form)
-                delay(600)
+                delay(850)
                 TTSPlayer.speak(currentVerb.past.form)
-                delay(600)
+                delay(850)
                 TTSPlayer.speak(currentVerb.participle_ii.form)
             }
 

@@ -8,7 +8,6 @@ import com.example.zahramuellimphdeng.R
 object SoundPlayer {
 
     private var soundPool: SoundPool? = null
-
     private var correctSoundId: Int = 0
     private var wrongSoundId: Int = 0
     private var clickSoundId: Int = 0
@@ -33,19 +32,25 @@ object SoundPlayer {
         typingSoundId = soundPool?.load(context, R.raw.typing, 1) ?: 0
     }
 
+    // Parameters: (soundID, leftVolume, rightVolume, priority, loop, rate)
+
     fun playCorrectSound() {
-        if (correctSoundId != 0) soundPool?.play(correctSoundId, 1.0f, 1.0f, 1, 0, 1.0f)
+        // HIGHEST PRIORITY (2)
+        if (correctSoundId != 0) soundPool?.play(correctSoundId, 1.0f, 1.0f, 2, 0, 1.0f)
     }
 
     fun playWrongSound() {
-        if (wrongSoundId != 0) soundPool?.play(wrongSoundId, 0.7f, 0.7f, 1, 0, 1.0f)
+        // HIGH PRIORITY (2)
+        if (wrongSoundId != 0) soundPool?.play(wrongSoundId, 0.7f, 0.7f, 2, 0, 1.0f)
     }
 
     fun playClickSound() {
+        // NORMAL PRIORITY (1)
         if (clickSoundId != 0) soundPool?.play(clickSoundId, 0.8f, 0.8f, 1, 0, 1.0f)
     }
 
     fun playTypingSound() {
+        // LOWEST PRIORITY (0)
         if (typingSoundId != 0) soundPool?.play(typingSoundId, 0.6f, 0.6f, 0, 0, 1.0f)
     }
 

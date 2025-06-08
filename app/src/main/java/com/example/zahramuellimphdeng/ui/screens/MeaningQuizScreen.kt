@@ -46,17 +46,13 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
     }
 
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
+        modifier = Modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         AppHeader()
-
         Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
-
         Text("What is the meaning of:", fontSize = 16.sp, color = Color.Gray)
         Text(
             text = currentVerb.infinitive.form,
@@ -76,18 +72,19 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
                     .fillMaxWidth()
                     .selectable(
                         selected = (selectedOption == option),
-                        onClick = onSelect
+                        onClick = onSelect,
+                        enabled = feedback == null
                     )
                     .padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 RadioButton(
                     selected = (selectedOption == option),
-                    onClick = onSelect
+                    onClick = onSelect,
+                    enabled = feedback == null
                 )
                 Text(
                     text = option,
-                    // INCREASED FONT SIZE HERE
                     fontSize = 18.sp,
                     modifier = Modifier.padding(start = 16.dp)
                 )
