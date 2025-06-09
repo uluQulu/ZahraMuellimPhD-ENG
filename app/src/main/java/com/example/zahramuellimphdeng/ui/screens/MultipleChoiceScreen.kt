@@ -51,7 +51,7 @@ fun MultipleChoiceScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        AppHeader()
+//        AppHeader()
         Text("Choose the Correct Past Form", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))

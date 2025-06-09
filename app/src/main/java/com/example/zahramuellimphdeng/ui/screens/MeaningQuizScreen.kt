@@ -49,7 +49,7 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
         modifier = Modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        AppHeader()
+//        AppHeader()
         Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))

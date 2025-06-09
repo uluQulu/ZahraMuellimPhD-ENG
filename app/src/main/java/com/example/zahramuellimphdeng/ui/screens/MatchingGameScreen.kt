@@ -11,18 +11,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
 import java.util.UUID
 
-// data class Feedback(val message: String, val isCorrect: Boolean, val id: String = UUID.randomUUID().toString())
-// This class is still needed for the unique buttons
+// This data class is needed for the unique buttons in this game
 data class MatchOption(
     val id: String = UUID.randomUUID().toString(),
     val text: String
 )
-
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -59,7 +56,7 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
         modifier = Modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        AppHeader()
+        // AppHeader is now handled in MainActivity, so it's removed from here
         Text("Match the Forms in Order", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("(Infinitive -> Past -> Participle)", fontSize = 16.sp)
         Text("Score: $score", fontSize = 18.sp)
@@ -90,7 +87,10 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
                         }
                     },
                     enabled = selectedOptions.none { it.id == option.id } && feedback == null
-                ) { Text(option.text) }
+                ) {
+                    // INCREASED FONT SIZE HERE
+                    Text(option.text, fontSize = 16.sp)
+                }
             }
         }
 
@@ -123,6 +123,7 @@ fun MatchingGameScreen(viewModel: MainViewModel) {
         }
     }
 }
+
 private fun generateMatchingOptions(correctVerb: Verb, allVerbs: List<Verb>): List<MatchOption> {
     val correctForms = listOf(
         MatchOption(text = correctVerb.infinitive.form),

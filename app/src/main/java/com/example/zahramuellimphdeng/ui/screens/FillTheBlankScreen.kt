@@ -15,7 +15,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.ui.common.AppHeader
+// import com.example.zahramuellimphdeng.ui.common.AppHeader  // This import is no longer needed
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
 import kotlinx.coroutines.delay
@@ -47,11 +47,11 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             showCorrectAnswers = false
 
             coroutineScope.launch {
-                delay(555)
+                delay(800)
                 TTSPlayer.speak(currentVerb.infinitive.form)
-                delay(850)
+                delay(600)
                 TTSPlayer.speak(currentVerb.past.form)
-                delay(850)
+                delay(600)
                 TTSPlayer.speak(currentVerb.participle_ii.form)
             }
 
@@ -76,7 +76,7 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        AppHeader()
+        // AppHeader() has been REMOVED from here.
 
         Text("Fill in the Correct Forms", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
@@ -90,7 +90,6 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             value = pastInput,
             onValueChange = { newText ->
                 pastInput = newText
-                // *** FIX: Call the function with no arguments ***
                 SoundPlayer.playTypingSound()
             },
             label = { Text("Past Form") },
@@ -103,7 +102,6 @@ fun FillTheBlankScreen(viewModel: MainViewModel) {
             value = participleInput,
             onValueChange = { newText ->
                 participleInput = newText
-                // *** FIX: Call the function with no arguments ***
                 SoundPlayer.playTypingSound()
             },
             label = { Text("Participle II Form") },
