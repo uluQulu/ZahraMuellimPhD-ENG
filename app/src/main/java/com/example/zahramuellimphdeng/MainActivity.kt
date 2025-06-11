@@ -28,6 +28,16 @@ import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.ui.NavItem
 import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.ui.screens.*
+import com.example.zahramuellimphdeng.ui.screens.irregularverbs.FillTheBlankScreen
+import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MatchingGameScreen
+import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MeaningQuizScreen
+import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MultipleChoiceScreen
+
+import com.example.zahramuellimphdeng.ui.screens.nouns.FillTheGapNouns
+import com.example.zahramuellimphdeng.ui.screens.nouns.MatchThePairNouns
+import com.example.zahramuellimphdeng.ui.screens.nouns.ChooseTheWordNouns
+import com.example.zahramuellimphdeng.ui.screens.nouns.UseInSentenceNouns
+
 import com.example.zahramuellimphdeng.ui.theme.ZahraMuellimPhDENGTheme
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
@@ -184,6 +194,15 @@ fun AppNavigationHost(
         composable(NavItem.Choice.route) { MultipleChoiceScreen(viewModel = viewModel) }
         composable(NavItem.Match.route) { MatchingGameScreen(viewModel = viewModel) }
         composable(NavItem.Meaning.route) { MeaningQuizScreen(viewModel = viewModel) }
+
+        composable(NavItem.FillGN.route) { FillTheGapNouns(viewModel = viewModel) }
+        composable(NavItem.MatchPN.route) { MatchThePairNouns(viewModel = viewModel) }
+        composable(NavItem.ChooseWN.route) { ChooseTheWordNouns(viewModel = viewModel) }
+        composable(NavItem.UseSN.route) { UseInSentenceNouns(viewModel = viewModel) }
+
+
+
+
         composable(NavItem.Account.route) { AccountScreen() }
         composable(NavItem.History.route) { HistoryScreen() }
         composable(NavItem.Settings.route) { SettingsScreen() }

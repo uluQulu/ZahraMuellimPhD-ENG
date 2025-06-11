@@ -1,4 +1,4 @@
-package com.example.zahramuellimphdeng.ui.screens
+package com.example.zahramuellimphdeng.ui.screens.irregularverbs
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*

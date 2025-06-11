@@ -1,4 +1,4 @@
-package com.example.zahramuellimphdeng.ui.screens
+package com.example.zahramuellimphdeng.ui.screens.irregularverbs
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -13,47 +13,49 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
 
 @Composable
-fun MeaningQuizScreen(viewModel: MainViewModel) {
+fun MultipleChoiceScreen(viewModel: MainViewModel) {
     val allVerbs = viewModel.allVerbs
     var currentVerb by remember { mutableStateOf(allVerbs.random()) }
-    var options by remember { mutableStateOf(generateMeaningOptions(currentVerb, allVerbs)) }
+    var options by remember { mutableStateOf(generateOptions(currentVerb, allVerbs)) }
     var selectedOption by remember { mutableStateOf<String?>(null) }
     var feedback by remember { mutableStateOf<String?>(null) }
     var score by remember { mutableIntStateOf(0) }
 
     fun checkAnswer() {
-        if (selectedOption == currentVerb.translation) {
+        if (selectedOption == currentVerb.past.form) {
             SoundPlayer.playCorrectSound()
             feedback = "Correct!"
             score++
         } else {
             SoundPlayer.playWrongSound()
-            feedback = "Incorrect. The answer is ${currentVerb.translation}."
+            feedback = "Incorrect. The answer is ${currentVerb.past.form}."
         }
     }
 
     fun nextQuestion() {
         val newVerb = allVerbs.random()
         currentVerb = newVerb
-        options = generateMeaningOptions(newVerb, allVerbs)
+        options = generateOptions(newVerb, allVerbs)
         selectedOption = null
         feedback = null
     }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 //        AppHeader()
-        Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+        Text("Choose the Correct Past Form", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
-        Text("What is the meaning of:", fontSize = 16.sp, color = Color.Gray)
+
+        Text("What is the past form of:", fontSize = 16.sp, color = Color.Gray)
         Text(
             text = currentVerb.infinitive.form,
             fontSize = 28.sp,
@@ -64,6 +66,7 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
 
         options.forEach { option ->
             val onSelect = {
+                TTSPlayer.speak(option)
                 SoundPlayer.playClickSound()
                 selectedOption = option
             }
@@ -85,7 +88,7 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
                 )
                 Text(
                     text = option,
-                    fontSize = 18.sp,
+                    style = MaterialTheme.typography.bodyLarge,
                     modifier = Modifier.padding(start = 16.dp)
                 )
             }
@@ -117,9 +120,9 @@ fun MeaningQuizScreen(viewModel: MainViewModel) {
     }
 }
 
-private fun generateMeaningOptions(correctVerb: Verb, allVerbs: List<Verb>): List<String> {
+private fun generateOptions(correctVerb: Verb, allVerbs: List<Verb>): List<String> {
     val incorrectVerbs = allVerbs.filter { it != correctVerb }.shuffled().take(3)
-    val options = incorrectVerbs.map { it.translation }.toMutableList()
-    options.add(correctVerb.translation)
+    val options = incorrectVerbs.map { it.past.form }.toMutableList()
+    options.add(correctVerb.past.form)
     return options.shuffled()
 }

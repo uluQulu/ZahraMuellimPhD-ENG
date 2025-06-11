@@ -1,4 +1,4 @@
-package com.example.zahramuellimphdeng.ui.screens
+package com.example.zahramuellimphdeng.ui.screens.nouns
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -13,12 +13,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.zahramuellimphdeng.data.Verb
 import com.example.zahramuellimphdeng.ui.MainViewModel
-import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
 
 @Composable
-fun MultipleChoiceScreen(viewModel: MainViewModel) {
+fun UseInSentenceNouns(viewModel: MainViewModel) {
     val allVerbs = viewModel.allVerbs
     var currentVerb by remember { mutableStateOf(allVerbs.random()) }
     var options by remember { mutableStateOf(generateOptions(currentVerb, allVerbs)) }

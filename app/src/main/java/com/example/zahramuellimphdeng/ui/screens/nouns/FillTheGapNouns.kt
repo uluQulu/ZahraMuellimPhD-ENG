@@ -1,4 +1,4 @@
-package com.example.zahramuellimphdeng.ui.screens
+package com.example.zahramuellimphdeng.ui.screens.nouns
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardActions
@@ -23,7 +23,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun FillTheBlankScreen(viewModel: MainViewModel) {
+fun FillTheGapNouns(viewModel: MainViewModel) {
     val allVerbs = viewModel.allVerbs
     var currentVerb by remember { mutableStateOf(allVerbs.random()) }
     var pastInput by remember { mutableStateOf("") }
