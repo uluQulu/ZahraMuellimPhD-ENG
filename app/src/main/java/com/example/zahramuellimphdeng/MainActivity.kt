@@ -7,9 +7,7 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
@@ -20,24 +18,13 @@ import androidx.navigation.NavController
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.currentBackStackEntryAsState
-import androidx.navigation.compose.rememberNavController
+import androidx.navigation.compose.*
 import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.ui.NavItem
 import com.example.zahramuellimphdeng.ui.common.AppHeader
 import com.example.zahramuellimphdeng.ui.screens.*
-import com.example.zahramuellimphdeng.ui.screens.irregularverbs.FillTheBlankScreen
-import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MatchingGameScreen
-import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MeaningQuizScreen
-import com.example.zahramuellimphdeng.ui.screens.irregularverbs.MultipleChoiceScreen
-
-import com.example.zahramuellimphdeng.ui.screens.nouns.FillTheGapNouns
-import com.example.zahramuellimphdeng.ui.screens.nouns.MatchThePairNouns
-import com.example.zahramuellimphdeng.ui.screens.nouns.ChooseTheWordNouns
-import com.example.zahramuellimphdeng.ui.screens.nouns.UseInSentenceNouns
-
+import com.example.zahramuellimphdeng.ui.screens.irregularverbs.*
+import com.example.zahramuellimphdeng.ui.screens.nouns.*
 import com.example.zahramuellimphdeng.ui.theme.ZahraMuellimPhDENGTheme
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
@@ -57,15 +44,19 @@ class MainActivity : ComponentActivity() {
                 val navController = rememberNavController()
                 val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
                 val coroutineScope = rememberCoroutineScope()
+                var selectedCategory by remember { mutableStateOf("verbs") }
 
-                val bottomNavItems = listOf(NavItem.Fill, NavItem.Choice, NavItem.Match, NavItem.Meaning)
+                val bottomNavItems = when (selectedCategory) {
+                    "verbs" -> listOf(NavItem.Fill, NavItem.Choice, NavItem.Match, NavItem.Meaning)
+                    "nouns" -> listOf(NavItem.FillGN, NavItem.MatchPN, NavItem.ChooseWN, NavItem.AntonymN)
+                    else -> emptyList()
+                }
                 val drawerNavItems = listOf(NavItem.Account, NavItem.History, NavItem.Settings)
 
                 ModalNavigationDrawer(
                     drawerState = drawerState,
                     drawerContent = {
                         ModalDrawerSheet(modifier = Modifier.width(280.dp)) {
-                            // --- NEW DRAWER HEADER ---
                             Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
@@ -74,7 +65,7 @@ class MainActivity : ComponentActivity() {
                                 contentAlignment = Alignment.CenterStart
                             ) {
                                 Text(
-                                    text = "Zəhra Seyid", // User's full name
+                                    text = "Zəhra Seyid",
                                     modifier = Modifier.padding(start = 16.dp),
                                     fontSize = 20.sp,
                                     fontWeight = FontWeight.Bold,
@@ -82,10 +73,8 @@ class MainActivity : ComponentActivity() {
                                 )
                             }
 
-                            // --- SPACER ---
                             Spacer(Modifier.height(12.dp))
 
-                            // --- NAVIGATION ITEMS ---
                             drawerNavItems.forEach { item ->
                                 NavigationDrawerItem(
                                     icon = { Icon(item.icon, contentDescription = null) },
@@ -99,10 +88,8 @@ class MainActivity : ComponentActivity() {
                                 )
                             }
 
-                            // --- SPACER TO PUSH FOOTER TO THE BOTTOM ---
                             Spacer(modifier = Modifier.weight(1f))
 
-                            // --- NEW DRAWER FOOTER ---
                             Column(
                                 modifier = Modifier
                                     .fillMaxWidth()
@@ -125,9 +112,47 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Scaffold(
                         topBar = {
-                            AppHeader(onMenuClick = {
-                                coroutineScope.launch { drawerState.open() }
-                            })
+                            Column {
+                                AppHeader(onMenuClick = {
+                                    coroutineScope.launch { drawerState.open() }
+                                })
+
+                                // --- TOP BUTTON ROW (Category Switch) ---
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(horizontal = 16.dp, vertical = 8.dp),
+                                    horizontalArrangement = Arrangement.SpaceEvenly
+                                ) {
+                                    Button(
+                                        onClick = {
+                                            selectedCategory = "verbs"
+                                            navController.navigate(NavItem.Fill.route) {
+                                                popUpTo(navController.graph.findStartDestination().id) { inclusive = true }
+                                            }
+                                        },
+                                        colors = ButtonDefaults.buttonColors(
+                                            containerColor = if (selectedCategory == "verbs") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.secondary
+                                        )
+                                    ) {
+                                        Text("Irregular Verbs")
+                                    }
+
+                                    Button(
+                                        onClick = {
+                                            selectedCategory = "nouns"
+                                            navController.navigate(NavItem.FillGN.route) {
+                                                popUpTo(navController.graph.findStartDestination().id) { inclusive = true }
+                                            }
+                                        },
+                                        colors = ButtonDefaults.buttonColors(
+                                            containerColor = if (selectedCategory == "nouns") MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.secondary
+                                        )
+                                    ) {
+                                        Text("Nouns")
+                                    }
+                                }
+                            }
                         },
                         bottomBar = {
                             val navBackStackEntry by navController.currentBackStackEntryAsState()
@@ -190,19 +215,19 @@ fun AppNavigationHost(
         startDestination = NavItem.Fill.route,
         modifier = modifier
     ) {
+        // Irregular Verbs
         composable(NavItem.Fill.route) { FillTheBlankScreen(viewModel = viewModel) }
         composable(NavItem.Choice.route) { MultipleChoiceScreen(viewModel = viewModel) }
         composable(NavItem.Match.route) { MatchingGameScreen(viewModel = viewModel) }
         composable(NavItem.Meaning.route) { MeaningQuizScreen(viewModel = viewModel) }
 
+        // Nouns
         composable(NavItem.FillGN.route) { FillTheGapNouns(viewModel = viewModel) }
         composable(NavItem.MatchPN.route) { MatchThePairNouns(viewModel = viewModel) }
         composable(NavItem.ChooseWN.route) { ChooseTheWordNouns(viewModel = viewModel) }
-        composable(NavItem.UseSN.route) { UseInSentenceNouns(viewModel = viewModel) }
+        composable(NavItem.AntonymN.route) { AntonymNouns(viewModel = viewModel) }
 
-
-
-
+        // Drawer Items
         composable(NavItem.Account.route) { AccountScreen() }
         composable(NavItem.History.route) { HistoryScreen() }
         composable(NavItem.Settings.route) { SettingsScreen() }

@@ -15,10 +15,11 @@ sealed class NavItem(val route: String, val label: String, val icon: ImageVector
     object Match : NavItem("matching_game", "Match", Icons.Default.CompareArrows)
     object Meaning : NavItem("meaning_quiz", "Meaning", Icons.Default.Translate)
 
-    object FillGN : NavItem("fill_the_blank", "Fill", Icons.Default.Edit)
-    object MatchPN : NavItem("multiple_choice", "Choice", Icons.Default.CheckCircle)
-    object ChooseWN : NavItem("matching_game", "Match", Icons.Default.CompareArrows)
-    object UseSN : NavItem("meaning_quiz", "Meaning", Icons.Default.Translate)
+    object FillGN : NavItem("fill_noun", "Fill", Icons.Default.Edit)
+    object MatchPN : NavItem("match_noun", "Match", Icons.Default.CompareArrows)
+    object ChooseWN : NavItem("choose_noun", "Choose", Icons.Default.RadioButtonChecked)
+    object AntonymN : NavItem("use_sentence_noun", "Antonym", Icons.Default.TextSnippet)
+
 
     // Sidebar (Drawer) Items
     object Account : NavItem("account", "Account", Icons.Outlined.AccountCircle)

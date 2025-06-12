@@ -11,35 +11,35 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.zahramuellimphdeng.data.Verb
+import com.example.zahramuellimphdeng.data.Noun
 import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
 
 @Composable
 fun ChooseTheWordNouns(viewModel: MainViewModel) {
-    val allVerbs = viewModel.allVerbs
-    var currentVerb by remember { mutableStateOf(allVerbs.random()) }
-    var options by remember { mutableStateOf(generateMeaningOptions(currentVerb, allVerbs)) }
+    val allNouns = viewModel.allNouns
+    var currentNoun by remember { mutableStateOf(allNouns.random()) }
+    var options by remember { mutableStateOf(generateMeaningOptions(currentNoun, allNouns)) }
     var selectedOption by remember { mutableStateOf<String?>(null) }
     var feedback by remember { mutableStateOf<String?>(null) }
     var score by remember { mutableIntStateOf(0) }
 
     fun checkAnswer() {
-        if (selectedOption == currentVerb.translation) {
+        if (selectedOption == currentNoun.translation_az) {
             SoundPlayer.playCorrectSound()
             feedback = "Correct!"
             score++
         } else {
             SoundPlayer.playWrongSound()
-            feedback = "Incorrect. The answer is ${currentVerb.translation}."
+            feedback = "Incorrect. The answer is ${currentNoun.translation_az}."
         }
     }
 
     fun nextQuestion() {
-        val newVerb = allVerbs.random()
-        currentVerb = newVerb
-        options = generateMeaningOptions(newVerb, allVerbs)
+        val newNoun = allNouns.random()
+        currentNoun = newNoun
+        options = generateMeaningOptions(newNoun, allNouns)
         selectedOption = null
         feedback = null
     }
@@ -48,16 +48,15 @@ fun ChooseTheWordNouns(viewModel: MainViewModel) {
         modifier = Modifier.fillMaxSize().padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-//        AppHeader()
         Text("Choose the Correct Meaning", fontSize = 22.sp, fontWeight = FontWeight.Bold)
         Text("Score: $score", fontSize = 18.sp)
         Spacer(modifier = Modifier.height(24.dp))
         Text("What is the meaning of:", fontSize = 16.sp, color = Color.Gray)
         Text(
-            text = currentVerb.infinitive.form,
+            text = currentNoun.noun_en,
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
-            modifier = Modifier.clickable { TTSPlayer.speak(currentVerb.infinitive.form) }
+            modifier = Modifier.clickable { TTSPlayer.speak(currentNoun.noun_en) }
         )
         Spacer(modifier = Modifier.height(24.dp))
 
@@ -116,9 +115,9 @@ fun ChooseTheWordNouns(viewModel: MainViewModel) {
     }
 }
 
-private fun generateMeaningOptions(correctVerb: Verb, allVerbs: List<Verb>): List<String> {
-    val incorrectVerbs = allVerbs.filter { it != correctVerb }.shuffled().take(3)
-    val options = incorrectVerbs.map { it.translation }.toMutableList()
-    options.add(correctVerb.translation)
+private fun generateMeaningOptions(correctNoun: Noun, allNouns: List<Noun>): List<String> {
+    val incorrectNouns = allNouns.filter { it != correctNoun }.shuffled().take(3)
+    val options = incorrectNouns.map { it.translation_az }.toMutableList()
+    options.add(correctNoun.translation_az)
     return options.shuffled()
 }

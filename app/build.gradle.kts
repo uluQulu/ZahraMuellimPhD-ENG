@@ -84,5 +84,9 @@ dependencies {
 
     implementation("com.google.code.gson:gson:2.10.1")
 //    implementation("com.jarig.soloud:soloud-android:1.1.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    implementation("androidx.compose.foundation:foundation:1.4.3")
+
 
 }

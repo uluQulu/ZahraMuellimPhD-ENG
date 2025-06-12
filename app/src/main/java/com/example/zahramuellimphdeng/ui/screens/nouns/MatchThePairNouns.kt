@@ -1,6 +1,8 @@
 package com.example.zahramuellimphdeng.ui.screens.nouns
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -9,131 +11,107 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.zahramuellimphdeng.data.Verb
+import com.example.zahramuellimphdeng.data.Noun
 import com.example.zahramuellimphdeng.ui.MainViewModel
 import com.example.zahramuellimphdeng.utils.SoundPlayer
 import com.example.zahramuellimphdeng.utils.TTSPlayer
-import java.util.UUID
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
-// This data class is needed for the unique buttons in this game
-data class MatchOption(
-    val id: String = UUID.randomUUID().toString(),
-    val text: String
-)
-
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun MatchThePairNouns(viewModel: MainViewModel) {
-    val allVerbs = viewModel.allVerbs
-    var correctVerb by remember { mutableStateOf(allVerbs.random()) }
-    var options by remember { mutableStateOf(generateMatchingOptions(correctVerb, allVerbs)) }
-    var selectedOptions by remember { mutableStateOf<List<MatchOption>>(emptyList()) }
-    var feedback by remember { mutableStateOf<String?>(null) }
+    val allNouns = remember { viewModel.allNouns.shuffled().take(7) }
+    val englishWords = remember { allNouns.map { it.noun_en }.shuffled() }
+    val azerbaijaniWords = remember { allNouns.map { it.translation_az }.shuffled() }
+
+    var selectedEnglish by remember { mutableStateOf<String?>(null) }
+    var matchedPairs by remember { mutableStateOf(setOf<Pair<String, String>>()) }
     var score by remember { mutableIntStateOf(0) }
 
-    fun checkAnswer() {
-        val selectedWords = selectedOptions.map { it.text }
-        val correctOrder = listOf(correctVerb.infinitive.form, correctVerb.past.form, correctVerb.participle_ii.form)
-        if (selectedWords == correctOrder) {
-            SoundPlayer.playCorrectSound()
-            feedback = "Correct!"
-            score++
-        } else {
-            SoundPlayer.playWrongSound()
-            feedback = "Incorrect. The order is: ${correctOrder.joinToString(" -> ")}"
-        }
-    }
-
-    fun nextQuestion() {
-        val newVerb = allVerbs.random()
-        correctVerb = newVerb
-        options = generateMatchingOptions(newVerb, allVerbs)
-        selectedOptions = emptyList()
-        feedback = null
-    }
+    val coroutineScope = rememberCoroutineScope()
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // AppHeader is now handled in MainActivity, so it's removed from here
-        Text("Match the Forms in Order", fontSize = 22.sp, fontWeight = FontWeight.Bold)
-        Text("(Infinitive -> Past -> Participle)", fontSize = 16.sp)
+        Text("Match the Noun Pairs", fontSize = 22.sp, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.height(8.dp))
         Text("Score: $score", fontSize = 18.sp)
+
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text("Your selection:", fontSize = 16.sp, color = Color.Gray)
-        Text(
-            text = selectedOptions.joinToString(" -> ") { it.text },
-            fontSize = 20.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.height(30.dp)
-        )
-        Spacer(modifier = Modifier.height(24.dp))
-
-        FlowRow(
+        Row(
             modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.Center,
-            verticalArrangement = Arrangement.spacedBy(8.dp)
+            horizontalArrangement = Arrangement.SpaceEvenly
         ) {
-            options.forEach { option ->
-                Button(
-                    modifier = Modifier.padding(horizontal = 4.dp),
-                    onClick = {
-                        TTSPlayer.speak(option.text)
-                        SoundPlayer.playClickSound()
-                        if (selectedOptions.size < 3) {
-                            selectedOptions = selectedOptions + option
-                        }
-                    },
-                    enabled = selectedOptions.none { it.id == option.id } && feedback == null
-                ) {
-                    // INCREASED FONT SIZE HERE
-                    Text(option.text, fontSize = 16.sp)
+            // English Words
+            Column {
+                Text("English", fontWeight = FontWeight.Medium)
+                Spacer(Modifier.height(8.dp))
+                englishWords.forEach { word ->
+                    val isMatched = matchedPairs.any { it.first == word }
+                    Button(
+                        onClick = {
+                            SoundPlayer.playClickSound()
+                            selectedEnglish = if (selectedEnglish == word) null else word
+                            TTSPlayer.speak(word)
+                        },
+                        enabled = !isMatched,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = if (selectedEnglish == word) Color(0xFF90CAF9) else MaterialTheme.colorScheme.primary
+                        ),
+                        shape = RoundedCornerShape(8.dp),
+                        modifier = Modifier.padding(4.dp)
+                    ) {
+                        Text(word)
+                    }
+                }
+            }
+
+            // Azerbaijani Words
+            Column {
+                Text("Azerbaijani", fontWeight = FontWeight.Medium)
+                Spacer(Modifier.height(8.dp))
+                azerbaijaniWords.forEach { translation ->
+                    val isMatched = matchedPairs.any { it.second == translation }
+                    Button(
+                        onClick = {
+                            SoundPlayer.playClickSound()
+                            val correctPair = allNouns.find { it.noun_en == selectedEnglish && it.translation_az == translation }
+
+                            if (selectedEnglish != null && correctPair != null) {
+                                matchedPairs = matchedPairs + Pair(correctPair.noun_en, correctPair.translation_az)
+                                score++
+                                selectedEnglish = null
+
+                                coroutineScope.launch {
+                                    delay(200)
+                                    TTSPlayer.speak(correctPair.noun_en)
+                                }
+                            } else {
+                                SoundPlayer.playWrongSound()
+                                selectedEnglish = null
+                            }
+                        },
+                        enabled = !isMatched,
+                        shape = RoundedCornerShape(8.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = if (isMatched) Color.Gray else MaterialTheme.colorScheme.secondary
+                        ),
+                        modifier = Modifier.padding(4.dp)
+                    ) {
+                        Text(translation, fontStyle = androidx.compose.ui.text.font.FontStyle.Italic)
+                    }
                 }
             }
         }
 
         Spacer(modifier = Modifier.height(24.dp))
-        feedback?.let {
-            val color = if (it.startsWith("Correct")) Color(0xFF4CAF50) else Color.Red
-            Text(it, color = color, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
-        }
 
-        Spacer(modifier = Modifier.weight(1f))
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
-            Button(onClick = {
-                SoundPlayer.playClickSound()
-                selectedOptions = emptyList()
-            }) { Text("Clear") }
-            Button(
-                onClick = {
-                    SoundPlayer.playClickSound()
-                    checkAnswer()
-                },
-                enabled = selectedOptions.size == 3 && feedback == null
-            ) { Text("Check") }
-            Button(onClick = {
-                SoundPlayer.playClickSound()
-                nextQuestion()
-            }) { Text("Next") }
+        if (matchedPairs.size == allNouns.size) {
+            Text("🎉 All pairs matched! Great job!", color = Color(0xFF4CAF50), fontSize = 18.sp)
         }
     }
-}
-
-private fun generateMatchingOptions(correctVerb: Verb, allVerbs: List<Verb>): List<MatchOption> {
-    val correctForms = listOf(
-        MatchOption(text = correctVerb.infinitive.form),
-        MatchOption(text = correctVerb.past.form),
-        MatchOption(text = correctVerb.participle_ii.form)
-    )
-    val distractors = allVerbs.filter { it != correctVerb }
-        .shuffled()
-        .take(2)
-        .map { MatchOption(text = it.infinitive.form) }
-
-    return (correctForms + distractors).shuffled()
 }

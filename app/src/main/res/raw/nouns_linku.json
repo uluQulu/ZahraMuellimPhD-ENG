@@ -1,0 +1,5061 @@
+{
+  "nouns": [
+    {
+      "noun_en": "time",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[taɪm]",
+      "translation_az": "vaxt",
+      "antonyms": [],
+      "synonyms": [
+        "duration",
+        "period",
+        "era"
+      ],
+      "example_sentence": "We need more time to finish the project.",
+      "example_phrase": "a matter of time",
+      "image_url": null
+    },
+    {
+      "noun_en": "person",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈpɜːrsn]",
+      "translation_az": "şəxs, insan",
+      "antonyms": [],
+      "synonyms": [
+        "individual",
+        "human",
+        "being"
+      ],
+      "example_sentence": "Every person has a unique story to tell.",
+      "example_phrase": "a person of interest",
+      "image_url": null
+    },
+    {
+      "noun_en": "school",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[skuːl]",
+      "translation_az": "məktəb",
+      "antonyms": [],
+      "synonyms": [
+        "academy",
+        "institution",
+        "college"
+      ],
+      "example_sentence": "Children go to school to learn new things.",
+      "example_phrase": "the first day of school",
+      "image_url": null
+    },
+    {
+      "noun_en": "city",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈsɪti]",
+      "translation_az": "şəhər",
+      "antonyms": [
+        "countryside",
+        "village"
+      ],
+      "synonyms": [
+        "metropolis",
+        "municipality",
+        "urban area"
+      ],
+      "example_sentence": "Living in a big city can be exciting.",
+      "example_phrase": "a bustling city center",
+      "image_url": null
+    },
+    {
+      "noun_en": "water",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[ˈwɔːtər]",
+      "translation_az": "su",
+      "antonyms": [],
+      "synonyms": [
+        "H2O",
+        "liquid",
+        "aqua"
+      ],
+      "example_sentence": "You should drink enough water every day.",
+      "example_phrase": "a glass of water",
+      "image_url": null
+    },
+    {
+      "noun_en": "information",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˌɪnfərˈmeɪʃn]",
+      "translation_az": "məlumat",
+      "antonyms": [
+        "misinformation",
+        "disinformation"
+      ],
+      "synonyms": [
+        "data",
+        "facts",
+        "knowledge"
+      ],
+      "example_sentence": "The internet provides access to vast information.",
+      "example_phrase": "a piece of information",
+      "image_url": null
+    },
+    {
+      "noun_en": "environment",
+      "level": "B1",
+      "article": "the",
+      "phonetic_us": "[ɪnˈvaɪrənmənt]",
+      "translation_az": "ətraf mühit",
+      "antonyms": [],
+      "synonyms": [
+        "surroundings",
+        "atmosphere",
+        "habitat"
+      ],
+      "example_sentence": "We must protect the environment for future generations.",
+      "example_phrase": "concern for the environment",
+      "image_url": null
+    },
+    {
+      "noun_en": "health",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[helθ]",
+      "translation_az": "sağlamlıq",
+      "antonyms": [
+        "sickness",
+        "illness",
+        "disease"
+      ],
+      "synonyms": [
+        "wellness",
+        "well-being",
+        "fitness"
+      ],
+      "example_sentence": "Good health is more important than wealth.",
+      "example_phrase": "in good health",
+      "image_url": "https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_960_720.jpg"
+    },
+    {
+      "noun_en": "technology",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[tɛkˈnɑlədʒi]",
+      "translation_az": "texnologiya",
+      "antonyms": [],
+      "synonyms": [
+        "innovation",
+        "advancement",
+        "machinery"
+      ],
+      "example_sentence": "Modern technology has changed our lives completely.",
+      "example_phrase": "advances in technology",
+      "image_url": "https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg"
+    },
+    {
+      "noun_en": "career",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[kəˈrɪr]",
+      "translation_az": "karyera",
+      "antonyms": [],
+      "synonyms": [
+        "profession",
+        "occupation",
+        "vocation"
+      ],
+      "example_sentence": "She chose a career in medicine to help people.",
+      "example_phrase": "a successful career",
+      "image_url": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg"
+    },
+    {
+      "noun_en": "opportunity",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ˌɑːpərˈtuːnəti]",
+      "translation_az": "imkan, fürsət",
+      "antonyms": [
+        "obstacle",
+        "limitation"
+      ],
+      "synonyms": [
+        "chance",
+        "prospect",
+        "opening"
+      ],
+      "example_sentence": "This job is a great opportunity for me.",
+      "example_phrase": "seize the opportunity",
+      "image_url": null
+    },
+    {
+      "noun_en": "education",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˌedʒuˈkeɪʃn]",
+      "translation_az": "təhsil",
+      "antonyms": [
+        "ignorance"
+      ],
+      "synonyms": [
+        "learning",
+        "schooling",
+        "instruction"
+      ],
+      "example_sentence": "Education is the key to a better future.",
+      "example_phrase": "a quality education",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_960_720.jpg"
+    },
+    {
+      "noun_en": "society",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[səˈsaɪəti]",
+      "translation_az": "cəmiyyət",
+      "antonyms": [
+        "individual"
+      ],
+      "synonyms": [
+        "community",
+        "public",
+        "civilization"
+      ],
+      "example_sentence": "Technology has a huge impact on modern society.",
+      "example_phrase": "a role in society",
+      "image_url": null
+    },
+    {
+      "noun_en": "challenge",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈtʃæləndʒ]",
+      "translation_az": "sınaq, çağırış",
+      "antonyms": [],
+      "synonyms": [
+        "difficulty",
+        "obstacle",
+        "hurdle"
+      ],
+      "example_sentence": "Climate change is a major challenge for humanity.",
+      "example_phrase": "to face a challenge",
+      "image_url": null
+    },
+    {
+      "noun_en": "solution",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[səˈluːʃn]",
+      "translation_az": "həll, həll yolu",
+      "antonyms": [
+        "problem",
+        "issue"
+      ],
+      "synonyms": [
+        "answer",
+        "remedy",
+        "resolution"
+      ],
+      "example_sentence": "We need to find a solution to this problem.",
+      "example_phrase": "a creative solution",
+      "image_url": null
+    },
+    {
+      "noun_en": "perspective",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[pərˈspektɪv]",
+      "translation_az": "perspektiv, baxış bucağı",
+      "antonyms": [],
+      "synonyms": [
+        "viewpoint",
+        "outlook",
+        "standpoint"
+      ],
+      "example_sentence": "Travel gives you a new perspective on life.",
+      "example_phrase": "from a different perspective",
+      "image_url": null
+    },
+    {
+      "noun_en": "impact",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ˈɪmpækt]",
+      "translation_az": "təsir",
+      "antonyms": [],
+      "synonyms": [
+        "effect",
+        "influence",
+        "consequence"
+      ],
+      "example_sentence": "The new law will have a significant impact.",
+      "example_phrase": "the environmental impact",
+      "image_url": null
+    },
+    {
+      "noun_en": "research",
+      "level": "B2",
+      "article": null,
+      "phonetic_us": "[ˈriːsɜːrtʃ]",
+      "translation_az": "tədqiqat",
+      "antonyms": [],
+      "synonyms": [
+        "study",
+        "investigation",
+        "inquiry"
+      ],
+      "example_sentence": "Scientific research helps us understand the world.",
+      "example_phrase": "to conduct research",
+      "image_url": null
+    },
+    {
+      "noun_en": "benefit",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈbenɪfɪt]",
+      "translation_az": "fayda, xeyir",
+      "antonyms": [
+        "disadvantage",
+        "drawback",
+        "detriment"
+      ],
+      "synonyms": [
+        "advantage",
+        "gain",
+        "asset"
+      ],
+      "example_sentence": "Exercise has many benefits for your health.",
+      "example_phrase": "the benefits of teamwork",
+      "image_url": null
+    },
+    {
+      "noun_en": "goal",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ɡoʊl]",
+      "translation_az": "məqsəd",
+      "antonyms": [],
+      "synonyms": [
+        "objective",
+        "aim",
+        "target"
+      ],
+      "example_sentence": "My main goal is to improve my English.",
+      "example_phrase": "to set a goal",
+      "image_url": null
+    },
+    {
+      "noun_en": "friend",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[frɛnd]",
+      "translation_az": "dost",
+      "antonyms": [
+        "enemy",
+        "foe"
+      ],
+      "synonyms": [
+        "companion",
+        "pal",
+        "buddy"
+      ],
+      "example_sentence": "A true friend is always there to help.",
+      "example_phrase": "making new friends",
+      "image_url": null
+    },
+    {
+      "noun_en": "family",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈfæməli]",
+      "translation_az": "ailə",
+      "antonyms": [],
+      "synonyms": [
+        "relatives",
+        "kin",
+        "household"
+      ],
+      "example_sentence": "He spends weekends with his family.",
+      "example_phrase": "a close-knit family",
+      "image_url": null
+    },
+    {
+      "noun_en": "job",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[dʒɑːb]",
+      "translation_az": "iş",
+      "antonyms": [
+        "hobby",
+        "unemployment"
+      ],
+      "synonyms": [
+        "work",
+        "occupation",
+        "position"
+      ],
+      "example_sentence": "She is looking for a new job.",
+      "example_phrase": "a full-time job",
+      "image_url": "https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_960_720.jpg"
+    },
+    {
+      "noun_en": "country",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈkʌntri]",
+      "translation_az": "ölkə",
+      "antonyms": [
+        "city"
+      ],
+      "synonyms": [
+        "nation",
+        "state",
+        "land"
+      ],
+      "example_sentence": "Japan is a country with rich traditions.",
+      "example_phrase": "traveling to a foreign country",
+      "image_url": null
+    },
+    {
+      "noun_en": "food",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[fuːd]",
+      "translation_az": "qida, yemək",
+      "antonyms": [],
+      "synonyms": [
+        "cuisine",
+        "nourishment",
+        "sustenance"
+      ],
+      "example_sentence": "Traditional food is part of a country's culture.",
+      "example_phrase": "a love of food",
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg"
+    },
+    {
+      "noun_en": "house",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[haʊs]",
+      "translation_az": "ev",
+      "antonyms": [],
+      "synonyms": [
+        "home",
+        "residence",
+        "dwelling"
+      ],
+      "example_sentence": "They bought a new house in the suburbs.",
+      "example_phrase": "moving to a new house",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg"
+    },
+    {
+      "noun_en": "student",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈstuːdnt]",
+      "translation_az": "tələbə, şagird",
+      "antonyms": [
+        "teacher",
+        "professor"
+      ],
+      "synonyms": [
+        "pupil",
+        "learner",
+        "scholar"
+      ],
+      "example_sentence": "Every student must submit their essay by Friday.",
+      "example_phrase": "a university student",
+      "image_url": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg"
+    },
+    {
+      "noun_en": "money",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[ˈmʌni]",
+      "translation_az": "pul",
+      "antonyms": [
+        "debt"
+      ],
+      "synonyms": [
+        "currency",
+        "cash",
+        "wealth"
+      ],
+      "example_sentence": "Managing money wisely is an important skill.",
+      "example_phrase": "to save money",
+      "image_url": null
+    },
+    {
+      "noun_en": "problem",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈprɑːbləm]",
+      "translation_az": "problem",
+      "antonyms": [
+        "solution",
+        "answer"
+      ],
+      "synonyms": [
+        "issue",
+        "difficulty",
+        "challenge"
+      ],
+      "example_sentence": "Air pollution is a serious problem in cities.",
+      "example_phrase": "to solve a problem",
+      "image_url": null
+    },
+    {
+      "noun_en": "government",
+      "level": "B1",
+      "article": "the",
+      "phonetic_us": "[ˈɡʌvərnmənt]",
+      "translation_az": "hökumət",
+      "antonyms": [],
+      "synonyms": [
+        "administration",
+        "regime",
+        "authorities"
+      ],
+      "example_sentence": "The government funds public education and healthcare.",
+      "example_phrase": "a change in government",
+      "image_url": null
+    },
+    {
+      "noun_en": "business",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈbɪznəs]",
+      "translation_az": "biznes, iş",
+      "antonyms": [],
+      "synonyms": [
+        "company",
+        "enterprise",
+        "trade"
+      ],
+      "example_sentence": "She started her own business last year.",
+      "example_phrase": "to go into business",
+      "image_url": null
+    },
+    {
+      "noun_en": "experience",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ɪkˈspɪriəns]",
+      "translation_az": "təcrübə",
+      "antonyms": [
+        "inexperience"
+      ],
+      "synonyms": [
+        "knowledge",
+        "practice",
+        "skill"
+      ],
+      "example_sentence": "Work experience is valuable for getting a job.",
+      "example_phrase": "a learning experience",
+      "image_url": "https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg"
+    },
+    {
+      "noun_en": "knowledge",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˈnɑːlɪdʒ]",
+      "translation_az": "bilik",
+      "antonyms": [
+        "ignorance"
+      ],
+      "synonyms": [
+        "understanding",
+        "information",
+        "awareness"
+      ],
+      "example_sentence": "Books are a great source of knowledge.",
+      "example_phrase": "a thirst for knowledge",
+      "image_url": null
+    },
+    {
+      "noun_en": "relationship",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[rɪˈleɪʃnʃɪp]",
+      "translation_az": "əlaqə, münasibət",
+      "antonyms": [],
+      "synonyms": [
+        "connection",
+        "bond",
+        "association"
+      ],
+      "example_sentence": "Communication is important in any relationship.",
+      "example_phrase": "a strong relationship",
+      "image_url": null
+    },
+    {
+      "noun_en": "travel",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˈtrævl]",
+      "translation_az": "səyahət",
+      "antonyms": [],
+      "synonyms": [
+        "journey",
+        "trip",
+        "tour"
+      ],
+      "example_sentence": "International travel can broaden your horizons.",
+      "example_phrase": "a love for travel",
+      "image_url": "https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727_960_720.jpg"
+    },
+    {
+      "noun_en": "skill",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[skɪl]",
+      "translation_az": "bacarıq",
+      "antonyms": [
+        "inability"
+      ],
+      "synonyms": [
+        "ability",
+        "talent",
+        "expertise"
+      ],
+      "example_sentence": "Problem-solving is a very useful skill.",
+      "example_phrase": "to learn a new skill",
+      "image_url": null
+    },
+    {
+      "noun_en": "community",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[kəˈmjuːnəti]",
+      "translation_az": "icma, cəmiyyət",
+      "antonyms": [],
+      "synonyms": [
+        "society",
+        "group",
+        "public"
+      ],
+      "example_sentence": "He is an active member of his community.",
+      "example_phrase": "a sense of community",
+      "image_url": null
+    },
+    {
+      "noun_en": "result",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[rɪˈzʌlt]",
+      "translation_az": "nəticə",
+      "antonyms": [
+        "cause",
+        "origin"
+      ],
+      "synonyms": [
+        "outcome",
+        "consequence",
+        "effect"
+      ],
+      "example_sentence": "The result of the experiment was unexpected.",
+      "example_phrase": "as a result of",
+      "image_url": null
+    },
+    {
+      "noun_en": "idea",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[aɪˈdiːə]",
+      "translation_az": "ideya, fikir",
+      "antonyms": [],
+      "synonyms": [
+        "thought",
+        "concept",
+        "notion"
+      ],
+      "example_sentence": "It was a brilliant idea to start the project.",
+      "example_phrase": "to come up with an idea",
+      "image_url": null
+    },
+    {
+      "noun_en": "growth",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ɡroʊθ]",
+      "translation_az": "inkişaf, artım",
+      "antonyms": [
+        "decline",
+        "stagnation"
+      ],
+      "synonyms": [
+        "development",
+        "expansion",
+        "increase"
+      ],
+      "example_sentence": "The company has seen significant economic growth.",
+      "example_phrase": "personal growth",
+      "image_url": null
+    },
+    {
+      "noun_en": "choice",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[tʃɔɪs]",
+      "translation_az": "seçim",
+      "antonyms": [],
+      "synonyms": [
+        "option",
+        "decision",
+        "alternative"
+      ],
+      "example_sentence": "You have the choice to continue or stop.",
+      "example_phrase": "to make a choice",
+      "image_url": null
+    },
+    {
+      "noun_en": "system",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈsɪstəm]",
+      "translation_az": "sistem",
+      "antonyms": [
+        "chaos"
+      ],
+      "synonyms": [
+        "structure",
+        "network",
+        "method"
+      ],
+      "example_sentence": "The education system needs significant improvements.",
+      "example_phrase": "a complex system",
+      "image_url": null
+    },
+    {
+      "noun_en": "development",
+      "level": "B2",
+      "article": null,
+      "phonetic_us": "[dɪˈveləpmənt]",
+      "translation_az": "inkişaf",
+      "antonyms": [
+        "regression",
+        "decline"
+      ],
+      "synonyms": [
+        "progress",
+        "advancement",
+        "growth"
+      ],
+      "example_sentence": "Technological development has transformed our world.",
+      "example_phrase": "sustainable development",
+      "image_url": null
+    },
+    {
+      "noun_en": "advantage",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ədˈvæntɪdʒ]",
+      "translation_az": "üstünlük",
+      "antonyms": [
+        "disadvantage",
+        "drawback",
+        "handicap"
+      ],
+      "synonyms": [
+        "benefit",
+        "asset",
+        "plus"
+      ],
+      "example_sentence": "Knowing another language is a huge advantage.",
+      "example_phrase": "to have an advantage",
+      "image_url": null
+    },
+    {
+      "noun_en": "issue",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ˈɪʃuː]",
+      "translation_az": "məsələ, problem",
+      "antonyms": [],
+      "synonyms": [
+        "problem",
+        "matter",
+        "concern"
+      ],
+      "example_sentence": "Environmental protection is a global issue.",
+      "example_phrase": "to address an issue",
+      "image_url": null
+    },
+    {
+      "noun_en": "policy",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈpɑːləsi]",
+      "translation_az": "siyasət (qayda)",
+      "antonyms": [],
+      "synonyms": [
+        "strategy",
+        "rule",
+        "guideline"
+      ],
+      "example_sentence": "The company has a strict anti-smoking policy.",
+      "example_phrase": "a matter of policy",
+      "image_url": null
+    },
+    {
+      "noun_en": "approach",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[əˈproʊtʃ]",
+      "translation_az": "yanaşma",
+      "antonyms": [],
+      "synonyms": [
+        "method",
+        "technique",
+        "strategy"
+      ],
+      "example_sentence": "We need a new approach to solve this problem.",
+      "example_phrase": "a different approach",
+      "image_url": null
+    },
+    {
+      "noun_en": "factor",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈfæktər]",
+      "translation_az": "amil, faktor",
+      "antonyms": [],
+      "synonyms": [
+        "element",
+        "component",
+        "influence"
+      ],
+      "example_sentence": "Cost is an important factor in this decision.",
+      "example_phrase": "a key factor",
+      "image_url": null
+    },
+    {
+      "noun_en": "consequence",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈkɑːnsəkwens]",
+      "translation_az": "nəticə, aqibət",
+      "antonyms": [
+        "cause"
+      ],
+      "synonyms": [
+        "result",
+        "outcome",
+        "effect"
+      ],
+      "example_sentence": "Every action has a logical consequence.",
+      "example_phrase": "to face the consequences",
+      "image_url": null
+    },
+    {
+      "noun_en": "evidence",
+      "level": "B2",
+      "article": null,
+      "phonetic_us": "[ˈevɪdəns]",
+      "translation_az": "sübut, dəlil",
+      "antonyms": [],
+      "synonyms": [
+        "proof",
+        "testimony",
+        "indication"
+      ],
+      "example_sentence": "There is clear evidence of climate change.",
+      "example_phrase": "a lack of evidence",
+      "image_url": null
+    },
+    {
+      "noun_en": "language",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈlæŋɡwɪdʒ]",
+      "translation_az": "dil",
+      "antonyms": [],
+      "synonyms": [
+        "tongue",
+        "speech",
+        "dialect"
+      ],
+      "example_sentence": "Learning a new language opens up new worlds.",
+      "example_phrase": "a foreign language",
+      "image_url": null
+    },
+    {
+      "noun_en": "book",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[bʊk]",
+      "translation_az": "kitab",
+      "antonyms": [],
+      "synonyms": [
+        "volume",
+        "tome",
+        "publication"
+      ],
+      "example_sentence": "I read a book about ancient history.",
+      "example_phrase": "reading a good book",
+      "image_url": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_960_720.jpg"
+    },
+    {
+      "noun_en": "week",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[wiːk]",
+      "translation_az": "həftə",
+      "antonyms": [],
+      "synonyms": [
+        "seven days"
+      ],
+      "example_sentence": "I will finish the report by next week.",
+      "example_phrase": "once a week",
+      "image_url": null
+    },
+    {
+      "noun_en": "music",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[ˈmjuːzɪk]",
+      "translation_az": "musiqi",
+      "antonyms": [
+        "silence",
+        "noise"
+      ],
+      "synonyms": [
+        "melody",
+        "tune",
+        "harmony"
+      ],
+      "example_sentence": "Music can affect people's emotions.",
+      "example_phrase": "listening to music",
+      "image_url": null
+    },
+    {
+      "noun_en": "car",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[kɑːr]",
+      "translation_az": "avtomobil",
+      "antonyms": [],
+      "synonyms": [
+        "automobile",
+        "vehicle",
+        "auto"
+      ],
+      "example_sentence": "Owning a car offers a lot of freedom.",
+      "example_phrase": "driving a car",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/29/09/32/auto-1868726_960_720.jpg"
+    },
+    {
+      "noun_en": "question",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈkwestʃən]",
+      "translation_az": "sual",
+      "antonyms": [
+        "answer",
+        "response"
+      ],
+      "synonyms": [
+        "inquiry",
+        "query",
+        "interrogation"
+      ],
+      "example_sentence": "She asked a very interesting question.",
+      "example_phrase": "to ask a question",
+      "image_url": null
+    },
+    {
+      "noun_en": "art",
+      "level": "A2",
+      "article": null,
+      "phonetic_us": "[ɑːrt]",
+      "translation_az": "incəsənət",
+      "antonyms": [],
+      "synonyms": [
+        "creativity",
+        "craft",
+        "expression"
+      ],
+      "example_sentence": "Art is a form of self-expression.",
+      "example_phrase": "a work of art",
+      "image_url": null
+    },
+    {
+      "noun_en": "sport",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[spɔːrt]",
+      "translation_az": "idman",
+      "antonyms": [],
+      "synonyms": [
+        "game",
+        "activity",
+        "exercise"
+      ],
+      "example_sentence": "Team sports teach valuable life lessons.",
+      "example_phrase": "playing a sport",
+      "image_url": null
+    },
+    {
+      "noun_en": "morning",
+      "level": "A2",
+      "article": "the",
+      "phonetic_us": "[ˈmɔːrnɪŋ]",
+      "translation_az": "səhər",
+      "antonyms": [
+        "evening",
+        "night"
+      ],
+      "synonyms": [
+        "dawn",
+        "sunrise",
+        "daybreak"
+      ],
+      "example_sentence": "I enjoy a quiet cup of coffee in the morning.",
+      "example_phrase": "early in the morning",
+      "image_url": null
+    },
+    {
+      "noun_en": "number",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈnʌmbər]",
+      "translation_az": "nömrə, rəqəm",
+      "antonyms": [],
+      "synonyms": [
+        "figure",
+        "digit",
+        "numeral"
+      ],
+      "example_sentence": "Choose a number between one and ten.",
+      "example_phrase": "a large number of people",
+      "image_url": null
+    },
+    {
+      "noun_en": "movie",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[ˈmuːvi]",
+      "translation_az": "kino",
+      "antonyms": [],
+      "synonyms": [
+        "film",
+        "picture",
+        "motion picture"
+      ],
+      "example_sentence": "Going to the movies is a popular activity.",
+      "example_phrase": "watching a new movie",
+      "image_url": "https://cdn.pixabay.com/photo/2016/01/22/08/17/banner-1155437_960_720.png"
+    },
+    {
+      "noun_en": "trip",
+      "level": "A2",
+      "article": "a",
+      "phonetic_us": "[trɪp]",
+      "translation_az": "səfər, gəzinti",
+      "antonyms": [],
+      "synonyms": [
+        "journey",
+        "excursion",
+        "tour"
+      ],
+      "example_sentence": "They planned a trip to the mountains.",
+      "example_phrase": "a business trip",
+      "image_url": null
+    },
+    {
+      "noun_en": "future",
+      "level": "B1",
+      "article": "the",
+      "phonetic_us": "[ˈfjuːtʃər]",
+      "translation_az": "gələcək",
+      "antonyms": [
+        "past",
+        "present"
+      ],
+      "synonyms": [
+        "prospects",
+        "outlook",
+        "tomorrow"
+      ],
+      "example_sentence": "The future of technology is very exciting.",
+      "example_phrase": "in the near future",
+      "image_url": null
+    },
+    {
+      "noun_en": "culture",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈkʌltʃər]",
+      "translation_az": "mədəniyyət",
+      "antonyms": [],
+      "synonyms": [
+        "civilization",
+        "society",
+        "customs"
+      ],
+      "example_sentence": "Experiencing a different culture can be eye-opening.",
+      "example_phrase": "a rich cultural heritage",
+      "image_url": null
+    },
+    {
+      "noun_en": "communication",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[kəˌmjuːnɪˈkeɪʃn]",
+      "translation_az": "ünsiyyət, əlaqə",
+      "antonyms": [],
+      "synonyms": [
+        "interaction",
+        "dialogue",
+        "correspondence"
+      ],
+      "example_sentence": "Good communication is key to success in teamwork.",
+      "example_phrase": "a breakdown in communication",
+      "image_url": null
+    },
+    {
+      "noun_en": "industry",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ˈɪndəstri]",
+      "translation_az": "sənaye",
+      "antonyms": [],
+      "synonyms": [
+        "sector",
+        "business",
+        "trade"
+      ],
+      "example_sentence": "The tech industry is constantly evolving.",
+      "example_phrase": "the tourism industry",
+      "image_url": null
+    },
+    {
+      "noun_en": "decision",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[dɪˈsɪʒn]",
+      "translation_az": "qərar",
+      "antonyms": [
+        "indecision"
+      ],
+      "synonyms": [
+        "choice",
+        "judgment",
+        "ruling"
+      ],
+      "example_sentence": "He made a decision to change his career.",
+      "example_phrase": "a difficult decision",
+      "image_url": null
+    },
+    {
+      "noun_en": "traffic",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˈtræfɪk]",
+      "translation_az": "nəqliyyat, tıxac",
+      "antonyms": [],
+      "synonyms": [
+        "congestion",
+        "transport",
+        "movement"
+      ],
+      "example_sentence": "Heavy traffic is a daily issue in large cities.",
+      "example_phrase": "a traffic jam",
+      "image_url": null
+    },
+    {
+      "noun_en": "opinion",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[əˈpɪnjən]",
+      "translation_az": "rəy, fikir",
+      "antonyms": [
+        "fact"
+      ],
+      "synonyms": [
+        "view",
+        "belief",
+        "perspective"
+      ],
+      "example_sentence": "In my opinion, public transport should be free.",
+      "example_phrase": "a difference of opinion",
+      "image_url": null
+    },
+    {
+      "noun_en": "quality",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˈkwɑːləti]",
+      "translation_az": "keyfiyyət",
+      "antonyms": [
+        "inferiority"
+      ],
+      "synonyms": [
+        "standard",
+        "caliber",
+        "excellence"
+      ],
+      "example_sentence": "The quality of education is very important.",
+      "example_phrase": "high-quality products",
+      "image_url": null
+    },
+    {
+      "noun_en": "goal",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ɡoʊl]",
+      "translation_az": "məqsəd",
+      "antonyms": [],
+      "synonyms": [
+        "aim",
+        "objective",
+        "target"
+      ],
+      "example_sentence": "Setting clear goals is the first step to success.",
+      "example_phrase": "to achieve a goal",
+      "image_url": null
+    },
+    {
+      "noun_en": "transportation",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[ˌtrænspərˈteɪʃn]",
+      "translation_az": "nəqliyyat",
+      "antonyms": [],
+      "synonyms": [
+        "transport",
+        "transit",
+        "conveyance"
+      ],
+      "example_sentence": "Public transportation helps reduce city traffic.",
+      "example_phrase": "a mode of transportation",
+      "image_url": null
+    },
+    {
+      "noun_en": "habit",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈhæbɪt]",
+      "translation_az": "vərdiş",
+      "antonyms": [],
+      "synonyms": [
+        "custom",
+        "routine",
+        "practice"
+      ],
+      "example_sentence": "Regular exercise is a very healthy habit.",
+      "example_phrase": "to form a new habit",
+      "image_url": null
+    },
+    {
+      "noun_en": "advertisement",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ˌædvərˈtaɪzmənt]",
+      "translation_az": "reklam",
+      "antonyms": [],
+      "synonyms": [
+        "ad",
+        "commercial",
+        "promotion"
+      ],
+      "example_sentence": "Advertisements influence consumer choices.",
+      "example_phrase": "an online advertisement",
+      "image_url": null
+    },
+    {
+      "noun_en": "tradition",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[trəˈdɪʃn]",
+      "translation_az": "ənənə",
+      "antonyms": [
+        "innovation"
+      ],
+      "synonyms": [
+        "custom",
+        "ritual",
+        "convention"
+      ],
+      "example_sentence": "Celebrating the new year is a global tradition.",
+      "example_phrase": "a family tradition",
+      "image_url": null
+    },
+    {
+      "noun_en": "product",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈprɑːdʌkt]",
+      "translation_az": "məhsul",
+      "antonyms": [],
+      "synonyms": [
+        "item",
+        "goods",
+        "commodity"
+      ],
+      "example_sentence": "The company launched a new product last month.",
+      "example_phrase": "a popular product",
+      "image_url": null
+    },
+    {
+      "noun_en": "website",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[ˈwebsaɪt]",
+      "translation_az": "vebsayt",
+      "antonyms": [],
+      "synonyms": [
+        "site",
+        "web page",
+        "portal"
+      ],
+      "example_sentence": "Many businesses use a website to sell products.",
+      "example_phrase": "visiting a website",
+      "image_url": "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg"
+    },
+    {
+      "noun_en": "activity",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ækˈtɪvəti]",
+      "translation_az": "fəaliyyət",
+      "antonyms": [
+        "inactivity"
+      ],
+      "synonyms": [
+        "pursuit",
+        "occupation",
+        "pastime"
+      ],
+      "example_sentence": "Outdoor activities are good for your health.",
+      "example_phrase": "a leisure activity",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_960_720.jpg"
+    },
+    {
+      "noun_en": "stress",
+      "level": "B1",
+      "article": null,
+      "phonetic_us": "[stres]",
+      "translation_az": "stres",
+      "antonyms": [
+        "relaxation",
+        "peace"
+      ],
+      "synonyms": [
+        "pressure",
+        "tension",
+        "strain"
+      ],
+      "example_sentence": "Managing stress is crucial for mental well-being.",
+      "example_phrase": "under a lot of stress",
+      "image_url": null
+    },
+    {
+      "noun_en": "material",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[məˈtɪriəl]",
+      "translation_az": "material",
+      "antonyms": [],
+      "synonyms": [
+        "substance",
+        "fabric",
+        "stuff"
+      ],
+      "example_sentence": "This shirt is made from natural material.",
+      "example_phrase": "building materials",
+      "image_url": null
+    },
+    {
+      "noun_en": "influence",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ˈɪnfluəns]",
+      "translation_az": "təsir",
+      "antonyms": [],
+      "synonyms": [
+        "impact",
+        "effect",
+        "power"
+      ],
+      "example_sentence": "Social media has a strong influence on teenagers.",
+      "example_phrase": "a positive influence",
+      "image_url": null
+    },
+    {
+      "noun_en": "economy",
+      "level": "B2",
+      "article": "the",
+      "phonetic_us": "[ɪˈkɑːnəmi]",
+      "translation_az": "iqtisadiyyat",
+      "antonyms": [],
+      "synonyms": [
+        "financial system",
+        "wealth",
+        "commerce"
+      ],
+      "example_sentence": "The global economy is facing many challenges.",
+      "example_phrase": "a strong economy",
+      "image_url": null
+    },
+    {
+      "noun_en": "behavior",
+      "level": "B2",
+      "article": null,
+      "phonetic_us": "[bɪˈheɪvjər]",
+      "translation_az": "davranış",
+      "antonyms": [],
+      "synonyms": [
+        "conduct",
+        "manner",
+        "actions"
+      ],
+      "example_sentence": "Human behavior is studied in psychology.",
+      "example_phrase": "acceptable social behavior",
+      "image_url": null
+    },
+    {
+      "noun_en": "responsibility",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[rɪˌspɑːnsəˈbɪləti]",
+      "translation_az": "məsuliyyət",
+      "antonyms": [
+        "irresponsibility"
+      ],
+      "synonyms": [
+        "duty",
+        "obligation",
+        "accountability"
+      ],
+      "example_sentence": "With freedom comes great responsibility.",
+      "example_phrase": "to take responsibility for",
+      "image_url": null
+    },
+    {
+      "noun_en": "attitude",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ˈætɪtuːd]",
+      "translation_az": "münasibət, rəftar",
+      "antonyms": [],
+      "synonyms": [
+        "mindset",
+        "outlook",
+        "perspective"
+      ],
+      "example_sentence": "A positive attitude can help you overcome difficulties.",
+      "example_phrase": "a change in attitude",
+      "image_url": "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_960_720.jpg"
+    },
+    {
+      "noun_en": "climate",
+      "level": "B2",
+      "article": "the",
+      "phonetic_us": "[ˈklaɪmət]",
+      "translation_az": "iqlim",
+      "antonyms": [
+        "weather"
+      ],
+      "synonyms": [
+        "conditions",
+        "temperature",
+        "atmosphere"
+      ],
+      "example_sentence": "Climate change affects the entire planet.",
+      "example_phrase": "a warm climate",
+      "image_url": null
+    },
+    {
+      "noun_en": "conflict",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈkɑːnflɪkt]",
+      "translation_az": "münaqişə, ziddiyyət",
+      "antonyms": [
+        "harmony",
+        "peace",
+        "agreement"
+      ],
+      "synonyms": [
+        "dispute",
+        "clash",
+        "disagreement"
+      ],
+      "example_sentence": "Conflict resolution is an important social skill.",
+      "example_phrase": "a conflict of interest",
+      "image_url": null
+    },
+    {
+      "noun_en": "investment",
+      "level": "B2",
+      "article": "an",
+      "phonetic_us": "[ɪnˈvestmənt]",
+      "translation_az": "investisiya, sərmayə",
+      "antonyms": [],
+      "synonyms": [
+        "asset",
+        "venture",
+        "stake"
+      ],
+      "example_sentence": "Education is the best investment in your future.",
+      "example_phrase": "a long-term investment",
+      "image_url": null
+    },
+    {
+      "noun_en": "generation",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˌdʒenəˈreɪʃn]",
+      "translation_az": "nəsil",
+      "antonyms": [],
+      "synonyms": [
+        "age group",
+        "cohort"
+      ],
+      "example_sentence": "The younger generation is very tech-savvy.",
+      "example_phrase": "the next generation",
+      "image_url": null
+    },
+    {
+      "noun_en": "theory",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈθiːəri]",
+      "translation_az": "nəzəriyyə",
+      "antonyms": [
+        "practice",
+        "fact"
+      ],
+      "synonyms": [
+        "hypothesis",
+        "concept",
+        "idea"
+      ],
+      "example_sentence": "He proposed a new theory about the universe.",
+      "example_phrase": "in theory",
+      "image_url": null
+    },
+    {
+      "noun_en": "resource",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈriːsɔːrs]",
+      "translation_az": "resurs, mənbə",
+      "antonyms": [],
+      "synonyms": [
+        "source",
+        "supply",
+        "asset"
+      ],
+      "example_sentence": "We must conserve our natural resources.",
+      "example_phrase": "a valuable resource",
+      "image_url": null
+    },
+    {
+      "noun_en": "right",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[raɪt]",
+      "translation_az": "hüquq",
+      "antonyms": [
+        "wrong",
+        "obligation"
+      ],
+      "synonyms": [
+        "privilege",
+        "entitlement",
+        "freedom"
+      ],
+      "example_sentence": "Everyone has the right to free speech.",
+      "example_phrase": "human rights",
+      "image_url": null
+    },
+    {
+      "noun_en": "debate",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[dɪˈbeɪt]",
+      "translation_az": "debat, müzakirə",
+      "antonyms": [
+        "agreement"
+      ],
+      "synonyms": [
+        "discussion",
+        "argument",
+        "discourse"
+      ],
+      "example_sentence": "There is a public debate about the new law.",
+      "example_phrase": "a heated debate",
+      "image_url": null
+    },
+    {
+      "noun_en": "access",
+      "level": "B2",
+      "article": null,
+      "phonetic_us": "[ˈækses]",
+      "translation_az": "giriş, çıxış",
+      "antonyms": [
+        "denial",
+        "restriction"
+      ],
+      "synonyms": [
+        "entry",
+        "admission",
+        "entrance"
+      ],
+      "example_sentence": "Access to clean water is a basic human right.",
+      "example_phrase": "to gain access to",
+      "image_url": null
+    },
+    {
+      "noun_en": "concept",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈkɑːnsept]",
+      "translation_az": "anlayış, konsepsiya",
+      "antonyms": [],
+      "synonyms": [
+        "idea",
+        "notion",
+        "theory"
+      ],
+      "example_sentence": "It is a difficult concept to understand.",
+      "example_phrase": "the basic concept",
+      "image_url": null
+    },
+    {
+      "noun_en": "function",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[ˈfʌŋkʃn]",
+      "translation_az": "funksiya, vəzifə",
+      "antonyms": [
+        "dysfunction"
+      ],
+      "synonyms": [
+        "purpose",
+        "role",
+        "job"
+      ],
+      "example_sentence": "The main function of the heart is to pump blood.",
+      "example_phrase": "to perform a function",
+      "image_url": null
+    },
+    {
+      "noun_en": "trend",
+      "level": "B2",
+      "article": "a",
+      "phonetic_us": "[trend]",
+      "translation_az": "trend, meyl",
+      "antonyms": [],
+      "synonyms": [
+        "tendency",
+        "fashion",
+        "vogue"
+      ],
+      "example_sentence": "There is a growing trend towards remote work.",
+      "example_phrase": "the latest trend",
+      "image_url": null
+    },
+    {
+      "noun_en": "emotion",
+      "level": "B1",
+      "article": "an",
+      "phonetic_us": "[ɪˈmoʊʃn]",
+      "translation_az": "emosiya, hiss",
+      "antonyms": [
+        "logic",
+        "reason"
+      ],
+      "synonyms": [
+        "feeling",
+        "sentiment"
+      ],
+      "example_sentence": "Happiness is a very powerful emotion.",
+      "example_phrase": "a range of emotions",
+      "image_url": null
+    },
+    {
+      "noun_en": "population",
+      "level": "B1",
+      "article": "the",
+      "phonetic_us": "[ˌpɑːpjuˈleɪʃn]",
+      "translation_az": "əhali",
+      "antonyms": [],
+      "synonyms": [
+        "inhabitants",
+        "residents",
+        "people"
+      ],
+      "example_sentence": "The world population is increasing every year.",
+      "example_phrase": "a decline in population",
+      "image_url": null
+    },
+    {
+      "noun_en": "view",
+      "level": "B1",
+      "article": "a",
+      "phonetic_us": "[vjuː]",
+      "translation_az": "görünüş, mənzərə, fikir",
+      "antonyms": [],
+      "synonyms": [
+        "opinion",
+        "perspective",
+        "scenery"
+      ],
+      "example_sentence": "The view from the top of the mountain is amazing.",
+      "example_phrase": "from my point of view",
+      "image_url": "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg"
+    },
+    {
+      "noun_en": "teacher",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈtiːtʃər]",
+      "translation_az": "müəllim",
+      "antonyms": [
+        "student",
+        "pupil"
+      ],
+      "synonyms": [
+        "educator",
+        "instructor",
+        "tutor"
+      ],
+      "example_sentence": "A good teacher inspires students to learn more.",
+      "example_phrase": "a qualified teacher",
+      "image_url": null
+    },
+    {
+      "noun_en": "exam",
+      "level": "A2",
+      "topic": "Education",
+      "article": "an",
+      "phonetic_us": "[ɪɡˈzæm]",
+      "translation_az": "imtahan",
+      "antonyms": [],
+      "synonyms": [
+        "test",
+        "assessment",
+        "examination"
+      ],
+      "example_sentence": "Students must study hard for the final exam.",
+      "example_phrase": "to pass an exam",
+      "image_url": null
+    },
+    {
+      "noun_en": "subject",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈsʌbdʒekt]",
+      "translation_az": "fənn",
+      "antonyms": [],
+      "synonyms": [
+        "discipline",
+        "field",
+        "topic"
+      ],
+      "example_sentence": "Mathematics is a challenging subject for many.",
+      "example_phrase": "a school subject",
+      "image_url": null
+    },
+    {
+      "noun_en": "university",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˌjuːnɪˈvɜːrsəti]",
+      "translation_az": "universitet",
+      "antonyms": [],
+      "synonyms": [
+        "college",
+        "institution",
+        "academy"
+      ],
+      "example_sentence": "She wants to study medicine at a top university.",
+      "example_phrase": "going to university",
+      "image_url": null
+    },
+    {
+      "noun_en": "degree",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[dɪˈɡriː]",
+      "translation_az": "dərəcə (elmi)",
+      "antonyms": [],
+      "synonyms": [
+        "qualification",
+        "diploma",
+        "credential"
+      ],
+      "example_sentence": "He earned a degree in computer science.",
+      "example_phrase": "a university degree",
+      "image_url": null
+    },
+    {
+      "noun_en": "homework",
+      "level": "A2",
+      "topic": "Education",
+      "article": null,
+      "phonetic_us": "[ˈhoʊmwɜːrk]",
+      "translation_az": "ev tapşırığı",
+      "antonyms": [],
+      "synonyms": [
+        "assignment",
+        "coursework",
+        "prep"
+      ],
+      "example_sentence": "Too much homework can cause stress for students.",
+      "example_phrase": "doing my homework",
+      "image_url": null
+    },
+    {
+      "noun_en": "lesson",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈlesn]",
+      "translation_az": "dǝrs",
+      "antonyms": [],
+      "synonyms": [
+        "class",
+        "session",
+        "lecture"
+      ],
+      "example_sentence": "Today's lesson is about the solar system.",
+      "example_phrase": "a private lesson",
+      "image_url": null
+    },
+    {
+      "noun_en": "curriculum",
+      "level": "B2",
+      "topic": "Education",
+      "article": "the",
+      "phonetic_us": "[kəˈrɪkjələm]",
+      "translation_az": "tədris planı",
+      "antonyms": [],
+      "synonyms": [
+        "syllabus",
+        "course of study",
+        "program"
+      ],
+      "example_sentence": "The school curriculum should include practical skills.",
+      "example_phrase": "the national curriculum",
+      "image_url": null
+    },
+    {
+      "noun_en": "literacy",
+      "level": "B2",
+      "topic": "Education",
+      "article": null,
+      "phonetic_us": "[ˈlɪtərəsi]",
+      "translation_az": "savadlılıq",
+      "antonyms": [
+        "illiteracy"
+      ],
+      "synonyms": [
+        "reading ability",
+        "education",
+        "knowledge"
+      ],
+      "example_sentence": "Literacy is essential for economic development.",
+      "example_phrase": "the literacy rate",
+      "image_url": "https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg"
+    },
+    {
+      "noun_en": "scholarship",
+      "level": "B2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈskɑːlərʃɪp]",
+      "translation_az": "təqaüd",
+      "antonyms": [],
+      "synonyms": [
+        "grant",
+        "award",
+        "fellowship"
+      ],
+      "example_sentence": "She won a scholarship to study abroad.",
+      "example_phrase": "to apply for a scholarship",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/14/03/16/book-1822474_960_720.jpg"
+    },
+    {
+      "noun_en": "tuition",
+      "level": "B2",
+      "topic": "Education",
+      "article": null,
+      "phonetic_us": "[tuˈɪʃn]",
+      "translation_az": "təhsil haqqı",
+      "antonyms": [],
+      "synonyms": [
+        "fees",
+        "cost",
+        "charge"
+      ],
+      "example_sentence": "University tuition fees are rising every year.",
+      "example_phrase": "to pay tuition",
+      "image_url": null
+    },
+    {
+      "noun_en": "campus",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈkæmpəs]",
+      "translation_az": "şəhərcik (tələbə)",
+      "antonyms": [],
+      "synonyms": [
+        "grounds",
+        "site"
+      ],
+      "example_sentence": "The university has a beautiful, large campus.",
+      "example_phrase": "living on campus",
+      "image_url": null
+    },
+    {
+      "noun_en": "faculty",
+      "level": "B2",
+      "topic": "Education",
+      "article": "the",
+      "phonetic_us": "[ˈfæklti]",
+      "translation_az": "fakültə, professor-müəllim heyəti",
+      "antonyms": [],
+      "synonyms": [
+        "staff",
+        "professors",
+        "academics"
+      ],
+      "example_sentence": "The faculty includes many world-renowned experts.",
+      "example_phrase": "a faculty meeting",
+      "image_url": null
+    },
+    {
+      "noun_en": "assignment",
+      "level": "B1",
+      "topic": "Education",
+      "article": "an",
+      "phonetic_us": "[əˈsaɪnmənt]",
+      "translation_az": "tapşırıq",
+      "antonyms": [],
+      "synonyms": [
+        "task",
+        "homework",
+        "project"
+      ],
+      "example_sentence": "The deadline for this assignment is next Friday.",
+      "example_phrase": "a written assignment",
+      "image_url": null
+    },
+    {
+      "noun_en": "grade",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ɡreɪd]",
+      "translation_az": "qiymət, sinif",
+      "antonyms": [],
+      "synonyms": [
+        "mark",
+        "score",
+        "level"
+      ],
+      "example_sentence": "He received a good grade on his essay.",
+      "example_phrase": "to get a good grade",
+      "image_url": null
+    },
+    {
+      "noun_en": "diploma",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[dɪˈploʊmə]",
+      "translation_az": "diplom",
+      "antonyms": [],
+      "synonyms": [
+        "certificate",
+        "degree",
+        "qualification"
+      ],
+      "example_sentence": "She was proud to receive her high school diploma.",
+      "example_phrase": "a high school diploma",
+      "image_url": null
+    },
+    {
+      "noun_en": "learning",
+      "level": "B1",
+      "topic": "Education",
+      "article": null,
+      "phonetic_us": "[ˈlɜːrnɪŋ]",
+      "translation_az": "öyrənmə",
+      "antonyms": [],
+      "synonyms": [
+        "education",
+        "studying",
+        "acquisition of knowledge"
+      ],
+      "example_sentence": "Lifelong learning is important in the modern world.",
+      "example_phrase": "the process of learning",
+      "image_url": null
+    },
+    {
+      "noun_en": "semester",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[səˈmestər]",
+      "translation_az": "semestr",
+      "antonyms": [],
+      "synonyms": [
+        "term"
+      ],
+      "example_sentence": "This semester, I am taking five different courses.",
+      "example_phrase": "the fall semester",
+      "image_url": null
+    },
+    {
+      "noun_en": "textbook",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈtekstbʊk]",
+      "translation_az": "dərslik",
+      "antonyms": [],
+      "synonyms": [
+        "coursebook",
+        "manual"
+      ],
+      "example_sentence": "The textbook for this course is very expensive.",
+      "example_phrase": "an old textbook",
+      "image_url": null
+    },
+    {
+      "noun_en": "syllabus",
+      "level": "B2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈsɪləbəs]",
+      "translation_az": "tədris proqramı",
+      "antonyms": [],
+      "synonyms": [
+        "curriculum",
+        "outline",
+        "program"
+      ],
+      "example_sentence": "The professor handed out the course syllabus.",
+      "example_phrase": "to follow the syllabus",
+      "image_url": null
+    },
+    {
+      "noun_en": "lecture",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈlektʃər]",
+      "translation_az": "mühazirə",
+      "antonyms": [],
+      "synonyms": [
+        "talk",
+        "speech",
+        "discourse"
+      ],
+      "example_sentence": "The lecture on modern art was very informative.",
+      "example_phrase": "to attend a lecture",
+      "image_url": null
+    },
+    {
+      "noun_en": "field",
+      "level": "B1",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[fiːld]",
+      "translation_az": "sahə",
+      "antonyms": [],
+      "synonyms": [
+        "area",
+        "discipline",
+        "specialty"
+      ],
+      "example_sentence": "She is an expert in her field of study.",
+      "example_phrase": "a competitive field",
+      "image_url": null
+    },
+    {
+      "noun_en": "discipline",
+      "level": "B2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈdɪsəplɪn]",
+      "translation_az": "intizam, fənn",
+      "antonyms": [],
+      "synonyms": [
+        "subject",
+        "field",
+        "control"
+      ],
+      "example_sentence": "Psychology is a fascinating academic discipline.",
+      "example_phrase": "self-discipline",
+      "image_url": null
+    },
+    {
+      "noun_en": "classroom",
+      "level": "A2",
+      "topic": "Education",
+      "article": "a",
+      "phonetic_us": "[ˈklæsruːm]",
+      "translation_az": "sinif otağı",
+      "antonyms": [],
+      "synonyms": [
+        "schoolroom",
+        "lecture hall"
+      ],
+      "example_sentence": "The modern classroom uses a lot of technology.",
+      "example_phrase": "a noisy classroom",
+      "image_url": null
+    },
+    {
+      "noun_en": "institution",
+      "level": "B2",
+      "topic": "Education",
+      "article": "an",
+      "phonetic_us": "[ˌɪnstɪˈtuːʃn]",
+      "translation_az": "müəssisə",
+      "antonyms": [],
+      "synonyms": [
+        "organization",
+        "establishment",
+        "academy"
+      ],
+      "example_sentence": "Harvard is a well-respected educational institution.",
+      "example_phrase": "a financial institution",
+      "image_url": null
+    },
+    {
+      "noun_en": "salary",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˈsæləri]",
+      "translation_az": "əmək haqqı (aylıq)",
+      "antonyms": [],
+      "synonyms": [
+        "wage",
+        "income",
+        "pay"
+      ],
+      "example_sentence": "A higher salary is not always better.",
+      "example_phrase": "to earn a good salary",
+      "image_url": null
+    },
+    {
+      "noun_en": "tax",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[tæks]",
+      "translation_az": "vergi",
+      "antonyms": [],
+      "synonyms": [
+        "duty",
+        "levy",
+        "tariff"
+      ],
+      "example_sentence": "Governments use tax revenue for public services.",
+      "example_phrase": "to pay tax",
+      "image_url": null
+    },
+    {
+      "noun_en": "market",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "the",
+      "phonetic_us": "[ˈmɑːrkɪt]",
+      "translation_az": "bazar (iqtisadi)",
+      "antonyms": [],
+      "synonyms": [
+        "stock market",
+        "marketplace",
+        "industry"
+      ],
+      "example_sentence": "The job market is very competitive now.",
+      "example_phrase": "the global market",
+      "image_url": null
+    },
+    {
+      "noun_en": "price",
+      "level": "A2",
+      "topic": "Economy",
+      "article": "the",
+      "phonetic_us": "[praɪs]",
+      "translation_az": "qiymət",
+      "antonyms": [],
+      "synonyms": [
+        "cost",
+        "value",
+        "rate"
+      ],
+      "example_sentence": "The price of fuel has increased recently.",
+      "example_phrase": "a high price",
+      "image_url": null
+    },
+    {
+      "noun_en": "trade",
+      "level": "B1",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[treɪd]",
+      "translation_az": "ticarət",
+      "antonyms": [],
+      "synonyms": [
+        "commerce",
+        "business",
+        "exchange"
+      ],
+      "example_sentence": "International trade is vital for the economy.",
+      "example_phrase": "a trade agreement",
+      "image_url": null
+    },
+    {
+      "noun_en": "debt",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[det]",
+      "translation_az": "borc",
+      "antonyms": [
+        "credit",
+        "asset"
+      ],
+      "synonyms": [
+        "liability",
+        "arrears",
+        "obligation"
+      ],
+      "example_sentence": "Many students graduate with significant debt.",
+      "example_phrase": "to be in debt",
+      "image_url": null
+    },
+    {
+      "noun_en": "profit",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˈprɑːfɪt]",
+      "translation_az": "mənfəət, gəlir",
+      "antonyms": [
+        "loss"
+      ],
+      "synonyms": [
+        "gain",
+        "return",
+        "earnings"
+      ],
+      "example_sentence": "The company made a huge profit last year.",
+      "example_phrase": "to make a profit",
+      "image_url": null
+    },
+    {
+      "noun_en": "budget",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˈbʌdʒɪt]",
+      "translation_az": "büdcə",
+      "antonyms": [],
+      "synonyms": [
+        "financial plan",
+        "allowance"
+      ],
+      "example_sentence": "It is important to live within your budget.",
+      "example_phrase": "a limited budget",
+      "image_url": null
+    },
+    {
+      "noun_en": "currency",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˈkɜːrənsi]",
+      "translation_az": "valyuta",
+      "antonyms": [],
+      "synonyms": [
+        "money",
+        "cash",
+        "coinage"
+      ],
+      "example_sentence": "The local currency is getting stronger.",
+      "example_phrase": "a foreign currency",
+      "image_url": null
+    },
+    {
+      "noun_en": "bank",
+      "level": "A2",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[bæŋk]",
+      "translation_az": "bank",
+      "antonyms": [],
+      "synonyms": [
+        "financial institution"
+      ],
+      "example_sentence": "I need to go to the bank to withdraw cash.",
+      "example_phrase": "a savings bank",
+      "image_url": null
+    },
+    {
+      "noun_en": "unemployment",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ˌʌnɪmˈplɔɪmənt]",
+      "translation_az": "işsizlik",
+      "antonyms": [
+        "employment"
+      ],
+      "synonyms": [
+        "joblessness"
+      ],
+      "example_sentence": "Unemployment is a major concern for the government.",
+      "example_phrase": "the unemployment rate",
+      "image_url": null
+    },
+    {
+      "noun_en": "poverty",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ˈpɑːvərti]",
+      "translation_az": "yoxsulluq",
+      "antonyms": [
+        "wealth",
+        "affluence"
+      ],
+      "synonyms": [
+        "destitution",
+        "hardship",
+        "penury"
+      ],
+      "example_sentence": "Education can help people escape from poverty.",
+      "example_phrase": "to live in poverty",
+      "image_url": null
+    },
+    {
+      "noun_en": "wealth",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[welθ]",
+      "translation_az": "sərvət, var-dövlət",
+      "antonyms": [
+        "poverty"
+      ],
+      "synonyms": [
+        "riches",
+        "fortune",
+        "affluence"
+      ],
+      "example_sentence": "The distribution of wealth is unequal in the world.",
+      "example_phrase": "a great deal of wealth",
+      "image_url": null
+    },
+    {
+      "noun_en": "consumer",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[kənˈsuːmər]",
+      "translation_az": "istehlakçı",
+      "antonyms": [
+        "producer"
+      ],
+      "synonyms": [
+        "customer",
+        "buyer",
+        "user"
+      ],
+      "example_sentence": "Consumer spending is a key economic indicator.",
+      "example_phrase": "consumer rights",
+      "image_url": null
+    },
+    {
+      "noun_en": "supply",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[səˈplaɪ]",
+      "translation_az": "təchizat, tələb",
+      "antonyms": [
+        "demand"
+      ],
+      "synonyms": [
+        "provision",
+        "stock",
+        "reserve"
+      ],
+      "example_sentence": "The demand for the product exceeds the supply.",
+      "example_phrase": "supply and demand",
+      "image_url": null
+    },
+    {
+      "noun_en": "demand",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[dɪˈmænd]",
+      "translation_az": "tələbat",
+      "antonyms": [
+        "supply"
+      ],
+      "synonyms": [
+        "need",
+        "desire",
+        "request"
+      ],
+      "example_sentence": "There is a high demand for skilled workers.",
+      "example_phrase": "in high demand",
+      "image_url": null
+    },
+    {
+      "noun_en": "globalization",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ˌɡloʊbələˈzeɪʃn]",
+      "translation_az": "qloballaşma",
+      "antonyms": [],
+      "synonyms": [
+        "internationalization"
+      ],
+      "example_sentence": "Globalization has connected economies around the world.",
+      "example_phrase": "the effects of globalization",
+      "image_url": null
+    },
+    {
+      "noun_en": "corporation",
+      "level": "B2",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˌkɔːrpəˈreɪʃn]",
+      "translation_az": "korporasiya",
+      "antonyms": [],
+      "synonyms": [
+        "company",
+        "firm",
+        "business"
+      ],
+      "example_sentence": "He works for a multinational corporation.",
+      "example_phrase": "a large corporation",
+      "image_url": null
+    },
+    {
+      "noun_en": "sector",
+      "level": "B2",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[ˈsektər]",
+      "translation_az": "sektor",
+      "antonyms": [],
+      "synonyms": [
+        "area",
+        "division",
+        "industry"
+      ],
+      "example_sentence": "The service sector is a large part of the economy.",
+      "example_phrase": "the public sector",
+      "image_url": null
+    },
+    {
+      "noun_en": "finance",
+      "level": "B1",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ˈfaɪnæns]",
+      "translation_az": "maliyyə",
+      "antonyms": [],
+      "synonyms": [
+        "economics",
+        "money management",
+        "commerce"
+      ],
+      "example_sentence": "She decided to pursue a career in finance.",
+      "example_phrase": "personal finance",
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_960_720.jpg"
+    },
+    {
+      "noun_en": "rate",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "the",
+      "phonetic_us": "[reɪt]",
+      "translation_az": "dərəcə, səviyyə",
+      "antonyms": [],
+      "synonyms": [
+        "level",
+        "speed",
+        "percentage"
+      ],
+      "example_sentence": "The interest rate can affect the economy.",
+      "example_phrase": "the exchange rate",
+      "image_url": null
+    },
+    {
+      "noun_en": "goods",
+      "level": "B1",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ɡʊdz]",
+      "translation_az": "mallar",
+      "antonyms": [
+        "services"
+      ],
+      "synonyms": [
+        "products",
+        "merchandise",
+        "commodities"
+      ],
+      "example_sentence": "The port handles a large volume of imported goods.",
+      "example_phrase": "goods and services",
+      "image_url": null
+    },
+    {
+      "noun_en": "capital",
+      "level": "B2",
+      "topic": "Economy",
+      "article": null,
+      "phonetic_us": "[ˈkæpɪtl]",
+      "translation_az": "kapital",
+      "antonyms": [],
+      "synonyms": [
+        "money",
+        "assets",
+        "funds"
+      ],
+      "example_sentence": "Starting a business requires a lot of capital.",
+      "example_phrase": "investment capital",
+      "image_url": null
+    },
+    {
+      "noun_en": "income",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "an",
+      "phonetic_us": "[ˈɪnkʌm]",
+      "translation_az": "gəlir",
+      "antonyms": [
+        "expenditure"
+      ],
+      "synonyms": [
+        "earnings",
+        "revenue",
+        "salary"
+      ],
+      "example_sentence": "A higher income does not always mean more happiness.",
+      "example_phrase": "a steady income",
+      "image_url": null
+    },
+    {
+      "noun_en": "loss",
+      "level": "B1",
+      "topic": "Economy",
+      "article": "a",
+      "phonetic_us": "[lɔːs]",
+      "translation_az": "zərər, itki",
+      "antonyms": [
+        "profit",
+        "gain"
+      ],
+      "synonyms": [
+        "deficit",
+        "detriment",
+        "disadvantage"
+      ],
+      "example_sentence": "The company reported a financial loss this quarter.",
+      "example_phrase": "a net loss",
+      "image_url": null
+    },
+    {
+      "noun_en": "pollution",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[pəˈluːʃn]",
+      "translation_az": "çirklənmə",
+      "antonyms": [
+        "purity"
+      ],
+      "synonyms": [
+        "contamination",
+        "defilement",
+        "smog"
+      ],
+      "example_sentence": "Air pollution is a major threat to public health.",
+      "example_phrase": "water pollution",
+      "image_url": null
+    },
+    {
+      "noun_en": "species",
+      "level": "B1",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈspiːʃiːz]",
+      "translation_az": "növ (bioloji)",
+      "antonyms": [],
+      "synonyms": [
+        "type",
+        "kind",
+        "breed"
+      ],
+      "example_sentence": "Many species are at risk of extinction.",
+      "example_phrase": "an endangered species",
+      "image_url": null
+    },
+    {
+      "noun_en": "conservation",
+      "level": "B2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[ˌkɑːnsərˈveɪʃn]",
+      "translation_az": "mühafizə",
+      "antonyms": [
+        "destruction",
+        "waste"
+      ],
+      "synonyms": [
+        "preservation",
+        "protection",
+        "saving"
+      ],
+      "example_sentence": "Conservation of wildlife is extremely important.",
+      "example_phrase": "a conservation project",
+      "image_url": null
+    },
+    {
+      "noun_en": "sustainability",
+      "level": "B2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[səˌsteɪnəˈbɪləti]",
+      "translation_az": "davamlılıq",
+      "antonyms": [],
+      "synonyms": [
+        "viability",
+        "endurance",
+        "feasibility"
+      ],
+      "example_sentence": "Sustainability is key to protecting our planet.",
+      "example_phrase": "environmental sustainability",
+      "image_url": null
+    },
+    {
+      "noun_en": "deforestation",
+      "level": "B2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[diːˌfɔːrɪˈsteɪʃn]",
+      "translation_az": "meşələrin qırılması",
+      "antonyms": [
+        "reforestation",
+        "afforestation"
+      ],
+      "synonyms": [
+        "logging",
+        "clearing"
+      ],
+      "example_sentence": "Deforestation contributes to climate change.",
+      "example_phrase": "the rate of deforestation",
+      "image_url": null
+    },
+    {
+      "noun_en": "ecosystem",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "an",
+      "phonetic_us": "[ˈiːkoʊsɪstəm]",
+      "translation_az": "ekosistem",
+      "antonyms": [],
+      "synonyms": [
+        "environment",
+        "habitat",
+        "natural system"
+      ],
+      "example_sentence": "Pollution can damage a fragile ecosystem.",
+      "example_phrase": "a balanced ecosystem",
+      "image_url": null
+    },
+    {
+      "noun_en": "wildlife",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[ˈwaɪldlaɪf]",
+      "translation_az": "vəhşi təbiət",
+      "antonyms": [],
+      "synonyms": [
+        "fauna",
+        "animals"
+      ],
+      "example_sentence": "We need to protect the habitats of local wildlife.",
+      "example_phrase": "wildlife conservation",
+      "image_url": null
+    },
+    {
+      "noun_en": "recycling",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[riːˈsaɪklɪŋ]",
+      "translation_az": "təkrar emal",
+      "antonyms": [],
+      "synonyms": [
+        "reprocessing",
+        "reuse",
+        "salvage"
+      ],
+      "example_sentence": "Recycling helps to reduce waste in landfills.",
+      "example_phrase": "a recycling bin",
+      "image_url": null
+    },
+    {
+      "noun_en": "waste",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[weɪst]",
+      "translation_az": "tullantı",
+      "antonyms": [],
+      "synonyms": [
+        "rubbish",
+        "garbage",
+        "trash"
+      ],
+      "example_sentence": "We should all try to reduce our household waste.",
+      "example_phrase": "nuclear waste",
+      "image_url": null
+    },
+    {
+      "noun_en": "fossil fuel",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈfɑːsl fjuːəl]",
+      "translation_az": "qazıntı yanacağı",
+      "antonyms": [
+        "renewable energy"
+      ],
+      "synonyms": [
+        "hydrocarbon",
+        "non-renewable fuel"
+      ],
+      "example_sentence": "Burning fossil fuels releases greenhouse gases.",
+      "example_phrase": "reliance on fossil fuels",
+      "image_url": null
+    },
+    {
+      "noun_en": "renewable energy",
+      "level": "B2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[rɪˈnuːəbl ˈenərdʒi]",
+      "translation_az": "bərpa olunan enerji",
+      "antonyms": [
+        "fossil fuel"
+      ],
+      "synonyms": [
+        "clean energy",
+        "green power"
+      ],
+      "example_sentence": "Solar power is a form of renewable energy.",
+      "example_phrase": "investment in renewable energy",
+      "image_url": null
+    },
+    {
+      "noun_en": "drought",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[draʊt]",
+      "translation_az": "quraqlıq",
+      "antonyms": [
+        "flood"
+      ],
+      "synonyms": [
+        "dry spell",
+        "water shortage"
+      ],
+      "example_sentence": "The long drought caused problems for farmers.",
+      "example_phrase": "a period of drought",
+      "image_url": null
+    },
+    {
+      "noun_en": "flood",
+      "level": "B1",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[flʌd]",
+      "translation_az": "daşqın",
+      "antonyms": [
+        "drought"
+      ],
+      "synonyms": [
+        "inundation",
+        "deluge",
+        "overflow"
+      ],
+      "example_sentence": "Heavy rain caused a severe flood in the city.",
+      "example_phrase": "a flash flood",
+      "image_url": null
+    },
+    {
+      "noun_en": "pesticide",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈpestɪsaɪd]",
+      "translation_az": "pestisid",
+      "antonyms": [],
+      "synonyms": [
+        "insecticide",
+        "herbicide",
+        "chemical"
+      ],
+      "example_sentence": "The use of pesticides can harm the environment.",
+      "example_phrase": "harmful pesticides",
+      "image_url": null
+    },
+    {
+      "noun_en": "habitat",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈhæbɪtæt]",
+      "translation_az": "yaşayış mühiti",
+      "antonyms": [],
+      "synonyms": [
+        "environment",
+        "territory",
+        "natural surroundings"
+      ],
+      "example_sentence": "Deforestation destroys the natural habitat of animals.",
+      "example_phrase": "a natural habitat",
+      "image_url": null
+    },
+    {
+      "noun_en": "biodiversity",
+      "level": "B2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[ˌbaɪoʊdaɪˈvɜːrsəti]",
+      "translation_az": "biomüxtəliflik",
+      "antonyms": [],
+      "synonyms": [
+        "variety of life",
+        "ecosystem diversity"
+      ],
+      "example_sentence": "Protecting biodiversity is essential for our planet.",
+      "example_phrase": "loss of biodiversity",
+      "image_url": null
+    },
+    {
+      "noun_en": "emission",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "an",
+      "phonetic_us": "[iˈmɪʃn]",
+      "translation_az": "tullantı (qaz)",
+      "antonyms": [],
+      "synonyms": [
+        "discharge",
+        "release",
+        "pollutant"
+      ],
+      "example_sentence": "We need to reduce carbon dioxide emissions.",
+      "example_phrase": "greenhouse gas emissions",
+      "image_url": null
+    },
+    {
+      "noun_en": "global warming",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[ˈɡloʊbl ˈwɔːrmɪŋ]",
+      "translation_az": "qlobal istiləşmə",
+      "antonyms": [],
+      "synonyms": [
+        "climate change"
+      ],
+      "example_sentence": "Global warming is causing sea levels to rise.",
+      "example_phrase": "the threat of global warming",
+      "image_url": null
+    },
+    {
+      "noun_en": "nature",
+      "level": "A2",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[ˈneɪtʃər]",
+      "translation_az": "təbiət",
+      "antonyms": [],
+      "synonyms": [
+        "the natural world",
+        "the outdoors",
+        "wildlife"
+      ],
+      "example_sentence": "Spending time in nature is good for your mind.",
+      "example_phrase": "a walk in nature",
+      "image_url": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
+    },
+    {
+      "noun_en": "forest",
+      "level": "A2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈfɔːrɪst]",
+      "translation_az": "meşə",
+      "antonyms": [],
+      "synonyms": [
+        "woods",
+        "jungle",
+        "woodland"
+      ],
+      "example_sentence": "The Amazon is the largest rainforest in the world.",
+      "example_phrase": "a dense forest",
+      "image_url": "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_960_720.jpg"
+    },
+    {
+      "noun_en": "ocean",
+      "level": "A2",
+      "topic": "Environment",
+      "article": "the",
+      "phonetic_us": "[ˈoʊʃn]",
+      "translation_az": "okean",
+      "antonyms": [],
+      "synonyms": [
+        "sea"
+      ],
+      "example_sentence": "The ocean covers most of the Earth's surface.",
+      "example_phrase": "deep in the ocean",
+      "image_url": null
+    },
+    {
+      "noun_en": "river",
+      "level": "A2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈrɪvər]",
+      "translation_az": "çay",
+      "antonyms": [],
+      "synonyms": [
+        "stream",
+        "waterway"
+      ],
+      "example_sentence": "The river flows through the center of the city.",
+      "example_phrase": "along the river",
+      "image_url": "https://cdn.pixabay.com/photo/2016/08/01/20/13/girl-1561989_960_720.jpg"
+    },
+    {
+      "noun_en": "soil",
+      "level": "B1",
+      "topic": "Environment",
+      "article": null,
+      "phonetic_us": "[sɔɪl]",
+      "translation_az": "torpaq",
+      "antonyms": [],
+      "synonyms": [
+        "earth",
+        "ground",
+        "dirt"
+      ],
+      "example_sentence": "Good soil is necessary for growing healthy crops.",
+      "example_phrase": "fertile soil",
+      "image_url": null
+    },
+    {
+      "noun_en": "atmosphere",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "the",
+      "phonetic_us": "[ˈætməsfɪr]",
+      "translation_az": "atmosfer",
+      "antonyms": [],
+      "synonyms": [
+        "air",
+        "sky"
+      ],
+      "example_sentence": "Pollutants are being released into the atmosphere.",
+      "example_phrase": "the Earth's atmosphere",
+      "image_url": "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
+    },
+    {
+      "noun_en": "carbon footprint",
+      "level": "B2",
+      "topic": "Environment",
+      "article": "a",
+      "phonetic_us": "[ˈkɑːrbən ˈfʊtprɪnt]",
+      "translation_az": "karbon izi",
+      "antonyms": [],
+      "synonyms": [
+        "environmental impact"
+      ],
+      "example_sentence": "We can reduce our carbon footprint by flying less.",
+      "example_phrase": "to reduce your carbon footprint",
+      "image_url": null
+    },
+    {
+      "noun_en": "kitchen",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈkɪtʃɪn]",
+      "translation_az": "mətbəx",
+      "antonyms": [],
+      "synonyms": [
+        "galley",
+        "cookhouse"
+      ],
+      "example_sentence": "My family often gathers in the kitchen.",
+      "example_phrase": "a modern kitchen",
+      "image_url": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_960_720.jpg"
+    },
+    {
+      "noun_en": "bedroom",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈbedruːm]",
+      "translation_az": "yataq otağı",
+      "antonyms": [],
+      "synonyms": [
+        "sleeping quarters"
+      ],
+      "example_sentence": "I like to read in my bedroom before I sleep.",
+      "example_phrase": "a small bedroom",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_960_720.jpg"
+    },
+    {
+      "noun_en": "furniture",
+      "level": "B1",
+      "topic": "Homes",
+      "article": null,
+      "phonetic_us": "[ˈfɜːrnɪtʃər]",
+      "translation_az": "mebel",
+      "antonyms": [],
+      "synonyms": [
+        "furnishings",
+        "fittings",
+        "possessions"
+      ],
+      "example_sentence": "They bought new furniture for the living room.",
+      "example_phrase": "a piece of furniture",
+      "image_url": "https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_960_720.jpg"
+    },
+    {
+      "noun_en": "rent",
+      "level": "B1",
+      "topic": "Homes",
+      "article": null,
+      "phonetic_us": "[rent]",
+      "translation_az": "icarə haqqı",
+      "antonyms": [],
+      "synonyms": [
+        "lease payment"
+      ],
+      "example_sentence": "The rent for apartments in this city is very high.",
+      "example_phrase": "to pay the rent",
+      "image_url": null
+    },
+    {
+      "noun_en": "mortgage",
+      "level": "B2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈmɔːrɡɪdʒ]",
+      "translation_az": "ipoteka",
+      "antonyms": [],
+      "synonyms": [
+        "loan",
+        "home loan"
+      ],
+      "example_sentence": "They took out a 30-year mortgage to buy a house.",
+      "example_phrase": "a mortgage payment",
+      "image_url": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_960_720.jpg"
+    },
+    {
+      "noun_en": "property",
+      "level": "B2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈprɑːpərti]",
+      "translation_az": "əmlak",
+      "antonyms": [],
+      "synonyms": [
+        "real estate",
+        "land",
+        "possessions"
+      ],
+      "example_sentence": "The value of property has increased significantly.",
+      "example_phrase": "to buy a property",
+      "image_url": null
+    },
+    {
+      "noun_en": "neighborhood",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈneɪbərhʊd]",
+      "translation_az": "məhəllə",
+      "antonyms": [],
+      "synonyms": [
+        "area",
+        "district",
+        "vicinity"
+      ],
+      "example_sentence": "It is a safe and friendly neighborhood.",
+      "example_phrase": "in the neighborhood",
+      "image_url": null
+    },
+    {
+      "noun_en": "apartment",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "an",
+      "phonetic_us": "[əˈpɑːrtmənt]",
+      "translation_az": "mənzil",
+      "antonyms": [],
+      "synonyms": [
+        "flat",
+        "unit",
+        "residence"
+      ],
+      "example_sentence": "She lives in an apartment in the city center.",
+      "example_phrase": "an apartment building",
+      "image_url": null
+    },
+    {
+      "noun_en": "landlord",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈlændlɔːrd]",
+      "translation_az": "ev sahibi (kirayə verən)",
+      "antonyms": [
+        "tenant"
+      ],
+      "synonyms": [
+        "property owner",
+        "lessor"
+      ],
+      "example_sentence": "The landlord is responsible for repairs.",
+      "example_phrase": "to call the landlord",
+      "image_url": null
+    },
+    {
+      "noun_en": "tenant",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈtenənt]",
+      "translation_az": "kirayəçi",
+      "antonyms": [
+        "landlord"
+      ],
+      "synonyms": [
+        "renter",
+        "lessee",
+        "occupant"
+      ],
+      "example_sentence": "The tenant has lived here for five years.",
+      "example_phrase": "a good tenant",
+      "image_url": null
+    },
+    {
+      "noun_en": "garden",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈɡɑːrdn]",
+      "translation_az": "bağ",
+      "antonyms": [],
+      "synonyms": [
+        "yard",
+        "patio",
+        "plot"
+      ],
+      "example_sentence": "We grow vegetables in our small garden.",
+      "example_phrase": "working in the garden",
+      "image_url": null
+    },
+    {
+      "noun_en": "roof",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ruːf]",
+      "translation_az": "dam",
+      "antonyms": [],
+      "synonyms": [
+        "covering"
+      ],
+      "example_sentence": "The storm damaged the roof of our house.",
+      "example_phrase": "under one roof",
+      "image_url": null
+    },
+    {
+      "noun_en": "utility",
+      "level": "B2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[juːˈtɪləti]",
+      "translation_az": "kommunal xidmət",
+      "antonyms": [],
+      "synonyms": [
+        "service",
+        "public service"
+      ],
+      "example_sentence": "The rent does not include the cost of utilities.",
+      "example_phrase": "utility bills",
+      "image_url": null
+    },
+    {
+      "noun_en": "address",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "an",
+      "phonetic_us": "[ˈædres]",
+      "translation_az": "ünvan",
+      "antonyms": [],
+      "synonyms": [
+        "location",
+        "residence"
+      ],
+      "example_sentence": "Please write down your full name and address.",
+      "example_phrase": "a home address",
+      "image_url": null
+    },
+    {
+      "noun_en": "suburb",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈsʌbɜːrb]",
+      "translation_az": "şəhərətrafı",
+      "antonyms": [
+        "city center",
+        "downtown"
+      ],
+      "synonyms": [
+        "outskirts",
+        "residential area"
+      ],
+      "example_sentence": "Many families prefer to live in a quiet suburb.",
+      "example_phrase": "in the suburbs",
+      "image_url": null
+    },
+    {
+      "noun_en": "residence",
+      "level": "B2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈrezɪdəns]",
+      "translation_az": "yaşayış yeri",
+      "antonyms": [],
+      "synonyms": [
+        "home",
+        "dwelling",
+        "abode"
+      ],
+      "example_sentence": "This building is a private residence.",
+      "example_phrase": "a place of residence",
+      "image_url": null
+    },
+    {
+      "noun_en": "household",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈhaʊshoʊld]",
+      "translation_az": "ev təsərrüfatı",
+      "antonyms": [],
+      "synonyms": [
+        "family",
+        "home"
+      ],
+      "example_sentence": "Many tasks are involved in running a household.",
+      "example_phrase": "household chores",
+      "image_url": null
+    },
+    {
+      "noun_en": "roommate",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈruːmeɪt]",
+      "translation_az": "otaq yoldaşı",
+      "antonyms": [],
+      "synonyms": [
+        "flatmate",
+        "housemate"
+      ],
+      "example_sentence": "Living with a roommate can help save money.",
+      "example_phrase": "to find a roommate",
+      "image_url": null
+    },
+    {
+      "noun_en": "lease",
+      "level": "B2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[liːs]",
+      "translation_az": "icarə müqaviləsi",
+      "antonyms": [],
+      "synonyms": [
+        "rental agreement",
+        "contract"
+      ],
+      "example_sentence": "We signed a one-year lease for the apartment.",
+      "example_phrase": "to sign a lease",
+      "image_url": null
+    },
+    {
+      "noun_en": "balcony",
+      "level": "B1",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈbælkəni]",
+      "translation_az": "eyvan",
+      "antonyms": [],
+      "synonyms": [
+        "terrace",
+        "veranda"
+      ],
+      "example_sentence": "The apartment has a small balcony.",
+      "example_phrase": "a view from the balcony",
+      "image_url": null
+    },
+    {
+      "noun_en": "living room",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈlɪvɪŋ ruːm]",
+      "translation_az": "qonaq otağı",
+      "antonyms": [],
+      "synonyms": [
+        "lounge",
+        "sitting room",
+        "parlor"
+      ],
+      "example_sentence": "We watch television together in the living room.",
+      "example_phrase": "a comfortable living room",
+      "image_url": "https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073_960_720.jpg"
+    },
+    {
+      "noun_en": "door",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[dɔːr]",
+      "translation_az": "qapı",
+      "antonyms": [],
+      "synonyms": [
+        "entrance",
+        "exit",
+        "doorway"
+      ],
+      "example_sentence": "Please close the door when you leave.",
+      "example_phrase": "the front door",
+      "image_url": null
+    },
+    {
+      "noun_en": "window",
+      "level": "A2",
+      "topic": "Homes",
+      "article": "a",
+      "phonetic_us": "[ˈwɪndoʊ]",
+      "translation_az": "pəncərə",
+      "antonyms": [],
+      "synonyms": [
+        "pane"
+      ],
+      "example_sentence": "The view from the window is beautiful.",
+      "example_phrase": "to open the window",
+      "image_url": "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_960_720.jpg"
+    },
+    {
+      "noun_en": "construction",
+      "level": "B1",
+      "topic": "Homes",
+      "article": null,
+      "phonetic_us": "[kənˈstrʌkʃn]",
+      "translation_az": "tikinti",
+      "antonyms": [
+        "destruction"
+      ],
+      "synonyms": [
+        "building",
+        "assembly",
+        "erection"
+      ],
+      "example_sentence": "The construction of the new bridge will take years.",
+      "example_phrase": "under construction",
+      "image_url": null
+    },
+    {
+      "noun_en": "architecture",
+      "level": "B2",
+      "topic": "Homes",
+      "article": null,
+      "phonetic_us": "[ˈɑːrkɪtektʃər]",
+      "translation_az": "memarlıq",
+      "antonyms": [],
+      "synonyms": [
+        "design",
+        "building style",
+        "construction"
+      ],
+      "example_sentence": "Modern architecture often uses glass and steel.",
+      "example_phrase": "a piece of architecture",
+      "image_url": null
+    },
+    {
+      "noun_en": "day",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[deɪ]",
+      "translation_az": "gün",
+      "antonyms": [
+        "night"
+      ],
+      "synonyms": [
+        "daytime",
+        "24-hour period"
+      ],
+      "example_sentence": "It was a beautiful sunny day for a picnic.",
+      "example_phrase": "all day long",
+      "image_url": null
+    },
+    {
+      "noun_en": "year",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[jɪr]",
+      "translation_az": "il",
+      "antonyms": [],
+      "synonyms": [
+        "12 months"
+      ],
+      "example_sentence": "She plans to travel the world next year.",
+      "example_phrase": "the New Year",
+      "image_url": null
+    },
+    {
+      "noun_en": "night",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[naɪt]",
+      "translation_az": "gecə",
+      "antonyms": [
+        "day"
+      ],
+      "synonyms": [
+        "nighttime",
+        "darkness"
+      ],
+      "example_sentence": "The stars are very clear at night.",
+      "example_phrase": "late at night",
+      "image_url": null
+    },
+    {
+      "noun_en": "hour",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈaʊər]",
+      "translation_az": "saat (müddət)",
+      "antonyms": [],
+      "synonyms": [
+        "60 minutes"
+      ],
+      "example_sentence": "The meeting will last for about an hour.",
+      "example_phrase": "half an hour",
+      "image_url": null
+    },
+    {
+      "noun_en": "minute",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈmɪnɪt]",
+      "translation_az": "dəqiqə",
+      "antonyms": [],
+      "synonyms": [
+        "60 seconds",
+        "moment"
+      ],
+      "example_sentence": "I will be ready in just a minute.",
+      "example_phrase": "wait a minute",
+      "image_url": null
+    },
+    {
+      "noun_en": "evening",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[ˈiːvnɪŋ]",
+      "translation_az": "axşam",
+      "antonyms": [
+        "morning"
+      ],
+      "synonyms": [
+        "dusk",
+        "twilight",
+        "nightfall"
+      ],
+      "example_sentence": "We like to take a walk in the evening.",
+      "example_phrase": "yesterday evening",
+      "image_url": null
+    },
+    {
+      "noun_en": "month",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[mʌnθ]",
+      "translation_az": "ay",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "My birthday is next month.",
+      "example_phrase": "once a month",
+      "image_url": null
+    },
+    {
+      "noun_en": "date",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[deɪt]",
+      "translation_az": "tarix",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "What is the date today?",
+      "example_phrase": "a blind date",
+      "image_url": null
+    },
+    {
+      "noun_en": "weekend",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[ˈwiːkend]",
+      "translation_az": "həftə sonu",
+      "antonyms": [
+        "weekday"
+      ],
+      "synonyms": [
+        "Saturday and Sunday"
+      ],
+      "example_sentence": "What are your plans for the weekend?",
+      "example_phrase": "over the weekend",
+      "image_url": null
+    },
+    {
+      "noun_en": "moment",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈmoʊmənt]",
+      "translation_az": "an, dəqiqə",
+      "antonyms": [],
+      "synonyms": [
+        "instant",
+        "second",
+        "minute"
+      ],
+      "example_sentence": "It was a moment I will never forget.",
+      "example_phrase": "at the last moment",
+      "image_url": null
+    },
+    {
+      "noun_en": "man",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[mæn]",
+      "translation_az": "kişi",
+      "antonyms": [
+        "woman"
+      ],
+      "synonyms": [
+        "male",
+        "gentleman",
+        "guy"
+      ],
+      "example_sentence": "A man was waiting at the bus stop.",
+      "example_phrase": "an old man",
+      "image_url": null
+    },
+    {
+      "noun_en": "woman",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈwʊmən]",
+      "translation_az": "qadın",
+      "antonyms": [
+        "man"
+      ],
+      "synonyms": [
+        "female",
+        "lady",
+        "girl"
+      ],
+      "example_sentence": "She is a very successful business woman.",
+      "example_phrase": "a young woman",
+      "image_url": "https://cdn.pixabay.com/photo/2017/11/19/07/30/girl-2961959_960_720.jpg"
+    },
+    {
+      "noun_en": "child",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[tʃaɪld]",
+      "translation_az": "uşaq",
+      "antonyms": [
+        "adult",
+        "parent"
+      ],
+      "synonyms": [
+        "kid",
+        "youngster",
+        "juvenile"
+      ],
+      "example_sentence": "Every child has the right to an education.",
+      "example_phrase": "a small child",
+      "image_url": null
+    },
+    {
+      "noun_en": "parent",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈperənt]",
+      "translation_az": "valideyn",
+      "antonyms": [
+        "child"
+      ],
+      "synonyms": [
+        "mother",
+        "father",
+        "guardian"
+      ],
+      "example_sentence": "Being a parent is a big responsibility.",
+      "example_phrase": "a single parent",
+      "image_url": null
+    },
+    {
+      "noun_en": "baby",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈbeɪbi]",
+      "translation_az": "körpə",
+      "antonyms": [],
+      "synonyms": [
+        "infant",
+        "newborn"
+      ],
+      "example_sentence": "The baby is sleeping in her crib.",
+      "example_phrase": "a newborn baby",
+      "image_url": null
+    },
+    {
+      "noun_en": "neighbor",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈneɪbər]",
+      "translation_az": "qonşu",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "My neighbor is a very kind person.",
+      "example_phrase": "a good neighbor",
+      "image_url": null
+    },
+    {
+      "noun_en": "doctor",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈdɑːktər]",
+      "translation_az": "həkim",
+      "antonyms": [
+        "patient"
+      ],
+      "synonyms": [
+        "physician",
+        "medic"
+      ],
+      "example_sentence": "You should see a doctor if you feel sick.",
+      "example_phrase": "going to the doctor",
+      "image_url": null
+    },
+    {
+      "noun_en": "artist",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈɑːrtɪst]",
+      "translation_az": "rəssam",
+      "antonyms": [],
+      "synonyms": [
+        "creator",
+        "painter",
+        "sculptor"
+      ],
+      "example_sentence": "The artist sold her painting for a high price.",
+      "example_phrase": "a famous artist",
+      "image_url": null
+    },
+    {
+      "noun_en": "boss",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[bɔːs]",
+      "translation_az": "müdir",
+      "antonyms": [
+        "employee"
+      ],
+      "synonyms": [
+        "manager",
+        "supervisor",
+        "employer"
+      ],
+      "example_sentence": "My boss is very demanding but fair.",
+      "example_phrase": "the new boss",
+      "image_url": null
+    },
+    {
+      "noun_en": "customer",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈkʌstəmər]",
+      "translation_az": "müştəri",
+      "antonyms": [
+        "vendor",
+        "seller"
+      ],
+      "synonyms": [
+        "client",
+        "buyer",
+        "patron"
+      ],
+      "example_sentence": "The customer is always right in business.",
+      "example_phrase": "a regular customer",
+      "image_url": null
+    },
+    {
+      "noun_en": "guest",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ɡest]",
+      "translation_az": "qonaq",
+      "antonyms": [
+        "host"
+      ],
+      "synonyms": [
+        "visitor"
+      ],
+      "example_sentence": "We are expecting a guest for dinner tonight.",
+      "example_phrase": "an honored guest",
+      "image_url": null
+    },
+    {
+      "noun_en": "leader",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈliːdər]",
+      "translation_az": "lider",
+      "antonyms": [
+        "follower"
+      ],
+      "synonyms": [
+        "chief",
+        "head",
+        "commander"
+      ],
+      "example_sentence": "A good leader inspires and motivates the team.",
+      "example_phrase": "a natural leader",
+      "image_url": null
+    },
+    {
+      "noun_en": "team",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[tiːm]",
+      "translation_az": "komanda",
+      "antonyms": [],
+      "synonyms": [
+        "group",
+        "squad",
+        "crew"
+      ],
+      "example_sentence": "Our team won the championship last year.",
+      "example_phrase": "to work in a team",
+      "image_url": null
+    },
+    {
+      "noun_en": "police",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[pəˈliːs]",
+      "translation_az": "polis",
+      "antonyms": [],
+      "synonyms": [
+        "officers",
+        "law enforcement"
+      ],
+      "example_sentence": "You should call the police in an emergency.",
+      "example_phrase": "the police officer",
+      "image_url": null
+    },
+    {
+      "noun_en": "group",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ɡruːp]",
+      "translation_az": "qrup",
+      "antonyms": [
+        "individual"
+      ],
+      "synonyms": [
+        "team",
+        "bunch",
+        "collection"
+      ],
+      "example_sentence": "A group of tourists were visiting the museum.",
+      "example_phrase": "a small group of people",
+      "image_url": null
+    },
+    {
+      "noun_en": "office",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈɔːfɪs]",
+      "translation_az": "ofis",
+      "antonyms": [],
+      "synonyms": [
+        "workplace",
+        "bureau"
+      ],
+      "example_sentence": "He works in a large office downtown.",
+      "example_phrase": "going to the office",
+      "image_url": "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg"
+    },
+    {
+      "noun_en": "street",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[striːt]",
+      "translation_az": "küçə",
+      "antonyms": [],
+      "synonyms": [
+        "road",
+        "avenue",
+        "boulevard"
+      ],
+      "example_sentence": "My house is on a quiet street.",
+      "example_phrase": "down the street",
+      "image_url": null
+    },
+    {
+      "noun_en": "road",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[roʊd]",
+      "translation_az": "yol",
+      "antonyms": [],
+      "synonyms": [
+        "street",
+        "highway",
+        "path"
+      ],
+      "example_sentence": "This road leads to the next town.",
+      "example_phrase": "on the main road",
+      "image_url": null
+    },
+    {
+      "noun_en": "shop",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ʃɑːp]",
+      "translation_az": "mağaza",
+      "antonyms": [],
+      "synonyms": [
+        "store",
+        "boutique",
+        "market"
+      ],
+      "example_sentence": "I need to go to the shop for some milk.",
+      "example_phrase": "a coffee shop",
+      "image_url": null
+    },
+    {
+      "noun_en": "store",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[stɔːr]",
+      "translation_az": "mağaza",
+      "antonyms": [],
+      "synonyms": [
+        "shop",
+        "outlet",
+        "retailer"
+      ],
+      "example_sentence": "The department store is having a big sale.",
+      "example_phrase": "a grocery store",
+      "image_url": null
+    },
+    {
+      "noun_en": "hospital",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈhɑːspɪtl]",
+      "translation_az": "xəstəxana",
+      "antonyms": [],
+      "synonyms": [
+        "clinic",
+        "infirmary"
+      ],
+      "example_sentence": "He was taken to the hospital after the accident.",
+      "example_phrase": "in the hospital",
+      "image_url": null
+    },
+    {
+      "noun_en": "park",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[pɑːrk]",
+      "translation_az": "park",
+      "antonyms": [],
+      "synonyms": [
+        "garden",
+        "recreation ground"
+      ],
+      "example_sentence": "Children love to play in the park.",
+      "example_phrase": "a walk in the park",
+      "image_url": null
+    },
+    {
+      "noun_en": "restaurant",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈrestrɑːnt]",
+      "translation_az": "restoran",
+      "antonyms": [],
+      "synonyms": [
+        "eatery",
+        "cafe",
+        "bistro"
+      ],
+      "example_sentence": "Let's eat at a nice restaurant tonight.",
+      "example_phrase": "a fancy restaurant",
+      "image_url": null
+    },
+    {
+      "noun_en": "station",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈsteɪʃn]",
+      "translation_az": "stansiya, vağzal",
+      "antonyms": [],
+      "synonyms": [
+        "terminal",
+        "depot"
+      ],
+      "example_sentence": "I'll meet you at the train station.",
+      "example_phrase": "a bus station",
+      "image_url": null
+    },
+    {
+      "noun_en": "airport",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈerpɔːrt]",
+      "translation_az": "hava limanı",
+      "antonyms": [],
+      "synonyms": [
+        "airfield",
+        "aerodrome"
+      ],
+      "example_sentence": "You should arrive at the airport two hours early.",
+      "example_phrase": "at the airport",
+      "image_url": "https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727_960_720.jpg"
+    },
+    {
+      "noun_en": "bus",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[bʌs]",
+      "translation_az": "avtobus",
+      "antonyms": [],
+      "synonyms": [
+        "coach"
+      ],
+      "example_sentence": "I take the bus to work every day.",
+      "example_phrase": "to miss the bus",
+      "image_url": null
+    },
+    {
+      "noun_en": "train",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[treɪn]",
+      "translation_az": "qatar",
+      "antonyms": [],
+      "synonyms": [
+        "locomotive",
+        "railway"
+      ],
+      "example_sentence": "The train arrived at the platform on time.",
+      "example_phrase": "to travel by train",
+      "image_url": null
+    },
+    {
+      "noun_en": "area",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈeriə]",
+      "translation_az": "ərazi, sahə",
+      "antonyms": [],
+      "synonyms": [
+        "region",
+        "zone",
+        "sector"
+      ],
+      "example_sentence": "This area of the city is very quiet.",
+      "example_phrase": "a residential area",
+      "image_url": null
+    },
+    {
+      "noun_en": "room",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ruːm]",
+      "translation_az": "otaq",
+      "antonyms": [],
+      "synonyms": [
+        "chamber",
+        "space"
+      ],
+      "example_sentence": "This room has a beautiful view of the garden.",
+      "example_phrase": "a hotel room",
+      "image_url": null
+    },
+    {
+      "noun_en": "way",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[weɪ]",
+      "translation_az": "yol, üsul",
+      "antonyms": [],
+      "synonyms": [
+        "method",
+        "manner",
+        "route"
+      ],
+      "example_sentence": "Can you show me the way to the station?",
+      "example_phrase": "by the way",
+      "image_url": null
+    },
+    {
+      "noun_en": "meal",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[miːl]",
+      "translation_az": "yemək (süfrə)",
+      "antonyms": [],
+      "synonyms": [
+        "dish",
+        "repast"
+      ],
+      "example_sentence": "She cooked a delicious meal for her guests.",
+      "example_phrase": "a three-course meal",
+      "image_url": "https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_960_720.jpg"
+    },
+    {
+      "noun_en": "breakfast",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[ˈbrekfəst]",
+      "translation_az": "səhər yeməyi",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "Breakfast is the most important meal of the day.",
+      "example_phrase": "to have breakfast",
+      "image_url": null
+    },
+    {
+      "noun_en": "lunch",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[lʌntʃ]",
+      "translation_az": "nahar",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "What do you want to eat for lunch today?",
+      "example_phrase": "a packed lunch",
+      "image_url": "https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg"
+    },
+    {
+      "noun_en": "dinner",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[ˈdɪnər]",
+      "translation_az": "şam yeməyi",
+      "antonyms": [],
+      "synonyms": [
+        "supper"
+      ],
+      "example_sentence": "We are having pasta for dinner tonight.",
+      "example_phrase": "a dinner party",
+      "image_url": "https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_960_720.jpg"
+    },
+    {
+      "noun_en": "coffee",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[ˈkɔːfi]",
+      "translation_az": "qəhvə",
+      "antonyms": [],
+      "synonyms": [
+        "java",
+        "espresso"
+      ],
+      "example_sentence": "I need a cup of coffee to wake up.",
+      "example_phrase": "a cup of coffee",
+      "image_url": "https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471_960_720.jpg"
+    },
+    {
+      "noun_en": "tea",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[tiː]",
+      "translation_az": "çay",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "Would you like a cup of tea?",
+      "example_phrase": "a cup of tea",
+      "image_url": null
+    },
+    {
+      "noun_en": "bread",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[bred]",
+      "translation_az": "çörək",
+      "antonyms": [],
+      "synonyms": [
+        "loaf"
+      ],
+      "example_sentence": "I bought a fresh loaf of bread.",
+      "example_phrase": "a slice of bread",
+      "image_url": "https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_960_720.jpg"
+    },
+    {
+      "noun_en": "fruit",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[fruːt]",
+      "translation_az": "meyvə",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "You should eat five portions of fruit daily.",
+      "example_phrase": "a piece of fruit",
+      "image_url": "https://cdn.pixabay.com/photo/2016/07/22/09/59/fruits-1534494_960_720.jpg"
+    },
+    {
+      "noun_en": "vegetable",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈvedʒtəbl]",
+      "translation_az": "tərəvəz",
+      "antonyms": [],
+      "synonyms": [
+        "veggie"
+      ],
+      "example_sentence": "Eating fresh vegetables is good for your health.",
+      "example_phrase": "a green vegetable",
+      "image_url": null
+    },
+    {
+      "noun_en": "meat",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[miːt]",
+      "translation_az": "ət",
+      "antonyms": [],
+      "synonyms": [
+        "flesh"
+      ],
+      "example_sentence": "Some people do not eat meat for ethical reasons.",
+      "example_phrase": "a piece of meat",
+      "image_url": "https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_960_720.jpg"
+    },
+    {
+      "noun_en": "table",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈteɪbl]",
+      "translation_az": "stol",
+      "antonyms": [],
+      "synonyms": [
+        "desk"
+      ],
+      "example_sentence": "He put the books on the table.",
+      "example_phrase": "a wooden table",
+      "image_url": null
+    },
+    {
+      "noun_en": "chair",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[tʃer]",
+      "translation_az": "stul",
+      "antonyms": [],
+      "synonyms": [
+        "seat"
+      ],
+      "example_sentence": "Please take a seat on that chair.",
+      "example_phrase": "an empty chair",
+      "image_url": null
+    },
+    {
+      "noun_en": "bed",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[bed]",
+      "translation_az": "çarpayı",
+      "antonyms": [],
+      "synonyms": [
+        "bunk",
+        "cot"
+      ],
+      "example_sentence": "I was so tired I went straight to bed.",
+      "example_phrase": "to make the bed",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_960_720.jpg"
+    },
+    {
+      "noun_en": "computer",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[kəmˈpjuːtər]",
+      "translation_az": "kompüter",
+      "antonyms": [],
+      "synonyms": [
+        "PC",
+        "laptop",
+        "workstation"
+      ],
+      "example_sentence": "I use my computer for work and for fun.",
+      "example_phrase": "a new computer",
+      "image_url": null
+    },
+    {
+      "noun_en": "phone",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[foʊn]",
+      "translation_az": "telefon",
+      "antonyms": [],
+      "synonyms": [
+        "cellphone",
+        "mobile",
+        "smartphone"
+      ],
+      "example_sentence": "I lost my phone yesterday.",
+      "example_phrase": "to answer the phone",
+      "image_url": null
+    },
+    {
+      "noun_en": "television",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈtelɪvɪʒn]",
+      "translation_az": "televizor",
+      "antonyms": [],
+      "synonyms": [
+        "TV",
+        "telly"
+      ],
+      "example_sentence": "What's on television tonight?",
+      "example_phrase": "to watch television",
+      "image_url": null
+    },
+    {
+      "noun_en": "key",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[kiː]",
+      "translation_az": "açar",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "I can't find the key to my house.",
+      "example_phrase": "the key to success",
+      "image_url": null
+    },
+    {
+      "noun_en": "pen",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[pen]",
+      "translation_az": "qələm",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "Can I borrow a pen to sign this?",
+      "example_phrase": "a pen and paper",
+      "image_url": null
+    },
+    {
+      "noun_en": "paper",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[ˈpeɪpər]",
+      "translation_az": "kağız",
+      "antonyms": [],
+      "synonyms": [
+        "document",
+        "sheet"
+      ],
+      "example_sentence": "He wrote his notes on a piece of paper.",
+      "example_phrase": "a piece of paper",
+      "image_url": null
+    },
+    {
+      "noun_en": "clock",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[klɑːk]",
+      "translation_az": "saat (divar)",
+      "antonyms": [],
+      "synonyms": [
+        "timepiece"
+      ],
+      "example_sentence": "The clock on the wall shows the correct time.",
+      "example_phrase": "an alarm clock",
+      "image_url": null
+    },
+    {
+      "noun_en": "bag",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[bæɡ]",
+      "translation_az": "çanta",
+      "antonyms": [],
+      "synonyms": [
+        "handbag",
+        "backpack",
+        "purse"
+      ],
+      "example_sentence": "She carried her books in a large bag.",
+      "example_phrase": "a shopping bag",
+      "image_url": null
+    },
+    {
+      "noun_en": "clothes",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[kloʊðz]",
+      "translation_az": "paltar",
+      "antonyms": [],
+      "synonyms": [
+        "clothing",
+        "attire",
+        "garments"
+      ],
+      "example_sentence": "I need to buy some new clothes for winter.",
+      "example_phrase": "a change of clothes",
+      "image_url": null
+    },
+    {
+      "noun_en": "shoe",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ʃuː]",
+      "translation_az": "ayaqqabı",
+      "antonyms": [],
+      "synonyms": [
+        "footwear"
+      ],
+      "example_sentence": "I can't find my other shoe anywhere.",
+      "example_phrase": "a pair of shoes",
+      "image_url": null
+    },
+    {
+      "noun_en": "light",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[laɪt]",
+      "translation_az": "işıq",
+      "antonyms": [
+        "darkness"
+      ],
+      "synonyms": [
+        "lamp",
+        "bulb",
+        "brightness"
+      ],
+      "example_sentence": "Please turn on the light, it's getting dark.",
+      "example_phrase": "the speed of light",
+      "image_url": null
+    },
+    {
+      "noun_en": "picture",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈpɪktʃər]",
+      "translation_az": "şəkil",
+      "antonyms": [],
+      "synonyms": [
+        "photo",
+        "image",
+        "drawing"
+      ],
+      "example_sentence": "She has a picture of her family on her desk.",
+      "example_phrase": "to take a picture",
+      "image_url": null
+    },
+    {
+      "noun_en": "body",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[ˈbɑːdi]",
+      "translation_az": "bədən",
+      "antonyms": [
+        "mind",
+        "soul"
+      ],
+      "synonyms": [
+        "physique",
+        "figure",
+        "frame"
+      ],
+      "example_sentence": "Exercise is important for a healthy body.",
+      "example_phrase": "the human body",
+      "image_url": null
+    },
+    {
+      "noun_en": "head",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[hed]",
+      "translation_az": "baş",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "He nodded his head in agreement.",
+      "example_phrase": "a pain in the head",
+      "image_url": null
+    },
+    {
+      "noun_en": "face",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[feɪs]",
+      "translation_az": "üz",
+      "antonyms": [],
+      "synonyms": [
+        "visage",
+        "countenance"
+      ],
+      "example_sentence": "She has a happy look on her face.",
+      "example_phrase": "to wash your face",
+      "image_url": null
+    },
+    {
+      "noun_en": "eye",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[aɪ]",
+      "translation_az": "göz",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "He has beautiful blue eyes.",
+      "example_phrase": "to close your eyes",
+      "image_url": null
+    },
+    {
+      "noun_en": "hand",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[hænd]",
+      "translation_az": "əl",
+      "antonyms": [],
+      "synonyms": [
+        "palm",
+        "fist"
+      ],
+      "example_sentence": "Can you give me a hand with this box?",
+      "example_phrase": "to shake hands",
+      "image_url": null
+    },
+    {
+      "noun_en": "arm",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ɑːrm]",
+      "translation_az": "qol",
+      "antonyms": [],
+      "synonyms": [
+        "limb"
+      ],
+      "example_sentence": "She broke her arm playing sports.",
+      "example_phrase": "in someone's arms",
+      "image_url": null
+    },
+    {
+      "noun_en": "leg",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[leɡ]",
+      "translation_az": "ayaq",
+      "antonyms": [],
+      "synonyms": [
+        "limb"
+      ],
+      "example_sentence": "My legs are tired from walking all day.",
+      "example_phrase": "to break a leg",
+      "image_url": null
+    },
+    {
+      "noun_en": "foot",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[fʊt]",
+      "translation_az": "pəncə",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "He hurt his foot while running.",
+      "example_phrase": "on foot",
+      "image_url": null
+    },
+    {
+      "noun_en": "hair",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[her]",
+      "translation_az": "saç",
+      "antonyms": [],
+      "synonyms": [
+        "locks",
+        "tresses"
+      ],
+      "example_sentence": "She has long, beautiful brown hair.",
+      "example_phrase": "to cut your hair",
+      "image_url": null
+    },
+    {
+      "noun_en": "voice",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[vɔɪs]",
+      "translation_az": "səs",
+      "antonyms": [],
+      "synonyms": [
+        "tone"
+      ],
+      "example_sentence": "She has a beautiful singing voice.",
+      "example_phrase": "in a low voice",
+      "image_url": null
+    },
+    {
+      "noun_en": "name",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[neɪm]",
+      "translation_az": "ad",
+      "antonyms": [],
+      "synonyms": [
+        "title",
+        "label",
+        "designation"
+      ],
+      "example_sentence": "What is your first name?",
+      "example_phrase": "in the name of",
+      "image_url": null
+    },
+    {
+      "noun_en": "story",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈstɔːri]",
+      "translation_az": "hekayə",
+      "antonyms": [],
+      "synonyms": [
+        "tale",
+        "narrative",
+        "account"
+      ],
+      "example_sentence": "He told the children a story before bed.",
+      "example_phrase": "a long story",
+      "image_url": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg"
+    },
+    {
+      "noun_en": "word",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[wɜːrd]",
+      "translation_az": "söz",
+      "antonyms": [],
+      "synonyms": [
+        "term",
+        "expression"
+      ],
+      "example_sentence": "Can you spell that word for me?",
+      "example_phrase": "in other words",
+      "image_url": null
+    },
+    {
+      "noun_en": "life",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[laɪf]",
+      "translation_az": "həyat",
+      "antonyms": [
+        "death"
+      ],
+      "synonyms": [
+        "existence",
+        "being"
+      ],
+      "example_sentence": "Life in the city is very fast-paced.",
+      "example_phrase": "the quality of life",
+      "image_url": null
+    },
+    {
+      "noun_en": "thing",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[θɪŋ]",
+      "translation_az": "şey, əşya",
+      "antonyms": [],
+      "synonyms": [
+        "object",
+        "item",
+        "article"
+      ],
+      "example_sentence": "What is that thing on the table?",
+      "example_phrase": "the first thing",
+      "image_url": null
+    },
+    {
+      "noun_en": "part",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[pɑːrt]",
+      "translation_az": "hissə",
+      "antonyms": [
+        "whole"
+      ],
+      "synonyms": [
+        "piece",
+        "section",
+        "portion"
+      ],
+      "example_sentence": "This is my favorite part of the movie.",
+      "example_phrase": "a small part of",
+      "image_url": null
+    },
+    {
+      "noun_en": "work",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[wɜːrk]",
+      "translation_az": "iş",
+      "antonyms": [
+        "leisure",
+        "rest"
+      ],
+      "synonyms": [
+        "job",
+        "labor",
+        "employment"
+      ],
+      "example_sentence": "He has a lot of work to do today.",
+      "example_phrase": "to go to work",
+      "image_url": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg"
+    },
+    {
+      "noun_en": "love",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[lʌv]",
+      "translation_az": "sevgi",
+      "antonyms": [
+        "hate",
+        "hatred"
+      ],
+      "synonyms": [
+        "affection",
+        "passion",
+        "adoration"
+      ],
+      "example_sentence": "Love is a very powerful emotion.",
+      "example_phrase": "to fall in love",
+      "image_url": null
+    },
+    {
+      "noun_en": "side",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[saɪd]",
+      "translation_az": "tərəf",
+      "antonyms": [],
+      "synonyms": [
+        "edge",
+        "face",
+        "aspect"
+      ],
+      "example_sentence": "There are two sides to every story.",
+      "example_phrase": "on the other side",
+      "image_url": null
+    },
+    {
+      "noun_en": "case",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[keɪs]",
+      "translation_az": "hal, iş",
+      "antonyms": [],
+      "synonyms": [
+        "situation",
+        "instance",
+        "example"
+      ],
+      "example_sentence": "In this case, you should call for help.",
+      "example_phrase": "just in case",
+      "image_url": null
+    },
+    {
+      "noun_en": "point",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[pɔɪnt]",
+      "translation_az": "məqam, nöqtə",
+      "antonyms": [],
+      "synonyms": [
+        "reason",
+        "purpose",
+        "idea"
+      ],
+      "example_sentence": "That's a very good point.",
+      "example_phrase": "the main point",
+      "image_url": null
+    },
+    {
+      "noun_en": "game",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ɡeɪm]",
+      "translation_az": "oyun",
+      "antonyms": [],
+      "synonyms": [
+        "match",
+        "contest",
+        "sport"
+      ],
+      "example_sentence": "Let's play a game of chess.",
+      "example_phrase": "a computer game",
+      "image_url": null
+    },
+    {
+      "noun_en": "end",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[end]",
+      "translation_az": "son",
+      "antonyms": [
+        "beginning",
+        "start"
+      ],
+      "synonyms": [
+        "finish",
+        "conclusion",
+        "completion"
+      ],
+      "example_sentence": "This is the end of the chapter.",
+      "example_phrase": "at the end of the day",
+      "image_url": null
+    },
+    {
+      "noun_en": "reason",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈriːzn]",
+      "translation_az": "səbəb",
+      "antonyms": [],
+      "synonyms": [
+        "cause",
+        "explanation",
+        "motive"
+      ],
+      "example_sentence": "What is the reason for your decision?",
+      "example_phrase": "for some reason",
+      "image_url": null
+    },
+    {
+      "noun_en": "fact",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[fækt]",
+      "translation_az": "fakt",
+      "antonyms": [
+        "fiction",
+        "opinion"
+      ],
+      "synonyms": [
+        "truth",
+        "reality",
+        "certainty"
+      ],
+      "example_sentence": "It is a fact that the Earth is round.",
+      "example_phrase": "in fact",
+      "image_url": null
+    },
+    {
+      "noun_en": "animal",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "an",
+      "phonetic_us": "[ˈænɪml]",
+      "translation_az": "heyvan",
+      "antonyms": [
+        "plant"
+      ],
+      "synonyms": [
+        "creature",
+        "beast"
+      ],
+      "example_sentence": "The lion is a wild animal.",
+      "example_phrase": "an animal lover",
+      "image_url": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_960_720.jpg"
+    },
+    {
+      "noun_en": "dog",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[dɔːɡ]",
+      "translation_az": "it",
+      "antonyms": [],
+      "synonyms": [
+        "canine",
+        "pooch",
+        "puppy"
+      ],
+      "example_sentence": "My dog loves to play fetch in the park.",
+      "example_phrase": "a pet dog",
+      "image_url": "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg"
+    },
+    {
+      "noun_en": "cat",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[kæt]",
+      "translation_az": "pişik",
+      "antonyms": [],
+      "synonyms": [
+        "feline",
+        "kitten"
+      ],
+      "example_sentence": "The cat is sleeping on the sofa.",
+      "example_phrase": "a black cat",
+      "image_url": null
+    },
+    {
+      "noun_en": "bird",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[bɜːrd]",
+      "translation_az": "quş",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "I saw a beautiful bird in the garden.",
+      "example_phrase": "a flock of birds",
+      "image_url": null
+    },
+    {
+      "noun_en": "sun",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[sʌn]",
+      "translation_az": "günəş",
+      "antonyms": [
+        "moon"
+      ],
+      "synonyms": [
+        "star",
+        "sunlight"
+      ],
+      "example_sentence": "The sun is shining brightly today.",
+      "example_phrase": "the rising sun",
+      "image_url": null
+    },
+    {
+      "noun_en": "moon",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "the",
+      "phonetic_us": "[muːn]",
+      "translation_az": "ay",
+      "antonyms": [
+        "sun"
+      ],
+      "synonyms": [],
+      "example_sentence": "The moon was full and bright last night.",
+      "example_phrase": "a full moon",
+      "image_url": null
+    },
+    {
+      "noun_en": "tree",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[triː]",
+      "translation_az": "ağac",
+      "antonyms": [],
+      "synonyms": [],
+      "example_sentence": "That is a very old tree.",
+      "example_phrase": "to climb a tree",
+      "image_url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
+    },
+    {
+      "noun_en": "flower",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": "a",
+      "phonetic_us": "[ˈflaʊər]",
+      "translation_az": "gül",
+      "antonyms": [],
+      "synonyms": [
+        "blossom",
+        "bloom"
+      ],
+      "example_sentence": "He gave her a beautiful flower.",
+      "example_phrase": "a bunch of flowers",
+      "image_url": null
+    },
+    {
+      "noun_en": "rain",
+      "level": "A2",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[reɪn]",
+      "translation_az": "yağış",
+      "antonyms": [
+        "sunshine"
+      ],
+      "synonyms": [
+        "drizzle",
+        "downpour"
+      ],
+      "example_sentence": "I love the sound of rain on the roof.",
+      "example_phrase": "heavy rain",
+      "image_url": null
+    },
+    {
+      "noun_en": "fire",
+      "level": "B1",
+      "topic": "Daily Life",
+      "article": null,
+      "phonetic_us": "[ˈfaɪər]",
+      "translation_az": "od",
+      "antonyms": [],
+      "synonyms": [
+        "flame",
+        "blaze"
+      ],
+      "example_sentence": "They sat around the fire to keep warm.",
+      "example_phrase": "to start a fire",
+      "image_url": null
+    }
+  ]
+}
